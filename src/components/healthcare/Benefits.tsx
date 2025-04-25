@@ -19,7 +19,7 @@ const Benefits = () => {
           <ul className="space-y-3">
             <li className="flex items-start">
               <span className="text-blue-500 mr-2">•</span>
-              <span className="text-gray-700">Ekipman kullanım oranlarını %25'e kadar artırma</span>
+              <span className="text-gray-700">Ekipman kullanım oranlarını %25&apose kadar artırma</span>
             </li>
             <li className="flex items-start">
               <span className="text-blue-500 mr-2">•</span>

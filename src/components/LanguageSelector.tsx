@@ -1,6 +1,6 @@
+"use client";
 
 import { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
 import { Globe } from 'lucide-react';
 import {
   Select,
@@ -9,22 +9,29 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { useTranslations } from 'next-intl';
+import { setCookie, getCookie } from 'cookies-next';
 
 const LanguageSelector = ({ className = "", isDropdown = false }: { className?: string, isDropdown?: boolean }) => {
-  const { i18n, t } = useTranslation();
-  const [currentLanguage, setCurrentLanguage] = useState(i18n.language || 'tr');
+  const t = useTranslations();
+  const [currentLanguage, setCurrentLanguage] = useState('tr');
 
   useEffect(() => {
-    setCurrentLanguage(i18n.language);
-  }, [i18n.language]);
+    const savedLanguage = getCookie('locale') as string;
+    if (savedLanguage && (savedLanguage === 'tr' || savedLanguage === 'en')) {
+      setCurrentLanguage(savedLanguage);
+    } else {
+      setCurrentLanguage('tr');
+    }
+  }, []);
 
   const changeLanguage = (language: string) => {
-    i18n.changeLanguage(language);
+    setCookie('locale', language, { path: '/', maxAge: 60 * 60 * 24 * 365 }); // 1 yıl sakla
     setCurrentLanguage(language);
-    localStorage.setItem('turnaLanguage', language);
+    window.location.reload()
+   
   };
 
-  // Mobile dropdown version
   if (isDropdown) {
     return (
       <Select value={currentLanguage} onValueChange={changeLanguage}>
@@ -44,7 +51,6 @@ const LanguageSelector = ({ className = "", isDropdown = false }: { className?: 
     );
   }
 
-  // Desktop version with buttons
   return (
     <div className={`flex items-center space-x-2 ${className}`}>
       <button

@@ -1,11 +1,12 @@
-import type { NextConfig } from 'next';
-import nextI18NextConfig from './next-i18next.config';
+// next.config.ts
+import { NextConfig } from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
 
-const config: NextConfig = {
-  ...nextI18NextConfig,
-  // Buraya başka Next.js ayarlarını da ekleyebilirsin
-  reactStrictMode: true,
-  swcMinify: true,
+const nextConfig: NextConfig = {
+  experimental: {},
+  // Diğer Next.js ayarlarınız (varsa) buraya ekleyin.
 };
 
-export default config;
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
+
+export default withNextIntl(nextConfig);

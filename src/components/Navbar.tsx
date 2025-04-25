@@ -1,8 +1,7 @@
-'use client';
-import '@/i18n'; // bu satır şart
+"use client";
 
 import { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
+
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -27,11 +26,13 @@ import {
 
 import LanguageSelector from "./LanguageSelector";
 import Logo from "@/assets/images/turna.io_Logo-2.png";
+import { useTranslations } from "next-intl";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { t } = useTranslation();
+  const t = useTranslations();
+
   const pathname = usePathname();
 
   const isDarkTextPage = [

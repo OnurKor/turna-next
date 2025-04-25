@@ -1,26 +1,22 @@
-
-import { useTranslation } from 'react-i18next';
 import { Button } from "@/components/ui/button";
-import { Mail } from '@/lib/icons'; 
-import Link from 'next/link';
-
+import { Mail } from "@/lib/icons";
+import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const ContactCTA = () => {
-  const { t } = useTranslation();
+  const t = useTranslations("contactCTA");
 
   return (
     <section className="py-16 bg-turna-600 text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('contactCTA.title')}</h2>
-          <p className="text-lg mb-8 text-turna-100">
-            {t('contactCTA.description')}
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("title")}</h2>
+          <p className="text-lg mb-8 text-turna-100">{t("description")}</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/iletisim">
               <Button className="bg-white text-turna-600 hover:bg-turna-50">
                 <Mail className="mr-2 h-5 w-5" />
-                {t('contactCTA.contactUs')}
+                {t("contactUs")}
               </Button>
             </Link>
             {/* <Link to="/iletisim">

@@ -1,7 +1,5 @@
 
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
   Accordion,
@@ -9,10 +7,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useTranslations } from 'next-intl';
+import { Link } from 'lucide-react';
+import { getCookie } from 'cookies-next';
 
 const FAQSection = () => {
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.resolvedLanguage || 'tr';
+  const t = useTranslations()
+  const currentLanguage = getCookie('locale') || 'tr';
 
   // FAQ data based on language
   const faqs = currentLanguage === 'tr' ? [
@@ -69,7 +70,7 @@ const FAQSection = () => {
           </Accordion>
 
           <div className="text-center mt-10">
-            <Link to="/sss">
+            <Link href="/sss">
               <Button className="bg-turna-500 hover:bg-turna-600 text-white px-6 py-2">
                 {t('faq.seeAll')}
               </Button>

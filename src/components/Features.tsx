@@ -1,18 +1,19 @@
 
-import { useTranslation } from 'react-i18next';
-import { MapPin, Zap, Clock, Cog, Layers, Shield } from '@/lib/icons'; // ✅ optimize edilmiş import
+
+import { MapPin, Zap, Clock, Cog, Layers, Shield } from '@/lib/icons'; 
+import { useTranslations } from 'next-intl';
 
 const Features = () => {
-  const { t } = useTranslation();
+const t = useTranslations("features")
 
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">{t('features.title')}</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">{t('title')}</h2>
           <div className="w-24 h-1 bg-turna-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            {t('features.subtitle')}
+            {t('subtitle')}
           </p>
         </div>
 
@@ -23,10 +24,10 @@ const Features = () => {
               <div className="bg-turna-100 p-3 rounded-full text-turna-600">
                 <MapPin className="h-6 w-6" />
               </div>
-              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('features.precisionTracking')}</h3>
+              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('precisionTracking')}</h3>
             </div>
             <p className="text-gray-600">
-              {t('features.precisionDescription')}
+              {t('precisionDescription')}
             </p>
           </div>
 
@@ -36,10 +37,10 @@ const Features = () => {
               <div className="bg-turna-100 p-3 rounded-full text-turna-600">
                 <Cog className="h-6 w-6" />
               </div>
-              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('features.lowInfrastructure')}</h3>
+              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('lowInfrastructure')}</h3>
             </div>
             <p className="text-gray-600">
-              {t('features.infrastructureDescription')}
+              {t('infrastructureDescription')}
             </p>
           </div>
 
@@ -49,10 +50,10 @@ const Features = () => {
               <div className="bg-turna-100 p-3 rounded-full text-turna-600">
                 <Clock className="h-6 w-6" />
               </div>
-              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('features.realTimeData')}</h3>
+              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('realTimeData')}</h3>
             </div>
             <p className="text-gray-600">
-              {t('features.realTimeDescription')}
+              {t('realTimeDescription')}
             </p>
           </div>
 
@@ -62,10 +63,10 @@ const Features = () => {
               <div className="bg-turna-100 p-3 rounded-full text-turna-600">
                 <Zap className="h-6 w-6" />
               </div>
-              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('features.customSolutions')}</h3>
+              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('customSolutions')}</h3>
             </div>
             <p className="text-gray-600">
-              {t('features.customDescription')}
+              {t('customDescription')}
             </p>
           </div>
 
@@ -75,10 +76,10 @@ const Features = () => {
               <div className="bg-turna-100 p-3 rounded-full text-turna-600">
                 <Layers className="h-6 w-6" />
               </div>
-              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('features.seamlessIntegration')}</h3>
+              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('seamlessIntegration')}</h3>
             </div>
             <p className="text-gray-600">
-              {t('features.integrationDescription')}
+              {t('integrationDescription')}
             </p>
           </div>
 
@@ -88,10 +89,10 @@ const Features = () => {
               <div className="bg-turna-100 p-3 rounded-full text-turna-600">
                 <Shield className="h-6 w-6" />
               </div>
-              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('features.dataSecurity')}</h3>
+              <h3 className="ml-3 text-xl font-semibold text-gray-800">{t('dataSecurity')}</h3>
             </div>
             <p className="text-gray-600">
-              {t('features.securityDescription')}
+              {t('securityDescription')}
             </p>
           </div>
         </div>
