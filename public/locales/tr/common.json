@@ -1,0 +1,865 @@
+{
+  "navbar": {
+    "solutions": "Çözümler",
+    "resources": "Kaynaklar",
+    "company": "Şirket",
+    "faq": "SSS",
+    "contact": "İletişim",
+    "demo": "Giriş Yap"
+  },
+  "hero": {
+    "tagline": "Veriyle Geleceğe Açılan Kapı",
+    "title": "Veri Analizi ve",
+    "titleHighlight": "IoT Çözümleri",
+    "description": "İşletme verilerinizi anlamlı içgörülere dönüştüren, geleceğe şekil veren akıllı çözümler sunuyoruz.",
+    "solutions": "Çözümlerimiz",
+    "contact": "İletişime Geçin",
+    "dataEmpowerment": "Veri Güçlendirme",
+    "dataDescription": "Verilerinizi gerçek zamanlı olarak analiz eder ve işletmenizin büyümesine yardımcı olacak eylem önerileri sunarız.",
+    "liveAnalysis": "Canlı analiz aktif"
+  },
+  "common": {
+    "learnMore": "Daha Fazla Bilgi",
+    "contactUs": "Bizimle İletişime Geçin",
+    "benefits": "Faydalar",
+    "useCases": "Kullanım Alanları",
+    "technicalDetails": "Teknik Detaylar",
+    "contactForDetails": "Detaylı Bilgi İçin İletişime Geçin",
+    "successStories": "Başarı Hikayeleri",
+    "successStoriesDesc": "Müşterilerimizin RTLS çözümlerimizle elde ettikleri başarılar",
+    "testimonialQuote": "Turna.io RTLS çözümleri sayesinde üretim süreçlerimizdeki verimliliği %30 oranında artırdık ve operasyonel maliyetlerimizi önemli ölçüde azalttık.",
+    "testimonialAuthor": "Ahmet Yılmaz",
+    "testimonialCompany": "Üretim Müdürü, XYZ Endüstri A.Ş.",
+    "relatedSolutions": "İlgili Çözümler",
+    "relatedSolution": "İlgili Çözüm",
+    "relatedSolutionDesc": "RTLS teknolojisinin sağladığı avantajlarla iş süreçlerinizi optimize edin ve verimliliği artırın."
+  },
+  "indoorSolutions": {
+    "title": "Bina İçi RTLS Çözümleri",
+    "realTimeNavigation": "Gerçek Zamanlı Navigasyon (İç ortam)",
+    "employeeSafety": "Çalışan Güvenliği",
+    "forkliftTracking": "Forklift Takip",
+    "forkliftAccidentPrevention": "Forklift Kaza Önleme",
+    "assetTracking": "Varlık Takip Sistemi",
+    "personnelTracking": "Personel Takip Sistemi",
+    "smartBuilding": "Akıllı Bina Yönetimi",
+    "descriptions": {
+      "realTimeNavigation": "Karmaşık binalarda ziyaretçiler ve çalışanlar için kolay yön bulma çözümleri",
+      "employeeSafety": "Çalışanlarınızın güvenliğini sağlayan ve iş kazalarını önleyen akıllı teknolojiler",
+      "forkliftTracking": "Forklift ve AGV'leri takip ederek operasyonel verimliliği ve iş güvenliğini artırın",
+      "forkliftAccidentPrevention": "Otomatik çarpışma önleme sistemleri ile güvenliği maksimize edin",
+      "assetTracking": "Ekipman ve varlıklarınızı gerçek zamanlı takip edin ve kayıpları önleyin",
+      "personnelTracking": "Çalışanların bina içi konumlarını izleyerek verimlilik ve güvenliği artırın",
+      "smartBuilding": "IoT sensörleri ile bina operasyonlarını optimize edin ve enerji tasarrufu sağlayın"
+    }
+  },
+  "sectoralSolutions": {
+    "title": "Sektörel RTLS Uygulamaları",
+    "manufacturing": "Üretim Sektörü",
+    "logistics": "Lojistik ve Depolama",
+    "healthcare": "Sağlık Hizmetleri",
+    "entertainment": "Eğlence",
+    "security": "Güvenlik ve Acil Durum Yönetimi",
+    "retail": "Perakende ve Alışveriş",
+    "descriptions": {
+      "healthcare": "Hastaneler için özel geliştirilen RTLS çözümleri ile hasta bakımını ve operasyonel verimliliği artırın",
+      "manufacturing": "Fabrika ve üretim tesislerinde iş akışını optimize eden RTLS çözümleri",
+      "logistics": "Depo ve lojistik merkezlerinde stok yönetimi ve sevkiyat süreçlerini iyileştirin",
+      "entertainment": "Müşteri deneyimini iyileştirmek ve eğlence alanlarının operasyonlarını optimize etmek için RTLS çözümleri",
+      "security": "Güvenlik personeli ve kritik varlıkların takibi ile acil durumlarda hızlı müdahale çözümleri",
+      "retail": "Müşteri davranışlarını analiz ederek satışları artıran ve alışveriş deneyimini geliştiren çözümler"
+    }
+  },
+  "languageSelector": {
+    "tr": "TR",
+    "en": "EN"
+  },
+  "features": {
+    "title": "Neden Turna.io?",
+    "subtitle": "Türkiye'nin lider RTLS ve IoT çözüm sağlayıcısı",
+    "precisionTracking": "Hassas Konum Takibi",
+    "precisionDescription": "3-5 cm hassasiyetle gerçek zamanlı konum belirleme teknolojisi",
+    "lowInfrastructure": "Düşük Altyapı Gereksinimi",
+    "infrastructureDescription": "Minimum donanım ile hızlı kurulum ve kolay entegrasyon",
+    "realTimeData": "Gerçek Zamanlı Veri",
+    "realTimeDescription": "Anında konum güncellemeleri ve veri analizi",
+    "customSolutions": "Özelleştirilmiş Çözümler",
+    "customDescription": "Her sektör ve ihtiyaca özel çözüm geliştirme",
+    "seamlessIntegration": "Sorunsuz Entegrasyon",
+    "integrationDescription": "Mevcut sistemlerle %100 uyumlu entegrasyon ve veri akışı",
+    "dataSecurity": "Veri Güvenliği",
+    "securityDescription": "En yüksek güvenlik standartlarında veri koruma ve gizlilik"
+  },
+  "solutions": {
+    "title": "Çözümlerimiz",
+    "description": "Turna.io ile güçlü, yenilikçi ve verimli RTLS çözümleri",
+    "indoorSolutions": "Bina İçi RTLS Çözümleri",
+    "indoorDescription": "İç mekan konumlandırma ve takip sistemleri ile iç operasyonlarınızı optimize edin",
+    "sectoralSolutions": "Sektörel RTLS Uygulamaları",
+    "sectoralDescription": "Gerçek zamanlı konum sistemleri ile farklı sektörler için özelleştirilmiş çözümler",
+    "learnMore": "Daha Fazla Bilgi",
+    "allSolutions": "Tüm Çözümlerimiz",
+    "rtlsTitle": "Gerçek Zamanlı Konum Belirleme Teknolojileri",
+    "rtlsDesc": "Turna.io, gerçek zamanlı konum belirleme sistemleri (RTLS) alanında lider çözümler sunar. İşletmenizin operasyonel verimliliğini artırmak, güvenliği sağlamak ve müşteri deneyimini geliştirmek için özel olarak tasarlanmış teknolojilerimiz ile iş süreçlerinizi optimize edin.",
+    "rtlsDesc2": "Turna.io'nun RTLS çözümleri, özellikle endüstriyel ortamlarda operasyonel verimliliği artırmak, güvenliği iyileştirmek ve maliyetleri düşürmek için tasarlanmıştır.",
+    "whatWeOffer": "Çözümümüz Ne Sunuyor?",
+    "moreInfo": "Daha Fazla Bilgi",
+    "moreInfoDesc": "RTLS teknolojisi ve uygulamaları hakkında daha fazla bilgi edinmek için SSS sayfamızı ziyaret edebilir veya doğrudan bizimle iletişime geçebilirsiniz.",
+    "faqs": "Sık Sorulan Sorular",
+    "contactUs": "Bizimle İletişime Geçin"
+  },
+  "faq": {
+    "title": "Sık Sorulan Sorular",
+    "subtitle": "RTLS çözümlerimiz ve hizmetlerimiz hakkında sık sorulan soruların yanıtlarını bulun",
+    "seeAll": "Tüm SSS'leri Görüntüle",
+    "pageTitle": "Sık Sorulan Sorular",
+    "pageSubtitle": "Turna.io RTLS çözümleri, teknolojisi ve uygulamaları hakkında kapsamlı bilgiler",
+    "questions": {
+      "rtlsSystem": "RTLS sistemi nedir?",
+      "wearableDevices": "Takılabilir cihazlar hangi alanlarda kullanılır?",
+      "installationTime": "RTLS sisteminin kurulumu ne kadar sürer?",
+      "softwareSupport": "Yazılım tarafında hangi boyutta destek veriliyor?",
+      "applicableSectors": "turna.io çözümleri hangi sektörlerde uygulanabilir?",
+      "indoorOutdoor": "Sisteminiz açık ve kapalı alanlarda çalışır mı?",
+      "forkliftSystem": "Forklift kaza önleme sistemi nasıl çalışır?",
+      "personnelTracking": "Personel takip sistemi iş sağlığı açısından nasıl katkı sağlar?",
+      "assetTracking": "Varlık takibi sadece demirbaşlar için mi geçerli?",
+      "systemIntegration": "Sisteminiz mevcut ERP ya da WMS sistemleriyle entegre edilebilir mi?"
+    },
+    "answers": {
+      "rtlsSystem": "Gerçek Zamanlı Konum Takip Sistemi (RTLS), insan, araç, ekipman gibi varlıkların anlık konumlarının yüksek hassasiyetle izlenmesini sağlayan teknolojik bir çözümdür. turna.io, RTLS çözümlerinde Bluetooth ve yapay zeka destekli altyapılar kullanmaktadır.",
+      "wearableDevices": "Takılabilir sensör cihazlarımız; üretim tesislerinden hastanelere, lojistik merkezlerinden perakende alanlarına kadar geniş bir yelpazede kullanılır. Personel güvenliği, acil durum takibi, alan bazlı erişim ve verimlilik analizi gibi kritik konularda destek sağlar.",
+      "installationTime": "Kurulum süresi, tesisin büyüklüğüne ve ihtiyaca göre değişkenlik gösterir. Genellikle birkaç gün içinde donanım yerleştirmesi, yazılım entegrasyonu ve test aşamaları tamamlanır. Süreç planlaması için yerinde keşif hizmetimiz mevcuttur.",
+      "softwareSupport": "Müşterilerimize kullanım kolaylığı sunan web ve mobil arayüzlerle birlikte, özelleştirilebilir veri raporlama, alarm yönetimi, kullanıcı rolleri ve API entegrasyon desteği sağlıyoruz. Yazılım ekibimiz kurulum sonrası bakım ve destek hizmetlerini sürdürülebilir şekilde sunar.",
+      "applicableSectors": "Üretim, lojistik, sağlık, perakende, eğlence ve kamu güvenliği gibi çok sayıda sektöre özel çözümler sunuyoruz. Her sektörün ihtiyaçlarına göre RTLS sistemlerimizi ölçeklendirerek entegre ediyoruz.",
+      "indoorOutdoor": "Evet. Sistemimiz hem bina içi (kapalı alan) hem de açık alanlarda çalışacak şekilde tasarlanmıştır. GPS ve BLE teknolojilerinin birleşimiyle dış ortamda da yüksek doğrulukta takip sağlanabilir.",
+      "forkliftSystem": "Yapay zeka destekli kamera sistemleri, forklift gibi araçların çevresini sürekli olarak tarar ve olası çarpışma risklerini önceden algılar. Tehlike anında otomatik frenleme veya uyarı mekanizmaları devreye girer.",
+      "personnelTracking": "Personelin bulunduğu alanlar gerçek zamanlı olarak izlenir, acil durum butonları ile hızlı müdahale sağlanabilir. Ayrıca, belirli alanlarda fazla vakit geçirilmesi veya riskli durumlar sistem tarafından analiz edilerek yönetime bildirilir.",
+      "assetTracking": "Hayır. turna.io'nun varlık takip sistemleri; alet, cihaz, araç, ekipman ve hatta taşınabilir malzemeler dahil olmak üzere tüm varlık türlerine uygulanabilir. Darbe algılama, kayıp/çıkış izleme gibi fonksiyonlarla desteklenir.",
+      "systemIntegration": "Evet. turna.io platformu açık API desteği ile mevcut ERP (Kurumsal Kaynak Planlama) veya WMS (Depo Yönetim Sistemi) altyapılarına kolayca entegre edilebilir."
+    }
+  },
+  "contactCTA": {
+    "title": "Çözümlerimiz Hakkında Bilgi Alın",
+    "description": "Sektörünüze ve ihtiyaçlarınıza özel RTLS çözümleri için bizimle iletişime geçin.",
+    "contactUs": "İletişime Geçin",
+    "demo": "Demo Talep Edin"
+  },
+  "company": {
+    "title": "Hakkımızda",
+    "subtitle": "Gerçek zamanlı konum sistemlerinde yenilik ve uzmanlık",
+    "about": "Hakkımızda",
+    "aboutTurna": "Turna.io Şirket Görünümü",
+    "aboutText": "turna.io, gerçek zamanlı insan ve varlık konum takibi alanında uzmanlaşmış, Ar-Ge, tasarım ve üretim konularında yetkin bir teknoloji şirketidir. Şirketimiz; Bluetooth ve yapay zeka destekli IoT teknolojilerini entegre ederek, insan kaynaklı hataları minimuma indirmeyi, operasyonel süreçlerin etkin yönetimini sağlamayı ve işletme maliyetlerini düşürmeyi amaçlayan, sektöre özel yenilikçi, sürdürülebilir ve yüksek katma değerli çözümler sunmaktadır.",
+    "rnd": "AR-GE Odaklı",
+    "rndDesc": "Yenilikçi teknolojilerle sürekli gelişim",
+    "trustSolutions": "Güvenilir Çözümler",
+    "trustSolutionsDesc": "Yüksek kalite standartlarında hizmet",
+    "expertTeam": "Uzman Ekip",
+    "expertTeamDesc": "Alanında tecrübeli profesyoneller",
+    "sectorSpecific": "Sektöre Özel",
+    "sectorSpecificDesc": "İhtiyaca yönelik özelleştirilmiş çözümler",
+    "missionVision": "Misyon & Vizyon",
+    "mission": "Misyonumuz",
+    "missionText": "IoT teknolojileri alanında geliştirdiğimiz yenilikçi çözümler ile daha akıllı, daha güvenli ve daha verimli işletmeler yaratılmasına katkı sağlamak; müşterilerimizin dijital dönüşüm yolculuklarında güvenilir bir iş ortağı olmaktır.",
+    "vision": "Vizyonumuz",
+    "visionText": "Yurt içi ve yurt dışı pazarlarda, sunduğumuz yüksek kaliteli ve teknoloji odaklı çözümler ile işletmelerin operasyonel verimliliğini artıran, sektöründe lider ve güvenilir bir teknoloji şirketi olmaktır.",
+    "technology": "Turna.io Teknoloji",
+    "technologySolutions": "Teknoloji Odaklı Çözümler",
+    "technologySolutionsText": "Bluetooth ve yapay zeka destekli IoT teknolojilerini entegre ederek sektöre özel çözümler sunuyoruz. Amacımız insan kaynaklı hataları minimuma indirmek ve operasyonel süreçlerin etkin yönetimini sağlamaktır.",
+    "realTimeTracking": "Gerçek zamanlı konum takibi",
+    "aiIotSolutions": "Yapay zeka destekli IoT çözümleri",
+    "sectorSpecificSolutions": "Sektöre özel yenilikçi çözümler",
+    "values": "Değerlerimiz",
+    "valuesItems": {
+      "innovation": "Yenilikçilik",
+      "innovationText": "RTLS teknolojisiyle mümkün olanın sınırlarını sürekli olarak genişletmek",
+      "excellence": "Mükemmellik",
+      "excellenceText": "En yüksek kalitede çözümler ve olağanüstü müşteri hizmeti sunmak",
+      "integrity": "Dürüstlük",
+      "integrityText": "Tüm faaliyetlerimizde dürüstlük, şeffaflık ve etik sorumlulukla hareket etmek",
+      "collaboration": "İşbirliği",
+      "collaborationText": "Müşterilerimiz ve ortaklarımızla ortak başarıya ulaşmak için birlikte çalışmak"
+    },
+    "team": "Ekibimiz",
+    "teamText": "Konum takip teknolojisini devrimleştirmeye adanmış deneyimli profesyoneller",
+    "history": "Tarihçemiz",
+    "historyText": "2018 yılında kurulan Turna.io, RTLS inovasyonunun öncüsü olmuş ve birçok sektördeki kuruluşların operasyonlarını optimize etmelerine yardımcı olmuştur."
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Daha fazla bilgi almak veya demo talep etmek için ekibimizle iletişime geçin",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "company": "Şirket Adı",
+      "message": "Mesajınız",
+      "submit": "Mesaj Gönder",
+      "submitSuccess": "Mesajınız için teşekkürler. En kısa sürede size geri döneceğiz.",
+      "submitError": "Mesajınızı gönderirken bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "officeInfo": {
+      "title": "Ofis Bilgileri",
+      "address": "Teknopark İstanbul, Sanayi Mah. Teknopark Bulvarı, 34906 Pendik/İstanbul",
+      "phone": "+90 (216) 000 00 00",
+      "email": "turna.bilisim.io@gmail.com",
+      "hours": "Pzt-Cuma: 09:00 - 18:00"
+    },
+    "demoRequest": {
+      "title": "Demo Talep Et",
+      "text": "RTLS çözümlerimizi uygulamada görmek mi istiyorsunuz? Uzmanlarımızdan biriyle kişiselleştirilmiş bir demo planlayın.",
+      "button": "Demo Talep Et"
+    }
+  },
+  "footer": {
+    "solutions": "Çözümler",
+    "indoorSolutions": "Bina İçi Çözümler",
+    "sectoralSolutions": "Sektörel Çözümler",
+    "company": "Şirket",
+    "about": "Hakkımızda",
+    "careers": "Kariyer",
+    "contact": "İletişim",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "cookies": "Çerezler",
+    "copyright": "© 2024 Turna.io. Tüm hakları saklıdır.",
+    "address": "Adres: Teknopark İstanbul, Sanayi Mah. Teknopark Bulvarı, 34906 Pendik/İstanbul",
+    "phone": "Telefon: +90 (216) 000 00 00",
+    "email": "E-posta: turna.bilisim.io@gmail.com"
+  },
+  "indoorNavigation": {
+    "title": "Gerçek Zamanlı İç Mekan Navigasyonu",
+    "subtitle": "Kapalı alanlarda hassas konumlandırma ve yön bulma çözümleri",
+    "offerDescription": "İç mekan navigasyon çözümümüz, karmaşık bina ve tesislerde insanların yollarını kolayca bulmalarını sağlar. Yüksek hassasiyetli konum belirleme teknolojimiz, kullanıcıları hedeflerine en kısa ve en uygun rotayla yönlendirir.",
+    "features": {
+      "precisePositioning": "Hassas Konumlandırma",
+      "precisePositioningDesc": "1-3 metre hassasiyetle iç mekanlarda doğru konum tespiti",
+      "dynamicRouting": "Dinamik Rota Oluşturma",
+      "dynamicRoutingDesc": "Anlık koşullara göre en uygun rotaları hesaplama ve güncelleme",
+      "navigation3D": "3 Boyutlu Navigasyon",
+      "navigation3DDesc": "Çok katlı binalarda kat değiştirme ve 3 boyutlu yön bulma",
+      "searchFunctionality": "Kolay Arama Özelliği",
+      "searchFunctionalityDesc": "Hedef noktaları, kişileri veya önemli alanları hızlıca arama",
+      "multiFloor": "Çok Katlı Bina Desteği",
+      "multiFloorDesc": "Asansör, merdiven ve rampa geçişlerini içeren kat değiştirme yönlendirmeleri",
+      "realTime": "Gerçek Zamanlı Güncellemeler",
+      "realTimeDesc": "Anlık bildirimler ve rota güncellemeleri ile kesintisiz navigasyon"
+    },
+    "useCaseHospitals": "Hastaneler",
+    "useCaseHospitalsDesc": "Hastalar ve ziyaretçilerin karmaşık hastane ortamlarında kolayca yön bulması",
+    "useCaseShoppingMalls": "Alışveriş Merkezleri",
+    "useCaseShoppingMallsDesc": "Ziyaretçilerin mağazaları, restoranları ve hizmet noktalarını kolayca bulması",
+    "useCaseAirports": "Havalimanları",
+    "useCaseAirportsDesc": "Yolcuların check-in, güvenlik ve kapıları zamanında bulması",
+    "useCaseFactories": "Üretim Tesisleri",
+    "useCaseFactoriesDesc": "Personelin ve ziyaretçilerin geniş üretim alanlarında yön bulması",
+    "useCaseCampuses": "Kampüsler",
+    "useCaseCampusesDesc": "Öğrencilerin ve ziyaretçilerin eğitim tesislerinde kolayca dolaşması",
+    "useCaseOffices": "Ofis Kompleksleri",
+    "useCaseOfficesDesc": "Çalışanların ve ziyaretçilerin büyük ofis binalarında toplantı odalarını ve çalışma alanlarını bulması",
+    "techFeature1": "UWB, BLE ve WiFi teknolojileri ile yüksek hassasiyetli konum belirleme",
+    "techFeature2": "Artırılmış gerçeklik (AR) destekli görsel navigasyon seçeneği",
+    "techFeature3": "IoT sensörleriyle entegre çalışarak anlık ortam bilgisi",
+    "techFeature4": "Lokasyon bazlı bildirimler ve içerik sunumu",
+    "techFeature5": "Özelleştirilebilir arayüz ve beyaz etiket çözümleri"
+  },
+  "employeeSafety": {
+    "title": "Çalışan Güvenliği",
+    "subtitle": "Gerçek zamanlı izleme ile iş güvenliğini üst seviyeye taşıyın",
+    "description": "Çalışan güvenliği çözümümüz, personelin konumunu ve güvenliğini sürekli olarak izler. Tehlikeli durumlarda otomatik acil durum bildirimleri gönderir ve müdahale sürelerini önemli ölçüde azaltır.",
+    "features": {
+      "realTimeMonitoring": "Gerçek Zamanlı İzleme",
+      "realTimeMonitoringDesc": "Tüm çalışanların konumlarını ve durumlarını anlık olarak görüntüleme",
+      "dangerAlerts": "Tehlike Bildirimleri",
+      "dangerAlertsDesc": "Tehlikeli alanlara giriş veya acil durumlar için otomatik uyarılar",
+      "teamManagement": "Ekip Yönetimi",
+      "teamManagementDesc": "Ekiplerin dağılımını ve görevlerini etkili şekilde koordine etme",
+      "wearableTech": "Giyilebilir Teknoloji",
+      "wearableTechDesc": "Çalışanlar için konfor ve işlevsellik sunan gelişmiş güvenlik ekipmanları",
+      "preventiveSecurity": "Önleyici Güvenlik",
+      "preventiveSecurityDesc": "Kaza risklerini önceden tespit ederek önleyici tedbirler alma",
+      "realTimeAlarm": "Gerçek Zamanlı Alarm",
+      "realTimeAlarmDesc": "Acil durumlarda anında bildirim ve müdahale koordinasyonu"
+    },
+    "useCasesTypes": {
+      "mining": "Madencilik",
+      "miningDesc": "Yeraltı madenciliğinde çalışan güvenliği ve acil durum müdahalesi",
+      "construction": "İnşaat Sektörü",
+      "constructionDesc": "Yüksek riskli inşaat alanlarında güvenlik yönetimi ve kaza önleme",
+      "chemicalIndustry": "Kimya Endüstrisi",
+      "chemicalIndustryDesc": "Tehlikeli kimyasallarla çalışılan ortamlarda güvenlik protokolleri",
+      "oilAndGas": "Petrol ve Doğalgaz",
+      "oilAndGasDesc": "Sondaj ve rafineri operasyonlarında yüksek riskli alanların yönetimi"
+    },
+    "techFeatures": {
+      "1": "Darbe ve düşme algılama sensörleri",
+      "2": "Çift yönlü ses iletişimi",
+      "3": "SOS düğmesi ve panik alarmı",
+      "4": "12+ saat batarya ömrü",
+      "5": "IP67 su ve toza dayanıklılık",
+      "6": "3-5 metre hassasiyetle konum belirleme"
+    }
+  },
+  "manufacturingSolutions": {
+    "title": "Üretim Sektörü Çözümleri",
+    "subtitle": "Üretim süreçlerinizi optimize etmek ve verimliliği artırmak için RTLS teknolojisi",
+    "description": "Gerçek Zamanlı Konum Belirleme Sistemleri (RTLS), üretim tesislerinde çalışanların, makinelerin, hammaddelerin ve ürünlerin konumlarını anlık olarak takip ederek üretim süreçlerinin optimize edilmesini sağlar. Bu teknoloji, üretim verimliliğini artırırken maliyetleri düşürür ve iş güvenliğini iyileştirir.",
+    "features": {
+      "productionOptimization": "Üretim Optimizasyonu",
+      "productionOptimizationDesc": "Üretim süreçlerini gerçek zamanlı takip ederek verimliliği artırın ve maliyetleri düşürün.",
+      "assetManagement": "Varlık Yönetimi",
+      "assetManagementDesc": "Ekipman ve makinelerin konumunu ve durumunu izleyerek bakım süreçlerini optimize edin.",
+      "qualityControl": "Kalite Kontrol",
+      "qualityControlDesc": "Üretim hatalarını anında tespit ederek hızlı müdahale imkanı ve kalite standartlarının sürdürülmesi.",
+      "workforceTracking": "İşgücü Takibi",
+      "workforceTrackingDesc": "Çalışanların konum ve performans verilerini toplayarak iş süreçlerini iyileştirme.",
+      "dataAnalytics": "Veri Analitiği",
+      "dataAnalyticsDesc": "Toplanan verileri analiz ederek üretim süreçlerinde iyileştirme fırsatlarını belirleme.",
+      "automationIntegration": "Otomasyon Entegrasyonu",
+      "automationIntegrationDesc": "RTLS sistemlerini otomasyon çözümleriyle entegre ederek akıllı üretim hatları oluşturma."
+    },
+    "useCases": {
+      "automotive": "Otomotiv Endüstrisi",
+      "automotiveDesc": "Otomotiv üretim hatlarında araç parçalarının takibi ve montaj süreçlerinin optimizasyonu.",
+      "electronics": "Elektronik Üretimi",
+      "electronicsDesc": "Elektronik bileşenlerin ve PCB'lerin üretim aşamalarında takibi ve kalite kontrolü.",
+      "foodProcessing": "Gıda İşleme",
+      "foodProcessingDesc": "Gıda güvenliği ve izlenebilirlik için hammadde ve ürünlerin üretim sürecindeki takibi.",
+      "pharmaceutical": "İlaç Üretimi",
+      "pharmaceuticalDesc": "İlaç üretiminde hammaddelerin ve bitmiş ürünlerin takibi ile düzenlemelere uyum sağlama.",
+      "aerospace": "Havacılık ve Uzay",
+      "aerospaceDesc": "Karmaşık havacılık bileşenlerinin üretim ve montaj süreçlerindeki hassas takibi.",
+      "heavyIndustry": "Ağır Sanayi",
+      "heavyIndustryDesc": "Büyük endüstriyel ekipmanların üretiminde malzeme akışı ve montaj süreçlerinin takibi."
+    },
+    "benefits": {
+      "productivity": "Üretkenlik Artışı",
+      "productivityDesc": "Gerçek zamanlı izleme ile üretim süreçlerindeki darboğazları tespit ederek üretkenliği %25'e kadar artırabilirsiniz.",
+      "quality": "Kalite İyileştirme",
+      "qualityDesc": "Üretim hatalarını erken tespit ederek ıskarta oranlarını azaltın ve müşteri memnuniyetini artırın.",
+      "safety": "İş Güvenliği",
+      "safetyDesc": "Tehlikeli alanları tanımlayarak ve çalışanları izleyerek iş kazalarını önemli ölçüde azaltın.",
+      "costReduction": "Maliyet Tasarrufu",
+      "costReductionDesc": "Gereksiz ekipman alımlarını önleyerek ve mevcut varlıkların kullanımını optimize ederek maliyetleri düşürün."
+    }
+  },
+  "entertainmentSolutions": {
+    "title": "Eğlence Sektörü Çözümleri",
+    "subtitle": "Eğlence alanlarında gerçek zamanlı izleme ve güvenliği sağlar",
+    "description": "Eğlence alanlarında gerçek zamanlı izleme ve güvenliği sağlamak için özel RTLS çözümleri sunar.",
+    "features": {
+      "realTimeMonitoring": "Gerçek Zamanlı İzleme",
+      "realTimeMonitoringDesc": "Eğlence alanlarında çalışanların konumlarını ve durumlarını anlık olarak izleme",
+      "dangerAlerts": "Tehlike Bildirimleri",
+      "dangerAlertsDesc": "Eğlence alanlarında tehlikeli alanlara giriş veya acil durumlar için otomatik uyarılar",
+      "teamManagement": "Ekip Yönetimi",
+      "teamManagementDesc": "Ekiplerin dağılımını ve görevlerini etkili şekilde koordine etme",
+      "wearableTech": "Giyilebilir Teknoloji",
+      "wearableTechDesc": "Çalışanlar için konfor ve işlevsellik sunan gelişmiş güvenlik ekipmanları",
+      "preventiveSecurity": "Önleyici Güvenlik",
+      "preventiveSecurityDesc": "Kaza risklerini önceden tespit ederek önleyici tedbirler alma",
+      "realTimeAlarm": "Gerçek Zamanlı Alarm",
+      "realTimeAlarmDesc": "Acil durumlarda anında bildirim ve müdahale koordinasyonu"
+    },
+    "useCasesTypes": {
+      "mining": "Madencilik",
+      "miningDesc": "Yeraltı madenciliğinde çalışan güvenliği ve acil durum müdahalesi",
+      "construction": "İnşaat Sektörü",
+      "constructionDesc": "Yüksek riskli inşaat alanlarında güvenlik yönetimi ve kaza önleme",
+      "chemicalIndustry": "Kimya Endüstrisi",
+      "chemicalIndustryDesc": "Tehlikeli kimyasallarla çalışılan ortamlarda güvenlik protokolleri",
+      "oilAndGas": "Petrol ve Doğalgaz",
+      "oilAndGasDesc": "Sondaj ve rafineri operasyonlarında yüksek riskli alanların yönetimi"
+    },
+    "techFeatures": {
+      "1": "Darbe ve düşme algılama sensörleri",
+      "2": "Çift yönlü ses iletişimi",
+      "3": "SOS düğmesi ve panik alarmı",
+      "4": "12+ saat batarya ömrü",
+      "5": "IP67 su ve toza dayanıklılık",
+      "6": "3-5 metre hassasiyetle konum belirleme"
+    }
+  },
+  "forkliftTracking": {
+    "title": "Forklift Takip",
+    "subtitle": "İşletmenizin operasyonel verimliliğini artırmak için gerçek zamanlı forklift takip çözümleri.",
+    "description": "İşletmelerde kullanılan forklift ve AGV'lerin konumları, açık veya kapalı alanlarda yüksek hassasiyetle takip edilir. Bölge bazlı hız limitleri uygulamaları sayesinde, forkliftler belirlenen alanlara girdiğinde otomatik yavaşlama moduna geçerek kaza riskleri minimize edilir.",
+    "features": {
+      "preciseLocation": "Hassas Konum Takibi",
+      "preciseLocationDesc": "Kapalı alanlarda 1-3 metre, açık alanlarda santimetre hassasiyetinde konum takibi.",
+      "speedControl": "Otomatik Hız Kontrolü",
+      "speedControlDesc": "Tehlikeli bölgelerde otomatik hız sınırlama ve uyarı sistemleri.",
+      "collisionPrevention": "Çarpışma Önleme",
+      "collisionPreventionDesc": "Forkliftler arasında potansiyel çarpışma risklerini önceden tespit eden uyarı sistemi.",
+      "realTimeTracking": "Gerçek Zamanlı Takip",
+      "realTimeTrackingDesc": "Tüm forklift filosunun anlık konumunu ve hareketlerini tek bir panel üzerinden izleme imkanı.",
+      "accidentReduction": "Kaza Risklerini Azaltma",
+      "accidentReductionDesc": "Tehlikeli bölgelerde otomatik hız limitleri ve uyarı sistemleri ile iş kazalarını önleme.",
+      "efficiencyAnalysis": "Verimlilik Analizi",
+      "efficiencyAnalysisDesc": "Hareket geçmişi, sürüş davranışları ve operasyonel verimlilik raporları ile kaynak optimizasyonu."
+    },
+    "useCases": {
+      "manufacturing": "Üretim Tesisleri",
+      "manufacturingDesc": "Fabrika içi malzeme taşıma operasyonlarının optimize edilmesi ve güvenliğin artırılması.",
+      "logistics": "Lojistik Merkezleri",
+      "logisticsDesc": "Depo ve lojistik merkezlerinde forklift filosunun verimli yönetimi ve operasyon hızının artırılması.",
+      "ports": "Limanlarda Konteyner Taşıma",
+      "portsDesc": "Limanlarda konteyner taşıma ve istifleme operasyonlarının optimizasyonu ve güvenliğin sağlanması."
+    }
+  },
+  "forkliftAccidentPrevention": {
+    "title": "Forklift Kaza Önleme",
+    "subtitle": "Yapay zeka destekli kamera sistemleri ile çarpışmaları önleyen akıllı çözümler.",
+    "description": "Yapay zeka destekli kamera sistemleriyle entegre edilen çözümler, forkliftlerin ve diğer hareketli ekipmanların potansiyel tehlikeleri anında algılamasını sağlar. Bu sayede, tehlikeli durumlarda otomatik müdahale edilerek kaza ve çarpışmaların önüne geçilir.",
+    "features": {
+      "smartCamera": "Akıllı Kamera Sistemi",
+      "smartCameraDesc": "360° görüş açısı ile kör noktaları ortadan kaldıran yapay zeka destekli kamera teknolojisi.",
+      "aiAnalysis": "Yapay Zeka Analizi",
+      "aiAnalysisDesc": "Gerçek zamanlı tehlike analizi yapan yapay zeka algoritmaları ile önceden önlem alma.",
+      "instantIntervention": "Anlık Müdahale",
+      "instantInterventionDesc": "Tehlike anında sürücüye uyarı gönderme ve otomatik frenleme sistemi ile kazaları engelleme.",
+      "objectDetection": "Nesne Algılama",
+      "objectDetectionDesc": "Yapay zeka algoritmaları, insan, ekipman ve engelleri gerçek zamanlı olarak tespit ederek potansiyel çarpışmaları öngörür.",
+      "preventiveSafety": "Önleyici Güvenlik",
+      "preventiveSafetyDesc": "Tehlikeli durumlarda sesli uyarı, otomatik hız sınırlama ve acil durum frenleme sistemleri devreye girer.",
+      "accidentReduction": "İş Kazalarını Azaltma",
+      "accidentReductionDesc": "Proaktif güvenlik önlemleri ile çarpışma kaynaklı iş kazalarını %95'e varan oranda azaltır."
+    },
+    "useCases": {
+      "warehouses": "Depo ve Lojistik Merkezleri",
+      "warehousesDesc": "Yoğun forklift trafiği olan depolarda çarpışma risklerini minimize ederek güvenli bir çalışma ortamı.",
+      "manufacturing": "Üretim Tesisleri",
+      "manufacturingDesc": "Üretim hatlarında ve malzeme taşıma alanlarında iş güvenliğini artırma ve kazaları önleme.",
+      "construction": "İnşaat ve Madencilik",
+      "constructionDesc": "Zorlu arazi koşullarında ağır ekipmanların güvenli kullanımını sağlama ve kazaları önleme."
+    }
+  },
+  "assetTracking": {
+    "title": "Varlık Takibi",
+    "subtitle": "Bina içerisindeki değerli ekipman ve varlıklarınızı gerçek zamanlı takip edin",
+    "description": "Araç, alet, ekipman ve demirbaş gibi tüm varlıkların bina içindeki konumları belirlenir ve takip edilir. Envanter sayımları, varlıkların optimum kullanımı ve kaynak yönetimi süreçleri, toplanan konum verileri sayesinde daha verimli hale getirilir. Ayrıca, ekipmanların darbe alması gibi durumlar anında algılanarak alarm üretimi ve kayıt işlemleriyle desteklenir.",
+    "features": {
+      "realTimeTracking": "Gerçek Zamanlı Takip",
+      "realTimeTrackingDesc": "Tüm varlıklarınızın bina içindeki konumunu santimetre hassasiyetiyle gerçek zamanlı olarak izleyin.",
+      "alarmNotifications": "Alarm Bildirimleri",
+      "alarmNotificationsDesc": "İzinsiz alan girişi, darbe algılama ve beklenmedik hareketler için otomatik alarm bildirimleri alın.",
+      "movementHistory": "Hareket Geçmişi",
+      "movementHistoryDesc": "Varlıklarınızın hareketlerini zaman çizelgesi üzerinde görüntüleyin ve geçmiş konum verilerine erişin.",
+      "inventoryManagement": "Envanter Yönetimi",
+      "inventoryManagementDesc": "Otomatik envanter sayımları ve raporlama özellikleriyle stok yönetimini kolaylaştırın.",
+      "quickSearch": "Hızlı Varlık Arama",
+      "quickSearchDesc": "Varlıklarınızı hızlıca bulun ve yönlendirici haritalar ile konumlarına ulaşın.",
+      "dataAnalytics": "Veri Analitiği",
+      "dataAnalyticsDesc": "Varlık kullanım analizleri ve optimizasyon önerileriyle kaynak verimliliğini artırın."
+    },
+    "useCases": {
+      "logistics": "Lojistik ve Depolama",
+      "logisticsDesc": "Depo ve dağıtım merkezlerinde ekipman takibi ile kayıpları azaltın ve operasyonel verimliliği artırın.",
+      "manufacturing": "Üretim Tesisleri",
+      "manufacturingDesc": "Üretim tesislerinde alet ve ekipmanların takibi ile üretim süreçlerini optimize edin.",
+      "healthcare": "Sağlık Hizmetleri",
+      "healthcareDesc": "Hastanelerde tıbbi cihaz ve ekipmanların takibi ile hasta bakımını iyileştirin.",
+      "construction": "İnşaat Sektörü",
+      "constructionDesc": "İnşaat sahalarında ekipman ve malzemelerin takibi ile proje verimliliğini artırın.",
+      "retail": "Perakende",
+      "retailDesc": "Mağazalarda ürün ve demirbaşların takibi ile envanter yönetimini optimize edin.",
+      "education": "Eğitim Kurumları",
+      "educationDesc": "Okul ve üniversitelerde ekipman takibi ile kaynak yönetimini iyileştirin."
+    },
+    "benefits": {
+      "costReduction": "Maliyetleri Azaltma",
+      "costReductionDesc": "Varlık kayıplarını önleyerek ve ekipman kullanımını optimize ederek operasyonel maliyetleri azaltın.",
+      "efficiency": "Operasyonel Verimlilik",
+      "efficiencyDesc": "Ekipman arama sürelerini azaltarak ve kullanım oranlarını artırarak iş süreçlerini hızlandırın.",
+      "maintenance": "Ekipman Bakımı",
+      "maintenanceDesc": "Kullanım verileri üzerinden öngörücü bakım planlaması yaparak ekipman ömrünü uzatın.",
+      "audit": "Denetim Kolaylığı",
+      "auditDesc": "Otomatik envanter raporlaması ile denetim süreçlerini basitleştirin ve hızlandırın."
+    }
+  },
+  "personnelTracking": {
+    "title": "Personel Takip Sistemi",
+    "subtitle": "Çalışanlarınızın güvenliğini ve verimliliğini artıran akıllı konum tabanlı takip çözümleri.",
+    "description": "İşletmelerde çalışanların anlık konum bilgileri üzerinden, hangi bölgede ne kadar süre geçirdikleri tespit edilir. Acil durum butonları ve opsiyonel sesli uyarı sistemleri ile personelin güvenliği artırılır, verimlilik ölçümü sağlanır ve kritik anlarda hızlı müdahale imkanı sunulur.",
+    "features": {
+      "realTimeLocation": "Gerçek Zamanlı Konum Takibi",
+      "realTimeLocationDesc": "Personelin bina içindeki anlık konumunu harita üzerinde görüntüleyin.",
+      "timeAnalysis": "Zaman Analizi",
+      "timeAnalysisDesc": "Çalışanların hangi bölgede ne kadar zaman geçirdiklerinin detaylı analizi.",
+      "emergencyNotifications": "Acil Durum Bildirimleri",
+      "emergencyNotificationsDesc": "Acil durum butonları ile anında uyarı ve müdahale imkanı.",
+      "efficiencyReports": "Verimlilik Raporları",
+      "efficiencyReportsDesc": "Personel verimliliğini ölçen otomatik raporlama sistemleri.",
+      "preciseLocation": "Hassas Konum Takibi",
+      "preciseLocationDesc": "1-3 metre hassasiyetle iç mekan konum takibi sağlayan giyilebilir teknoloji.",
+      "emergencyResponse": "Acil Müdahale",
+      "emergencyResponseDesc": "Tek tuşla acil durum bildirimi ve en yakın personelin lokasyonu."
+    },
+    "useCases": {
+      "manufacturing": "Üretim Tesisleri",
+      "manufacturingDesc": "Fabrika ortamında çalışanların iş istasyonlarında geçirdikleri süreleri takip edin, üretim verimliliğini artırın.",
+      "hospitals": "Hastaneler",
+      "hospitalsDesc": "Sağlık personelinin hasta bakımına ayırdığı süreleri ölçün, acil durumlarda en yakın sağlık personelini belirleyin."
+    }
+  },
+  "terms": {
+    "title": "Kullanım Şartları ve Koşulları",
+    "introduction": {
+      "paragraph1": "Lütfen turna.io internet sitesini kullanmadan evvel bu sitenin 'Kullanım Şartları ve Koşulları'nı dikkatlice okuyunuz. Bu siteyi kullanarak ya da bu siteye erişim sağlayarak, aşağıda belirtilen şartları ve koşulları kabul ettiğiniz varsayılmaktadır. Eğer kullanım şartlarını kabul etmiyorsanız, lütfen bu web sitesini kullanmayınız.",
+      "paragraph2": "İşbu sözleşme taraflara sözleşme konusu site ile ilgili hak ve yükümlülükler yükler ve taraflar işbu sözleşmeyi kabul ettiklerinde bahsi geçen hak ve yükümlülükleri eksiksiz, doğru, zamanında, işbu sözleşmede talep edilen şartlar dahilinde yerine getireceklerini beyan ederler."
+    },
+    "intellectualProperty": {
+      "title": "Fikri Mülkiyet Hakları",
+      "paragraph1": "İşbu sitede yer alan, bu sitenin genel görünüm ve dizaynı ile internet adresindeki tüm marka, logo, resim, tasarım, bilgi ve elektronik grafik veya makinede okunabilir şekilde sunulan teknik veriler, bilgisayar yazılımları ve tüm materyaller ve bunlara ilişkin tescilli veya tescilsiz tüm fikri mülkiyet hakları site işleteni ve sahibi turna.io'a ait olup, ulusal ve uluslararası hukukun koruması altındadır. İşbu sitenin ziyaret edilmesi veya bu sitedeki hizmetlerden yararlanılması, söz konusu fikri mülkiyet hakları konusunda hiçbir hak vermez.",
+      "paragraph2": "İnternet sitesinde yer alan hiçbir materyal, kod ve yazılım değiştirilemez, kopyalanamaz, çoğaltılamaz, yeniden yayınlanamaz, sunulamaz, dağıtılamaz, başka bir bilgisayara yüklenemez veya aktarılamaz. İnternet sitesinin bütünü veya bir kısmı başka bir internet sitesinde izinsiz olarak kullanılamaz. Sitemizin burada açıkça belirtilen tüm hakları saklıdır."
+    },
+    "disclaimer": {
+      "title": "Feragatname",
+      "paragraph1": "Sitede bulunan bazı materyaller, aksi iddia edilmediği takdirde, internetten alınmıştır ve halka açık kullanımda olduğu varsayılmıştır. Bu gibi materyallerde eğer telif hakkı ihlali söz konusu ise bu tamamen kasıtsız ve reklam amacı gütmeyen bir şekilde gerçekleştirilmiştir ve telif hakkı ihlali kanıtlandığında anında materyalin kaldırılması sağlanacaktır."
+    },
+    "responsibilities": {
+      "title": "Sorumluluklar",
+      "paragraph1": "Sitemiz, sunulan içerikler ve hizmetler üzerinde değişiklik yapma hakkını her zaman saklı tutar. Kullanıcı, sitenin kullanımında tersine mühendislik yapmayacağını ya da bunların kaynak kodunu bulmak veya elde etmek amacına yönelik herhangi bir başka işlemde bulunmayacağını aksi halde ve 3. kişiler nezdinde doğacak zararlardan sorumlu olacağını, hakkında hukuki ve cezai işlem yapılacağını peşinen kabul eder.",
+      "paragraph2": "Kullanıcı, site içindeki faaliyetlerinde, sitenin herhangi bir bölümünde veya iletişimlerinde genel ahlaka ve adaba aykırı, kanuna aykırı, 3. kişilerin haklarını zedeleyen, yanıltıcı, saldırgan, müstehcen, pornografik, kişilik haklarını zedeleyen, telif haklarına aykırı, yasa dışı faaliyetleri teşvik eden içerikler üretmeyeceğini ve paylaşmayacağını kabul eder.",
+      "paragraph3": "Aksi halde oluşacak zarardan tamamen kendisi sorumludur ve bu durumda site yetkilileri, bu tür hesapları askıya alabilir, sona erdirebilir, yasal süreç başlatma hakkını saklı tutar. Bu sebeple yargı mercilerinden etkinlik veya kullanıcı hesapları ile ilgili bilgi talepleri gelirse paylaşma hakkını saklı tutar. Sitenin üyelerinin birbirleri veya üçüncü şahıslarla olan ilişkileri kendi sorumluluğundadır."
+    },
+    "linking": {
+      "title": "Link Verme Koşulları",
+      "paragraph1": "Sitemiz size, özel olmayan, limitli bir lisansla, bizim inisiyatifimizle iptal edilebilen bir izinle sitemize ya da sitemizdeki herhangi bir gönderiye link verme izni sunar. Fakat bu sitenin bizim sitemizle yarış içerisinde olmaması, bizi zarar verici şekilde eleştirmemesi gerekmektedir. Ayrıca, linkin yayınlandığı sitenin herhangi bir uygunsuz içeriğe sahip olmaması, tarafımızca belirtilen gizlilik haklarını, kullanım koşullarını ya da başkalarının yasal haklarını ihlal etmemesi ya da herhangi bir şekilde yayınlanan yazıların, medyaların herhangi bir uygunsuz, rahatsız edici, zarar verici, yasal olmayan içeriklere sahip olmaması ya da bizim belirttiğimiz koşulları ve çalışma prensibimizi ihlal etmemesi gerekmektedir."
+    },
+    "mobileAccess": {
+      "title": "Mobil Bir Aygıttan Bağlanmak",
+      "paragraph1": "Sitemiz size mobil aygıtınızdan erişebileceğiniz belirli servisler sunabilir. Bu servisler siteye mobil aygıtınızdan içerikler yükleme, belirli içerik alımları yapabilme, mesajları yanıtlayabilme, ya da içerik gönderebilme, metin mesajlarıyla mesajlaşma ve web sitemize mobil aygıtınızdan erişim sağlama gibi servisleri içermektedir. Sitemiz şu an mobil servisler için bir ücret talep etmemektedir. Fakat operatörünüzün normal mesajlaşma, data ve diğer ücretlendirmeleri yine de geçerli olacaktır."
+    },
+    "security": {
+      "title": "Kayıt ve Güvenlik",
+      "paragraph1": "Kullanıcı, doğru, eksiksiz ve güncel kayıt bilgilerini vermek zorundadır. Aksi halde bu sözleşme ihlal edilmiş sayılacak ve kullanıcı bilgilendirilmeksizin hesap kapatılabilecektir. Kullanıcı, site ve üçüncü taraf sitelerdeki şifre ve hesap güvenliğinden kendisi sorumludur. Aksi halde oluşacak veri kayıplarından ve güvenlik ihlallerinden veya donanım ve cihazların zarar görmesinden sitemiz sorumlu tutulamaz."
+    },
+    "privacy": {
+      "title": "Gizlilik",
+      "paragraph1": "Bu kullanım şartlarına ek olarak, sitemizin topladığı bilgileri ve bu bilgilerin sitemiz tarafından nasıl kullanacağını açıklayan Gizlilik ve Güvenlik Politikası sitemizde yayınlamıştır."
+    },
+    "changes": {
+      "title": "Sözleşmede Yapılacak Değişiklikler",
+      "paragraph1": "Sitemiz, dilediği zaman sitede sunulan hizmetleri ve işbu sözleşme şartlarını kısmen veya tamamen değiştirebilir. Değişiklikler sitede yayınlandığı tarihten itibaren geçerli olacaktır. Değişiklikleri takip etmek kullanıcının sorumluluğundadır. Kullanıcı, sunulan hizmetlerden yararlanmaya devam etmekle bu değişiklikleri de kabul etmiş sayılır."
+    },
+    "dataProtection": {
+      "title": "turna.io Kişisel Veri Koruma Açıklaması ve Aydınlatma Metni",
+      "paragraph1": "turna.io sizlere ait kişisel verilerinizin ve özel bilgilerinizin korunması bizim için değerlidir. Bu nedenle turna.io ile ilişkili şahıslara ait kişisel verilerin 6698 sayılı Kişisel Verilerin Korunması Kanununa (\"KVKK\") uygun olarak işlenerek, muhafaza edilmesi hususunda gereken bütün gayret ve özeni gösteriyoruz. Veri Sorumlusu sıfatıyla turna.io, kişisel verilerinizle ilgili bütün işlemlerde verilerinizin korunması için gereken idari ve teknik tedbirler almakta, KVKK doğrultusunda, kişisel verilerinizi aşağıda açıklanan şartlarda ve mevzuatta öngörülen sınırlar dâhilinde işlemektedir. İnternet sitemizin ziyaret edilmesi sırasında kaydedilen kişisel bilgiler, Kişisel Verilerin Korunmasına ilişkin mevzuat gereğince işlenmektedir. Bu konuda yine sayfamızda bulabileceğiniz Gizlilik Politikamızı inceleyiniz. Ancak önemle belirtelim ki, turna.io internet sitesinde yapılan yönlendirmelerde (link verilen) diğer internet sitelerindeki veri güvenliği konusunda bir garanti sunulamamaktadır. Bu konuda ilgili sayfanın veri güvenliği ile ilgili politikası dikkatlice incelenmelidir.",
+      "section1": {
+        "title": "1. Hukuki Nitelik ve Kapsam",
+        "paragraph1": "6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (\"KVKK\") 10'uncu maddesi, verileri işlenen kimselerin onayları alınırken kendisinin aydınlatılmasını istemiştir. Madde başlığı \"Veri Sorumlusunun Aydınlatma Yükümlülüğü\"dür. KVKK hükümlerine göre turna.io, \"Veri Sorumlusu\"dur. Bu çerçevede, aydınlatma yükümlülüğü ile veri sahiplerini veri sorumlusunun kimliği, kişisel veri işleme amaçları, kişisel verilerin aktarıldığı kişiler ve aktarma amaçları, kişisel verilerin toplanmasının hukuki sebepleri, kimlere aktarılabileceği ve yöntemleri, kişisel veri sahibinin veri sorumlusuna yönelteceği güncelleme, silinme ya da anonimleştirme gibi KVKK'nın 11'inci maddesinde sayılan hakları konusunda bilgilendirme yükümlülüğü getirmiştir. Veri Sorumlusu sıfatıyla turna.io, Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni ile KVKK'nın 10'uncu maddesi hükmü uyarınca kişisel verilerinizi mevzuatta öngörülen sınırlar ve şartlar dahilinde işlediği hususunda veri sahiplerini bilgilendirmekte ve aydınlatmaktadır."
+      },
+      "section2": {
+        "title": "2. Veri Sorumlusunun Kimliği",
+        "paragraph1": "KVKK'nın 3'üncü maddesinin 1'inci fıkrasının (ı) bendinde veri sorumlusu, \"Kişisel verilerin işleme amaçlarını ve vasıtalarını belirleyen, veri kayıt sisteminin kurulmasından ve yönetilmesinden sorumlu olan gerçek veya tüzel kişiler\" olarak tanımlanmıştır. Bu çerçevede veri sorumlusu, internet sayfasını ziyaret ettiğiniz turna.io'dur.",
+        "address": "turna.io Şirket Adresi: Ostim OSB Mahallesi Cevat Dündar Caddesi No: 1/1 İç Kapı No: 10 Yenimahalle/ANKARA",
+        "email": "Şirket Mail Adresi: bilgi@smarteq.com"
+      },
+      "section3": {
+        "title": "3. Veri İşleyen",
+        "paragraph1": "Veri sorumlusunun verdiği yetkiye dayanarak onun adına kişisel verileri işleyen gerçek veya tüzel kişi KVKK m. 3'te \"Veri İşleyen\" olarak tanımlanmıştır."
+      },
+      "section4": {
+        "title": "4. Kişisel Verilerinizin İşlenme Amaçları",
+        "paragraph1": "Kişisel verileriniz KVKK'daki ilkeler doğrultusunda;",
+        "point1": "turna.io tarafından sunulan ürün ve hizmetlerden haberdar olabilmeniz, sizlerin daha iyi yararlandırılması;",
+        "point2": "turna.io tarafından sunulan ürünlerin/hizmetlerin kalitesinin artırılması, müşterilerimizin ihtiyaçları, beğenileri ve kullanım alışkanlıklarına göre özelleştirilerek sunumu ve önerilmesi;",
+        "point3": "Sizleri hizmetlerimiz konusunda bilgilendirebilmek ve gerekli durumlarda da sizleri aydınlatmak,",
+        "point4": "İnsan kaynakları politikalarımızın en iyi şekilde planlanması ve uygulanması; ticari ortaklıklarımızın ve stratejilerimizin doğru olarak planlanması ve yürütülmesi; Şirketimizin ve iş ortaklarımızın hukuki, ticari ve fiziki güvenliğinin temini, Şirket kurumsal işleyişinin sağlanması, Şirketimiz tarafından sunulan ürün ve hizmetlerden sizleri en iyi şekilde faydalandırmak için çalışmaların yapılması,",
+        "point5": "Veri güvenliğinin en üst düzeyde sağlanması, veri tabanlarının oluşturulması Şirketimiz internet sitesinde sunulan hizmetlerin geliştirilmesi, Şirketimize talep ve şikâyetlerini iletenler ile iletişime geçilmesi, Şirketimiz internet sitesinde oluşan hataların giderilmesi ve internet sitemizden paylaşılmış olan Gizlilik Politikası'nda yer alan hükümlerin uygunluğunun sağlanması,",
+        "point6": "Şirkete ait stratejilerin belirlenmesi amaçlarıyla KVK Kanunu'nun 5. ve 6. maddelerinde belirtilen kişisel veri işleme şartları kapsamında işlenir."
+      },
+      "section5": {
+        "title": "5. Kişisel Verileri İşlemeye İlişkin İlkelerimiz",
+        "paragraph1": "turna.io olarak;",
+        "point1": "Hukuka ve dürüstlük kurallarına uygun işlemeyi,",
+        "point2": "Doğru ve güncelliği sağlama gayretinde olmayı,",
+        "point3": "Belirli, açık ve meşru amaçlar için işlemeyi,",
+        "point4": "İşlendikleri amaçla bağlantılı, sınırlı ve ölçülü olmayı,",
+        "point5": "İlgili mevzuatta öngörülen veya işlendikleri amaç için gerekli olan süre kadar muhafaza edilmesini ilke edindik."
+      },
+      "section6": {
+        "title": "6. Kişisel Verilerin İşlenme Yolları",
+        "paragraph1": "Verileriniz, turna.io'da ancak rızanız ya da kanuna uygunluk hallerinden birinin varlığı halinde tutulur ve işlenir."
+      },
+      "section7": {
+        "title": "7. İşlenen Kişisel Verilerin Kimlere ve Hangi Amaçla Aktarılabileceği",
+        "paragraph1": "Şirketimizde KVKK'ya uygun olarak toplanan ve işlenen kişisel verileriniz, sadece işin yapılabilmesi amacıyla ve gizlilik sözleşmeleri eşliğinde; turna.io, kişisel verileri çözüm ortaklarına ve ifa yardımcısı konumundaki şirketlere aktarılabilecektir."
+      },
+      "section8": {
+        "title": "8. Kişisel Verilerinizi Toplamamızın Yöntemi ve Hukuki Sebebi",
+        "paragraph1": "Kişisel verileriniz, Şirketimiz tarafından verilen hizmet, ürün ya da ticari faaliyete bağlı olarak değişkenlik gösterebilmekle; KVKK m. 4, 5 ve 6'ya uygun bir şekilde, otomatik ya da otomatik olmayan yöntemlerle, ofisler, çağrı merkezi, internet sitesi, sosyal medya mecraları, mobil uygulamalar ve benzeri vasıtalarla sözlü, yazılı ya da elektronik olarak toplanabilecek, güncellenerek işlenebilecektir. Kişisel verileriniz, her türlü sözlü, yazılı ya da elektronik ortamda, yukarıda yer verilen amaçlar doğrultusunda Şirketçe sunduğumuz ürün ve/veya hizmetlerin belirlenen yasal çerçevede sunulabilmesi ve bu kapsamda Şirketimizin sözleşme ve yasadan doğan yükümlülüklerini eksiksiz ve doğru bir şekilde yerine getirebilmesi amacı ile edinilir. Bu hukuki sebeple toplanan kişisel verileriniz KVK Kanununun 5. ve 6. maddelerinde belirtilen kişisel veri işleme şartları ve amaçları kapsamında bu Aydınlatma Metninde belirtilen amaçlar dahilinde de işlenebilmekte ve aktarılabilmektedir."
+      },
+      "section9": {
+        "title": "9. Nasıl Koruyoruz?",
+        "paragraph1": "turna.io tarafından toplanan kişisel verilerin korunması ve yetkisiz kişilerin eline geçmemesi ve müşterilerimizin ve müşteri adaylarımızın mağdur olmaması için gerekli teknik ve idari bütün tedbirler alınmaktadır. Bu çerçevede yazılımların standartlara uygun olması, üçüncü tarafların özenle seçilmesi ve şirket içinde Gizlilik Politikamıza riayet edilmesi sağlanmaktadır."
+      },
+      "section10": {
+        "title": "10. Kişisel Veri Sahibinin Hakları ve Başvuru",
+        "paragraph1": "Kişisel veri sahipleri olarak, KVKK m. 11'de sayılan haklarınıza ilişkin taleplerinizi, işbu Aydınlatma Metninde aşağıda düzenlenen yöntemlerle Şirketimize iletmeniz durumunda Şirketimiz niteliğine göre, talebi en geç otuz gün içinde ücretsiz olarak sonuçlandıracaktır. Ancak, Kişisel Verileri Koruma Kurulunca bir ücret öngörülmesi halinde, Şirketimiz tarafından belirlenen tarifedeki ücret alınacaktır. Ayrıca yürürlükte olan mevzuat uyarınca kişisel verilere ilişkin başvurular veri sahibinin bizzat kendisi tarafından yapılmak zorunda olduğundan başvurularınızın sadece sizlerle ilgili kısmı cevaplanacak olup, eşiniz, yakınınız ya da arkadaşınız hakkında yapılan bir başvuru kabul edilmeyecektir. Bu kapsamda kişisel veri sahipleri, turna.io tarafından internet sayfamızda duyurulan ilgilimize başvurarak kendinizle ilgili olarak;",
+        "point1": "Kişisel veri işlenip işlenmediğini öğrenme,",
+        "point2": "Kişisel verileri işlenmişse buna ilişkin bilgi talep etme,",
+        "point3": "Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,",
+        "point4": "Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme,",
+        "point5": "Kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme ve bu kapsamda yapılan işlemin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,",
+        "point6": "KVK Kanununun ve ilgili diğer kanun hükümlerine uygun olarak işlenmiş olmasına rağmen, işlenmesini gerektiren sebeplerin ortadan kalkması hâlinde kişisel verilerin silinmesini veya yok edilmesini isteme ve bu kapsamda yapılan işlemin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,",
+        "point7": "İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme,",
+        "point8": "Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme haklarına sahipsiniz."
+      },
+      "section11": {
+        "title": "11. Başvurunun Yapılması",
+        "paragraph1": "KVK Kanununun 13. maddesinin 1. fıkrası gereğince, aynı kanunun 11. maddesinde belirtilen haklarınızı kullanmak ile ilgili talebinizi kayıtlı elektronik posta (KEP) adresi ya da şirketimize daha önce bildirdiğiniz ve sistemimizde kayıtlı bulunan elektronik posta adresini kullanmak suretiyle, bilgi@smarteq.com adresine ya da yazılı olarak şahsen, noter veya iadeli taahhütlü posta vasıtasıyla iletebilirsiniz. Başvuruda;",
+        "point1": "Adınız, soyadınız ve başvuru yazılı ise imzanız,",
+        "point2": "Türkiye Cumhuriyeti vatandaşı iseniz T.C. kimlik numarası, yabancı iseniz uyruğunuz, pasaport numaranız veya varsa kimlik numaranız,",
+        "point3": "Tebligata esas yerleşim yeri veya iş yeri adresiniz,",
+        "point4": "Varsa bildirime esas elektronik posta adresiniz, telefon ve faks numaranız,",
+        "point5": "Talep konunuzun bulunması gerekmektedir. Konuya ilişkin bilgi ve belgeler başvuruya eklenmelidir."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik ve Güvenlik Politikası",
+    "introduction": {
+      "paragraph1": "Kişisel Verilerin Korunması, turna.io için büyük önem taşır. Bizimle herhangi bir şekilde iletişime geçerek bize kişisel verilerini bırakan herkesin bilgilerini özenle saklarız. Bu bilgilerin güvenliğini sağlamak için şirket içinde gerekli tüm tedbirleri aldık. turna.io ile kişisel verilerinizin güvende olacağından emin olarak işlem yapabilirsiniz. Türkiye Cumhuriyeti Anayasası ve kanunlarıyla güvence altına alınan verilerinize ilişkin haklarınıza riayet edeceğiz. Aşağıda, şirketimizde yürürlüğe konan Gizlilik Politikasını paylaşıyoruz.",
+      "paragraph2": "Sizlerden gelecek iyileştirme önerileri, başvurular ve olası şikayetler konusunda azami hassasiyet göstereceğimizden emin olabilirsiniz. Kişisel verilerinizle ilgili tüm tereddütlerinizde bizimle iletişime geçebilirsiniz. Tüm hizmetlerimizde olduğu gibi, kişisel verilerinizin korunmasında da aynı özen ve hassasiyeti göstereceğiz."
+    },
+    "purpose": {
+      "title": "1. Amaç",
+      "paragraph1": "turna.io olarak yürüttüğümüz işlerin hassasiyeti gereğince toplanan kişisel veriler gizli tutulmuş ve hiçbir zaman amacının dışında üçüncü kişilerle paylaşılmamıştır. Kişisel verilerin korunması şirketimizin temel politikasıdır. Şirketimiz, yasal düzenlemelerden önce de kişisel verilerin gizliliğine büyük önem vermiş ve bunu çalışma ilkesi olarak benimsemiştir. turna.io olarak, Kişisel Verilerin Korunması Kanunu’nun getirdiği tüm sorumluluklara uymayı taahhüt ederiz."
+    },
+    "scope": {
+      "title": "2. Kapsam",
+      "paragraph1": "Şirketimiz tarafından hazırlanan bu Politika, 6698 sayılı Kişisel Verilerin Korunması Kanunu’na (\"KVKK\") uygun olarak hazırlanmıştır.",
+      "paragraph2": "Sizlerden rızanızla veya kanunda belirtilen diğer hukuka uygunluk hallerine dayanarak elde edilen veriler, sunduğumuz hizmetlerin kalitesini artırmak ve kalite politikamızı iyileştirmek amacıyla kullanılacaktır. Elimizdeki bazı veriler ise kişisel nitelikten çıkarılarak anonim hale getirilir. Bu veriler istatistiksel amaçlarla kullanılır ve Kanun kapsamına girmez.",
+      "paragraph3": "turna.io Gizlilik Politikası; müşterilerimizin, potansiyel müşterilerimizin, çalışanlarımızın ve bizimle çözüm ortaklığı içinde çalışan şirketlerin müşterileri ve çalışanlarının ya da diğer kişilerin otomatik yollarla elde edilen verilerinin korunmasını amaçlar ve buna ilişkin düzenlemeleri içerir.",
+      "paragraph4": "Şirketimiz, Politikamızı ve Yönergemizi, Kanuna uygun olmak ve kişisel verilerin daha iyi korunmasını sağlamak şartıyla değiştirme hakkını saklı tutar."
+    },
+    "rules": {
+      "title": "3. Kişisel Verilerin İşlenmesine İlişkin Temel Kurallar",
+      "paragraph1": "Hukuka ve dürüstlük kurallarına uygunluk: turna.io, topladığı veya diğer şirketlerden edindiği verilerin kaynağını sorgular ve bunların hukuka uygun, dürüstlük kuralları çerçevesinde elde edilmesine önem verir.",
+      "paragraph2": "Doğru ve gerektiğinde güncel olma: turna.io, bünyesindeki tüm verilerin doğru olmasına, yanlış bilgi içermemesine ve kişisel verilerde değişiklik olduğunda bunların kendisine bildirildiği takdirde güncellenmesine önem verir.",
+      "paragraph3": "Belirli, açık ve meşru amaçlar için işleme: turna.io, verileri yalnızca sunduğu hizmet sırasında kişilerden onay aldığı amaçlarla sınırlı olarak işler. Hizmet amacı dışında verileri işlemez, kullanmaz ve kullandırtmaz.",
+      "paragraph4": "İşlendikleri amaçla bağlantılı, sınırlı ve ölçülü olma: turna.io, verileri yalnızca işlendikleri amaçla bağlantılı ve hizmetin gerektirdiği ölçüde kullanır.",
+      "paragraph5": "İlgili mevzuatta öngörülen veya işlendikleri amaç için gerekli olan süre kadar saklama: turna.io, sözleşmelere dayanan verileri, kanuni zamanaşımı süreleri ile ticaret ve vergi mevzuatının gerektirdiği süre kadar muhafaza eder. Bu amaçlar ortadan kalktığında verileri siler veya anonimleştirir. Bu işlemleri 'Kişisel Verileri Silme Yönergesi'ne göre gerçekleştirir."
+    },
+    "rights": {
+      "title": "4. KVKK’nın 11. Maddesinde Sayılan Veri Sahibi Hakları",
+      "paragraph1": "KVKK madde 11’e göre aşağıdaki haklara sahipsiniz. Kişisel verileri işlenen kişiler kendi verileriyle ilgili olarak:",
+      "point1": "Kişisel verilerin işlenip işlenmediğini öğrenme,",
+      "point2": "Kişisel veriler işlenmişse buna ilişkin bilgi talep etme,",
+      "point3": "Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,",
+      "point4": "Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme,",
+      "point5": "Kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme ve bu kapsamda yapılan işlemin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini talep etme,",
+      "point6": "KVKK’nın 7. maddesi kapsamında, işlenmesini gerektiren sebeplerin ortadan kalkması hâlinde kişisel verilerin silinmesini veya yok edilmesini isteme ve yapılan işlemin üçüncü kişilere bildirilmesini talep etme,",
+      "point7": "İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme,",
+      "point8": "Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme.",
+      "paragraph2": "turna.io olarak bu haklara saygılıyız."
+    },
+    "principle": {
+      "title": "5. Azami Tasarruf İlkesi / Cimrilik İlkesi",
+      "paragraph1": "Azami tasarruf (cimrilik) ilkemize göre turna.io’ya ulaşan veriler yalnızca gerekli olduğu kadar sisteme işlenir. Bu nedenle hangi verilerin toplanacağı amaca göre belirlenir, gerekli olmayan veriler toplanmaz. Fazlalık bilgiler kaydedilmez, silinir veya anonimleştirilir. Bu veriler istatistiksel amaçlarla kullanılabilir."
+    },
+    "deletion": {
+      "title": "6. Kişisel Verilerin Silinmesi",
+      "paragraph1": "Kanunen saklama süreleri dolduğunda, yargı süreçleri tamamlandığında veya diğer gereklilikler ortadan kalktığında, kişisel veriler şirketimizce kendiliğinden veya ilgili kişinin talebi üzerine silinir, yok edilir veya anonimleştirilir."
+    },
+    "accuracy": {
+      "title": "7. Doğruluk ve Veri Güncelliği",
+      "paragraph1": "turna.io bünyesindeki veriler, kural olarak ilgili kişilerin beyanı üzerine işlenir. turna.io, müşterilerin beyan ettiği verilerin doğruluğunu araştırmakla yükümlü değildir. Beyan edilen veriler doğru kabul edilir. turna.io, resmi belgelerden veya ilgili kişinin talebi üzerine verileri günceller ve gerekli önlemleri alır."
+    },
+    "confidentiality": {
+      "title": "8. Gizlilik ve Veri Güvenliği",
+      "paragraph1": "Kişisel veriler gizlidir ve turna.io bu gizliliğe riayet eder. Kişisel verilere şirket içinde yalnızca yetkili kişiler erişebilir. turna.io, verilerin korunması için gerekli teknik ve idari tüm tedbirleri alır. Yazılımların standartlara uygun olması, üçüncü tarafların özenle seçilmesi ve şirket içinde Gizlilik Politikası’na uyulması sağlanır. Hukuka uygun olarak veri paylaşılan şirketlerden de verileri koruması talep edilir."
+    },
+    "processingPurposes": {
+      "title": "9. Veri İşleme Amaçları",
+      "paragraph1": "turna.io’nun Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni’nde belirtilen amaçlar doğrultusunda icra edilir."
+    },
+    "userInfo": {
+      "title": "10. Kullanıcı Bilgileri ve İnternet",
+      "paragraph1": "turna.io’ya ait internet siteleri ve diğer sistemlerde kişisel verilerin toplanması, işlenmesi ve kullanılmasıyla ilgili olarak, kişiler gizlilik bildirimi ve çerezler hakkında bilgilendirilir. Kişisel veriler hukuka uygun şekilde işlenecektir.",
+      "section1": {
+        "title": "1. Sizin tarafınızdan sağlanan, sizi tanımlayan bilgiler:",
+        "paragraph1": "Bize e‑posta gönderir veya yorum yaparsanız, adınız veya e‑posta adresiniz gibi bilgilerinizi bizimle paylaşmayı seçebilirsiniz. Bu bilgileri, size hizmetlerimizi geliştirmek veya taleplerinize yanıt vermek için kullanırız.",
+        "paragraph2": "Bu bilgileri paylaşmak tamamen sizin tercihinize bağlıdır; ancak belirli bir etkinlikten yararlanmanız, sunulacak bir faydayı anlamanız veya sitemizdeki belirli içeriklere erişebilmeniz için talep edilebilir."
+      },
+      "section2": {
+        "title": "2. Sizi kişisel olarak tanımlamayan, siteyi ziyaret ettiğinizde otomatik olarak edindiğimiz bilgiler:",
+        "paragraph1": "Siteyi ziyaretiniz sırasında sadece geziniyor, sayfaları okuyorsanız, bu ziyaretinize ilişkin bazı bilgiler otomatik olarak edinilir. Bu bilgiler sizi kişisel olarak tanımlamaz. Örneğin; internet alan adınız, IP adresiniz, tarayıcı ve işletim sisteminiz, ziyaret ettiğiniz sayfalar, ziyaret tarih‑saat bilgisi ve yönlendirildiğiniz site adresi gibi."
+      },
+      "section3": {
+        "title": "3. Tarayıcı çerezleri:",
+        "paragraph1": "Sitemizi her ziyaretinizde, yorum bilgilerinizi hatırlamak için tarayıcınıza küçük bir “cookie” dosyası kaydedilir. Bu dosya, giriş bilgilerinizi hatırlayarak daha hızlı bir deneyim sunar.",
+        "paragraph2": "Çerezleri, kullanıcı aktivitelerini görmek ve sitemizi geliştirmek için de kullanabiliriz. Çerez kullanımını istemiyorsanız tarayıcı ayarlarınızı değiştirebilirsiniz."
+      },
+      "section4": {
+        "title": "4. Üçüncü taraf web siteleri ve uygulamalar:",
+        "paragraph1": "Sitemiz, iş ortağı olduğumuz bazı sitelere bağlantılar verebilir. Bu sitelerin gizlilik uygulamaları ve içeriklerinden sorumlu değiliz. Gizlilik Politikası sadece sitemiz için geçerlidir."
+      },
+      "section5": {
+        "title": "5. Bilgilerinizin güvenliği:",
+        "paragraph1": "Bilgilerin kaybolması, yanlış kullanılması ve değiştirilmesini önlemek için makul güvenlik önlemleri alıyoruz. Ancak çevrim içi iletilen bilgilerin tamamen güvenli olacağına dair garanti veremeyiz.",
+        "paragraph2": "Site ve/veya sisteme yapılan saldırılar sonucu kişisel bilgilerin zarar görmesi hâlinde sitemiz sorumlu tutulamaz."
+      },
+      "section6": {
+        "title": "6. Sorumluluk sınırlamaları:",
+        "paragraph1": "Sitemiz, içeriklerin doğruluğu veya yeterliliği konusunda garanti vermez ve içeriklerdeki hatalardan sorumlu değildir."
+      }
+    },
+    "customerData": {
+      "title": "11. Müşteri, Muhtemel Müşteri, İş ve Çözüm Ortakları Verisi",
+      "section1": {
+        "title": "1. Sözleşme İlişkisi İçin Verilerin Toplanması ve İşlenmesi",
+        "paragraph1": "Müşteriler ve muhtemel müşterilerle bir sözleşme ilişkisi kurulmuşsa, toplanan kişisel veriler sözleşme amacı doğrultusunda onay alınmaksızın kullanılabilir. Veriler gerektiğinde güncellenir."
+      },
+      "section2": {
+        "title": "2. İş ve Çözüm Ortakları Verileri",
+        "paragraph1": "turna.io, iş ve çözüm ortaklarıyla veri paylaşımında hukuka uygun davranır. Veriler gizlilik taahhüdü ile ve hizmetin gerektirdiği kadar paylaşılır."
+      }
+    },
+    "advertising": {
+      "title": "12. Reklam Amaçlı Veri İşleme",
+      "paragraph1": "E‑Ticaretin Düzenlenmesi Hakkındaki Kanun ile Ticari İletişim ve Ticari Elektronik İletiler Hakkında Yönetmeliğe uygun olarak, yalnızca onay vermiş kişilere reklam amaçlı elektronik ileti gönderilir. Onay, fiziksel veya elektronik ortamda alınabilir."
+    },
+    "legalProcessing": {
+      "title": "13. Şirketin Hukuki Yükümlülüğü veya Kanunda Açıkça Öngörülmesi Sebebiyle Veri İşleme",
+      "paragraph1": "Kişisel veriler, ilgili mevzuatta açıkça öngörülmesi veya hukuki yükümlülüğün yerine getirilmesi amacıyla onay alınmaksızın işlenebilir."
+    },
+    "companyProcessing": {
+      "title": "14. Şirketin Veri İşlemesi",
+      "paragraph1": "Kişisel veriler, şirketin sunduğu hizmet ve meşru amaçları doğrultusunda işlenebilir ancak hukuka aykırı hizmetlerde kullanılamaz."
+    },
+    "sensitiveData": {
+      "title": "15. Özel Nitelikli Verilerin İşlenmesi",
+      "paragraph1": "turna.io, özel nitelikli kişisel verileri işlerken Kurul tarafından belirlenen yeterli önlemleri alır ve “Özel Nitelikli Kişisel Verilerin Korunması ve İşlenmesi Politikası”na uygun hareket eder."
+    },
+    "automatedData": {
+      "title": "16. Otomatik Sistemlerle İşlenen Veriler",
+      "paragraph1": "Otomatik sistemlerle işlenen verilerde turna.io, Kanuna uygun davranır. Elde edilen bilgiler, kişinin açık rızası olmadan aleyhine kullanılmaz."
+    },
+    "employeeData": {
+      "title": "17. Çalışanlarımıza Ait Veriler",
+      "section1": {
+        "title": "1. İş İlişkisi İçin Verilerin İşlenmesi",
+        "paragraph1": "Çalışanların kişisel verileri, iş ilişkisi ve sağlık sigortası için gerekli olduğu sürece onaysız işlenebilir. turna.io, çalışan verilerinin gizliliğini temin eder."
+      },
+      "section2": {
+        "title": "2. Hukuki Yükümlülükler Gereği İşleme",
+        "paragraph1": "turna.io, çalışan verilerini mevzuatta açıkça belirtilen durumlarda onay almadan işleyebilir."
+      },
+      "section3": {
+        "title": "3. Çalışanların Yararına İşlemeler",
+        "paragraph1": "turna.io, çalışanların menfaatine olan işlemler için onay almadan kişisel verileri işleyebilir."
+      },
+      "section4": {
+        "title": "4. Özel Nitelikli Verilerin İşlenmesi",
+        "paragraph1": "turna.io, özel nitelikli verileri işlerken ilgili kişinin onayı yanında Kurul’un belirlediği ek önlemleri alır.",
+        "paragraph2": "Özel nitelikli veriler, kanunda izin verilen durumlarla sınırlı olarak işlenebilir."
+      },
+      "section5": {
+        "title": "5. Otomatik Sistemlerle İşlenen Veriler",
+        "paragraph1": "Çalışan verileri, terfi ve performans değerlendirmelerinde kullanılabilir. Çalışanlar itiraz haklarını şirket prosedürlerine uygun olarak kullanabilir."
+      },
+      "section6": {
+        "title": "6. Telekomünikasyon ve İnternet",
+        "paragraph1": "Şirketçe tahsis edilen bilgisayar, telefon ve e‑posta sadece iş amaçlıdır. Çalışan, bu araçları kişisel amaçlarla kullanamaz; şirket bu araçlardaki tüm verileri denetleyebilir."
+      }
+    },
+    "dataTransfer": {
+      "title": "18. Kişisel Verilerin Yurt İçi ve Dışına Aktarılması",
+      "paragraph1": "turna.io, hizmetin gereği olarak kişisel verileri hâkim hissedar, iş ve çözüm ortaklarıyla paylaşabilir. turna.io, tedarikçilerine sınırlı olarak veri aktarabilir ve Kurul şartlarına uygun biçimde yurt içi/dışı aktarım yapabilir."
+    },
+    "dataSubjectRights": {
+      "title": "19. İlgili Kişinin Hakları",
+      "paragraph1": "turna.io, veriler işlenmeden önce ilgili kişinin onayını alma ve sonrasında verisinin kaderini tayin edebilme hakkına saygı duyar.",
+      "point1": "Kişisel verilerin işlenip işlenmediğini öğrenme,",
+      "point2": "Kişisel veriler işlenmişse buna ilişkin bilgi talep etme,",
+      "point3": "İşleme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme,",
+      "point4": "Verilerin aktarıldığı üçüncü kişileri bilme,",
+      "point5": "Eksik veya yanlış verilerin düzeltilmesini isteme,",
+      "point6": "Şartlar oluştuğunda verilerin silinmesini veya yok edilmesini isteme,",
+      "point7": "Yapılan işlemlerin üçüncü kişilere bildirilmesini isteme,",
+      "point8": "Otomatik sistemlerce analiz sonucu aleyhe çıkan duruma itiraz etme,",
+      "point9": "Zararın giderilmesini talep etme.",
+      "paragraph2": "Anonimleştirilmiş veriler için hak talep edilemez. turna.io, yargısal görev veya devlet otoritesinin hukuki yetkisi kapsamında verileri paylaşabilir.",
+      "paragraph3": "Başvurular resmi internet adresimizden yapılabilir; sadece başvuranın kendisiyle ilgili kısım cevaplanır."
+    },
+    "confidentialityPrinciple": {
+      "title": "20. Gizlilik İlkesi",
+      "paragraph1": "turna.io’daki çalışan veya diğer kişilere ait veriler gizlidir. Kimse bu verileri sözleşme veya kanun dışı amaçlarla kullanamaz, kopyalayamaz, çoğaltamaz veya aktarmaz."
+    },
+    "security": {
+      "title": "21. İşlem Güvenliği",
+      "paragraph1": "turna.io, kişisel verilerin korunması için gerekli teknik ve idari tedbirleri alır; yazılımların standartlara uygunluğunu ve üçüncü taraf seçimini titizlikle yürütür."
+    },
+    "audit": {
+      "title": "22. Denetim",
+      "paragraph1": "turna.io, kişisel verilerin korunması konusunda gerekli iç ve dış denetimleri yaptırır."
+    },
+    "violations": {
+      "title": "23. İhlallerin Bildirimi",
+      "paragraph1": "Kişisel verilerle ilgili ihlal bildirildiğinde turna.io derhal harekete geçer, zararı en aza indirir ve durumu Kişisel Verileri Koruma Kurulu’na bildirir.",
+      "paragraph2": "İhlal bildirimleri için kurumsal internet adresimizdeki usullere göre başvuru yapabilirsiniz."
+    },
+    "changes": {
+      "title": "24. Gizlilik Politikasındaki Değişiklikler",
+      "paragraph1": "turna.io, “Gizlilik Politikası” hükümlerini dilediği zaman sitede yayınlayarak veya e‑posta ile kullanıcıları bilgilendirerek değiştirebilir. Değişiklikler yayınlandığı tarihte yürürlüğe girer.",
+      "paragraph2": "turna.io sitesini ziyaret eden her kullanıcı, bu gizlilik politikası hükümlerini kabul etmiş sayılır. Lütfen siteyi kullanmadan önce “Kullanım Koşulları”nı da inceleyiniz."
+    }
+  },
+  "contactUs": {
+    "title": "Bizimle İletişime Geçin",
+    "subtitle": "Sorularınız, önerileriniz veya iş birliği talepleriniz için bize ulaşabilirsiniz. Size en kısa sürede geri dönüş yapacağız.",
+    "form": {
+      "firstName": "Ad",
+      "firstNamePlaceholder": "Adınızı girin",
+      "lastName": "Soyad", 
+      "lastNamePlaceholder": "Soyadınızı girin",
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "phone": "Telefon",
+      "phonePlaceholder": "Telefon numaranızı girin",
+      "company": "Şirket",
+      "companyPlaceholder": "Şirket adınızı girin",
+      "message": "Mesaj",
+      "messagePlaceholder": "Mesajınızı buraya yazın",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor...",
+      "submitSuccess": "Mesajınız başarıyla gönderildi!",
+      "errors": {
+        "firstName": "Ad gereklidir",
+        "lastName": "Soyad gereklidir",
+        "emailInvalid": "Geçerli bir e-posta adresi girin",
+        "emailRequired": "E-posta gereklidir",
+        "message": "Mesaj en az 10 karakter olmalıdır",
+        "messageRequired": "Mesaj gereklidir"
+      }
+    },
+    "officeInfo": {
+      "title": "Ofis Bilgileri",
+      "hours": "Hafta içi 09:00 - 18:00"
+    }
+  },
+  "resources": {
+    "title": "Kaynaklar",
+    "subtitle": "Teknik dokümantasyonumuza erişin ve Bluetooth teknolojisi hakkında bilgi edinin.",
+    "technicalDocs": "Teknik Dokümanlar",
+    "bluetoothTech": "Bluetooth Teknolojisi",
+    "downloadStarted": "İndirme Başladı",
+    "doc1Name": "RTLS Teknolojisi Genel Bakış",
+    "doc2Name": "İç Mekan Konumlandırma Sistemleri",
+    "doc3Name": "API Dokümantasyonu",
+    "doc4Name": "Sistem Entegrasyon Kılavuzu",
+    "bluetooth1Name": "Bluetooth Beacon Teknolojisi",
+    "bluetooth2Name": "Bluetooth Uygulamaları",
+    "bluetooth3Name": "Bluetooth ile Varlık Takibi",
+    "needHelp": "Yardıma mı İhtiyacınız Var?",
+    "contactSupport": "Kaynaklarımız hakkında daha fazla bilgi için destek ekibimizle iletişime geçin.",
+    "contactUs": "Bize Ulaşın",
+    "gridView": "Izgara Görünümü",
+    "listView": "Liste Görünümü"
+  }
+}

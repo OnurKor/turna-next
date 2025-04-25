@@ -1,0 +1,774 @@
+
+{
+  "navbar": {
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "company": "Company",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "demo": "Login"
+  },
+  "hero": {
+    "tagline": "Gateway to the Future with Data",
+    "title": "Data Analysis and",
+    "titleHighlight": "IoT Solutions",
+    "description": "We provide smart solutions that transform your business data into meaningful insights, shaping the future.",
+    "solutions": "Our Solutions",
+    "contact": "Get in Touch",
+    "dataEmpowerment": "Data Empowerment",
+    "dataDescription": "We analyze your data in real-time and provide actionable insights to help grow your business.",
+    "liveAnalysis": "Live analysis active"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "benefits": "Benefits",
+    "useCases": "Use Cases",
+    "technicalDetails": "Technical Details",
+    "contactForDetails": "Contact Us for Details",
+    "successStories": "Success Stories",
+    "successStoriesDesc": "Successes our customers have achieved with our RTLS solutions",
+    "testimonialQuote": "Thanks to Turna.io RTLS solutions, we increased efficiency in our production processes by 30% and significantly reduced our operational costs.",
+    "testimonialAuthor": "John Smith",
+    "testimonialCompany": "Production Manager, XYZ Industry Inc.",
+    "relatedSolutions": "Related Solutions",
+    "relatedSolution": "Related Solution",
+    "relatedSolutionDesc": "Optimize your business processes and increase efficiency with the advantages provided by RTLS technology."
+  },
+  "indoorSolutions": {
+    "title": "Indoor RTLS Solutions",
+    "realTimeNavigation": "Real-Time Navigation (Indoor)",
+    "employeeSafety": "Employee Safety",
+    "forkliftTracking": "Forklift Tracking",
+    "forkliftAccidentPrevention": "Forklift Accident Prevention",
+    "assetTracking": "Asset Tracking System",
+    "personnelTracking": "Personnel Tracking System",
+    "smartBuilding": "Smart Building Management",
+    "descriptions": {
+      "realTimeNavigation": "Easy navigation solutions for visitors and employees in complex buildings",
+      "employeeSafety": "Smart technologies that ensure the safety of your employees and prevent workplace accidents",
+      "forkliftTracking": "Track forklifts and AGVs to improve operational efficiency and workplace safety",
+      "forkliftAccidentPrevention": "Maximize safety with automatic collision avoidance systems",
+      "assetTracking": "Track your equipment and assets in real time and prevent losses",
+      "personnelTracking": "Monitor the indoor locations of employees to enhance productivity and safety",
+      "smartBuilding": "Optimize building operations and save energy with IoT sensors"
+    }
+  },
+  "sectoralSolutions": {
+    "title": "Sectoral RTLS Applications",
+    "manufacturing": "Manufacturing Sector",
+    "logistics": "Logistics and Warehousing",
+    "healthcare": "Healthcare Services",
+    "entertainment": "Entertainment",
+    "security": "Security and Emergency Management",
+    "retail": "Retail and Shopping",
+    "descriptions": {
+      "healthcare": "Enhance patient care and operational efficiency with RTLS solutions specially designed for hospitals",
+      "manufacturing": "Optimize workflows in factories and production facilities with RTLS solutions",
+      "logistics": "Improve inventory management and shipping processes in warehouses and logistics centers",
+      "entertainment": "RTLS solutions to improve customer experience and optimize entertainment area operations",
+      "security": "Solutions for quick response in emergencies through tracking of security personnel and critical assets",
+      "retail": "Solutions that analyze customer behavior to boost sales and enhance the shopping experience"
+    }
+  },
+  "languageSelector": {
+    "tr": "TR",
+    "en": "EN"
+  },
+  "features": {
+    "title": "Why Turna.io?",
+    "subtitle": "Turkey's leading RTLS and IoT solution provider",
+    "precisionTracking": "Precision Tracking",
+    "precisionDescription": "Real-time location technology with 3-5 cm accuracy",
+    "lowInfrastructure": "Low Infrastructure Requirements",
+    "infrastructureDescription": "Quick installation and easy integration with minimal hardware",
+    "realTimeData": "Real-Time Data",
+    "realTimeDescription": "Instant location updates and data analysis",
+    "customSolutions": "Customized Solutions",
+    "customDescription": "Custom solution development for every sector and need",
+    "seamlessIntegration": "Seamless Integration",
+    "integrationDescription": "100% compatible integration and data flow with existing systems",
+    "dataSecurity": "Data Security",
+    "securityDescription": "Data protection and privacy at the highest security standards"
+  },
+  "solutions": {
+    "title": "Our Solutions",
+    "description": "Powerful, innovative and efficient RTLS solutions with Turna.io",
+    "indoorSolutions": "Indoor RTLS Solutions",
+    "indoorDescription": "Optimize your indoor operations with indoor positioning and tracking systems",
+    "sectoralSolutions": "Sectoral RTLS Applications",
+    "sectoralDescription": "Specialized solutions for different sectors with real-time location systems",
+    "learnMore": "Learn More",
+    "allSolutions": "All Our Solutions",
+    "rtlsTitle": "Real-Time Location Tracking Technologies",
+    "rtlsDesc": "Turna.io offers leading solutions in the field of real-time location systems (RTLS). Optimize your business processes with our technologies specially designed to increase your business's operational efficiency, ensure security, and improve customer experience.",
+    "rtlsDesc2": "Turna.io's RTLS solutions are designed to increase operational efficiency, improve safety, and reduce costs, especially in industrial environments.",
+    "whatWeOffer": "What Our Solution Offers",
+    "moreInfo": "More Information",
+    "moreInfoDesc": "You can visit our FAQ page or contact us directly to learn more about RTLS technology and applications.",
+    "faqs": "Frequently Asked Questions",
+    "contactUs": "Contact Us"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our RTLS solutions and services",
+    "seeAll": "See All FAQs",
+    "pageTitle": "Frequently Asked Questions",
+    "pageSubtitle": "Comprehensive information about Turna.io RTLS solutions, technology and applications",
+    "questions": {
+      "rtlsSystem": "What is an RTLS system?",
+      "wearableDevices": "In which areas are wearable devices used?",
+      "installationTime": "How long does it take to install an RTLS system?",
+      "softwareSupport": "What level of software support is provided?",
+      "applicableSectors": "In which sectors can turna.io solutions be applied?",
+      "indoorOutdoor": "Does your system work in both indoor and outdoor areas?",
+      "forkliftSystem": "How does the forklift accident prevention system work?",
+      "personnelTracking": "How does the personnel tracking system contribute to occupational health?",
+      "assetTracking": "Is asset tracking only applicable for fixed assets?",
+      "systemIntegration": "Can your system be integrated with existing ERP or WMS systems?"
+    },
+    "answers": {
+      "rtlsSystem": "Real-Time Location Tracking System (RTLS) is a technological solution that enables high-precision tracking of the instant locations of assets such as people, vehicles, and equipment. turna.io uses Bluetooth and AI-supported infrastructures in its RTLS solutions.",
+      "wearableDevices": "Our wearable sensor devices are used in a wide range of environments from manufacturing facilities to hospitals, from logistics centers to retail areas. They provide support in critical areas such as personnel safety, emergency tracking, area-based access, and efficiency analysis.",
+      "installationTime": "Installation time varies depending on the size of the facility and requirements. Hardware placement, software integration, and testing phases are typically completed within a few days. We offer on-site exploration services for process planning.",
+      "softwareSupport": "We provide our customers with user-friendly web and mobile interfaces, along with customizable data reporting, alarm management, user roles, and API integration support. Our software team offers sustainable maintenance and support services after installation.",
+      "applicableSectors": "We offer specialized solutions for numerous sectors such as manufacturing, logistics, healthcare, retail, entertainment, and public safety. We scale and integrate our RTLS systems according to the needs of each sector.",
+      "indoorOutdoor": "Yes. Our system is designed to work in both indoor and outdoor areas. High-precision tracking can be achieved outdoors through a combination of GPS and BLE technologies.",
+      "forkliftSystem": "AI-supported camera systems continuously scan the surroundings of vehicles such as forklifts and detect potential collision risks in advance. Automatic braking or warning mechanisms are activated in case of danger.",
+      "personnelTracking": "The areas where personnel are located are monitored in real-time, and quick intervention can be provided with emergency buttons. Additionally, spending too much time in certain areas or risky situations are analyzed by the system and reported to management.",
+      "assetTracking": "No. turna.io's asset tracking systems can be applied to all types of assets including tools, devices, vehicles, equipment, and even portable materials. It is supported by functions such as impact detection and loss/exit tracking.",
+      "systemIntegration": "Yes. The turna.io platform can be easily integrated with existing ERP (Enterprise Resource Planning) or WMS (Warehouse Management System) infrastructures through open API support."
+    }
+  },
+  "contactCTA": {
+    "title": "Learn About Our Solutions",
+    "description": "Contact us for RTLS solutions tailored to your industry and needs.",
+    "contactUs": "Contact Us",
+    "demo": "Request a Demo"
+  },
+  "company": {
+    "title": "About Us",
+    "subtitle": "Innovation and expertise in real-time location systems",
+    "about": "About Us",
+    "aboutTurna": "Turna.io Company View",
+    "aboutText": "turna.io is a technology company specializing in real-time human and asset location tracking, with expertise in R&D, design, and production. Our company integrates Bluetooth and AI-supported IoT technologies to minimize human errors, ensure effective management of operational processes, and reduce business costs, offering innovative, sustainable, and high value-added solutions specific to the industry.",
+    "rnd": "R&D Focused",
+    "rndDesc": "Continuous development with innovative technologies",
+    "trustSolutions": "Reliable Solutions",
+    "trustSolutionsDesc": "Service at high quality standards",
+    "expertTeam": "Expert Team",
+    "expertTeamDesc": "Experienced professionals in their field",
+    "sectorSpecific": "Sector Specific",
+    "sectorSpecificDesc": "Customized solutions for needs",
+    "missionVision": "Mission & Vision",
+    "mission": "Our Mission",
+    "missionText": "To contribute to the creation of smarter, safer, and more efficient businesses with the innovative solutions we develop in the field of IoT technologies; to be a reliable business partner in our customers' digital transformation journeys.",
+    "vision": "Our Vision",
+    "visionText": "To become an industry-leading and reliable technology company that increases the operational efficiency of businesses with high-quality and technology-focused solutions we offer in domestic and international markets.",
+    "technology": "Turna.io Technology",
+    "technologySolutions": "Technology-Focused Solutions",
+    "technologySolutionsText": "We offer industry-specific solutions by integrating Bluetooth and AI-supported IoT technologies. Our goal is to minimize human errors and ensure effective management of operational processes.",
+    "realTimeTracking": "Real-time location tracking",
+    "aiIotSolutions": "AI-supported IoT solutions",
+    "sectorSpecificSolutions": "Sector-specific innovative solutions",
+    "values": "Our Values",
+    "valuesItems": {
+      "innovation": "Innovation",
+      "innovationText": "Continuously pushing the boundaries of what's possible with RTLS technology",
+      "excellence": "Excellence",
+      "excellenceText": "Delivering the highest quality solutions and exceptional customer service",
+      "integrity": "Integrity",
+      "integrityText": "Acting with honesty, transparency, and ethical responsibility in all we do",
+      "collaboration": "Collaboration",
+      "collaborationText": "Working together with our clients and partners to achieve shared success"
+    },
+    "team": "Our Team",
+    "teamText": "Experienced professionals dedicated to revolutionizing location tracking technology",
+    "history": "Our History",
+    "historyText": "Founded in 2018, Turna.io has been at the forefront of RTLS innovation, helping organizations across multiple industries optimize their operations."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for more information or to request a demo",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "submitSuccess": "Thank you for your message. We'll get back to you shortly.",
+      "submitError": "There was an error sending your message. Please try again."
+    },
+    "officeInfo": {
+      "title": "Office Information",
+      "address": "Teknopark Istanbul, Sanayi Mah. Teknopark Bulvari, 34906 Pendik/Istanbul",
+      "phone": "+90 (216) 000 00 00",
+      "email": "turna.bilisim.io@gmail.com",
+      "hours": "Mon-Fri: 9:00 AM - 6:00 PM"
+    },
+    "demoRequest": {
+      "title": "Request a Demo",
+      "text": "Interested in seeing our RTLS solutions in action? Schedule a personalized demo with one of our experts.",
+      "button": "Request Demo"
+    }
+  },
+  "footer": {
+    "solutions": "Solutions",
+    "indoorSolutions": "Indoor Solutions",
+    "sectoralSolutions": "Sectoral Solutions",
+    "company": "Company",
+    "about": "About",
+    "careers": "Careers",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies",
+    "copyright": "© 2024 Turna.io. All rights reserved.",
+    "address": "Address: Teknopark Istanbul, Sanayi Mah. Teknopark Bulvari, 34906 Pendik/Istanbul",
+    "phone": "Phone: +90 (216) 000 00 00",
+    "email": "Email: turna.bilisim.io@gmail.com"
+  },
+  "indoorNavigation": {
+    "title": "Real-Time Indoor Navigation",
+    "subtitle": "Precise positioning and wayfinding solutions for indoor spaces",
+    "offerDescription": "Our indoor navigation solution enables people to easily find their way in complex buildings and facilities. Our high-precision positioning technology guides users to their destinations via the shortest and most suitable route.",
+    "features": {
+      "precisePositioning": "Precise Positioning",
+      "precisePositioningDesc": "Accurate location detection in indoor environments with 1-3 meter precision",
+      "dynamicRouting": "Dynamic Routing",
+      "dynamicRoutingDesc": "Calculate and update optimal routes based on real-time conditions",
+      "navigation3D": "3D Navigation",
+      "navigation3DDesc": "Floor transitions and 3D wayfinding in multi-story buildings",
+      "searchFunctionality": "Easy Search Feature",
+      "searchFunctionalityDesc": "Quickly search for destinations, people, or important areas",
+      "multiFloor": "Multi-Floor Building Support",
+      "multiFloorDesc": "Floor transition directions including elevators, stairs, and ramps",
+      "realTime": "Real-Time Updates",
+      "realTimeDesc": "Seamless navigation with instant notifications and route updates"
+    },
+    "useCaseHospitals": "Hospitals",
+    "useCaseHospitalsDesc": "Patients and visitors can easily navigate complex hospital environments",
+    "useCaseShoppingMalls": "Shopping Malls",
+    "useCaseShoppingMallsDesc": "Visitors can easily find stores, restaurants, and service points",
+    "useCaseAirports": "Airports",
+    "useCaseAirportsDesc": "Passengers can find check-in, security, and gates on time",
+    "useCaseFactories": "Manufacturing Facilities",
+    "useCaseFactoriesDesc": "Staff and visitors can navigate large production areas",
+    "useCaseCampuses": "Campuses",
+    "useCaseCampusesDesc": "Students and visitors can easily navigate educational facilities",
+    "useCaseOffices": "Office Complexes",
+    "useCaseOfficesDesc": "Employees and visitors can find meeting rooms and workspaces in large office buildings",
+    "techFeature1": "High-precision positioning with UWB, BLE, and WiFi technologies",
+    "techFeature2": "Augmented reality (AR) supported visual navigation option",
+    "techFeature3": "Real-time environmental information integrated with IoT sensors",
+    "techFeature4": "Location-based notifications and content delivery",
+    "techFeature5": "Customizable interface and white-label solutions"
+  },
+  "employeeSafety": {
+    "title": "Employee Safety",
+    "subtitle": "Take workplace safety to the next level with real-time monitoring",
+    "description": "Our employee safety solution continuously monitors personnel location and safety. It sends automatic emergency notifications in dangerous situations and significantly reduces response times.",
+    "features": {
+      "realTimeMonitoring": "Real-Time Monitoring",
+      "realTimeMonitoringDesc": "View all employees' locations and status in real-time",
+      "dangerAlerts": "Danger Alerts",
+      "dangerAlertsDesc": "Automatic warnings for entry into dangerous areas or emergencies",
+      "teamManagement": "Team Management",
+      "teamManagementDesc": "Effectively coordinate team distribution and tasks",
+      "wearableTech": "Wearable Technology",
+      "wearableTechDesc": "Advanced safety equipment offering comfort and functionality for employees",
+      "preventiveSecurity": "Preventive Security",
+      "preventiveSecurityDesc": "Take preventive measures by detecting accident risks in advance",
+      "realTimeAlarm": "Real-Time Alarm",
+      "realTimeAlarmDesc": "Instant notification and response coordination in emergencies"
+    },
+    "useCasesTypes": {
+      "mining": "Mining",
+      "miningDesc": "Employee safety and emergency response in underground mining",
+      "construction": "Construction Sector",
+      "constructionDesc": "Safety management and accident prevention in high-risk construction sites",
+      "chemicalIndustry": "Chemical Industry",
+      "chemicalIndustryDesc": "Safety protocols in environments with hazardous chemicals",
+      "oilAndGas": "Oil and Gas",
+      "oilAndGasDesc": "Management of high-risk areas in drilling and refinery operations"
+    },
+    "techFeatures": {
+      "1": "Impact and fall detection sensors",
+      "2": "Two-way voice communication",
+      "3": "SOS button and panic alarm",
+      "4": "12+ hours battery life",
+      "5": "IP67 water and dust resistance",
+      "6": "Location detection with 3-5 meter precision"
+    }
+  },
+  "manufacturingSolutions": {
+    "title": "Manufacturing Sector Solutions",
+    "subtitle": "RTLS technology to optimize your production processes and increase efficiency",
+    "description": "Real-Time Location Systems (RTLS) enable optimization of production processes by instantly tracking the locations of employees, machines, raw materials, and products in manufacturing facilities. This technology increases production efficiency while reducing costs and improving workplace safety.",
+    "features": {
+      "productionOptimization": "Production Optimization",
+      "productionOptimizationDesc": "Increase efficiency and reduce costs by tracking production processes in real-time.",
+      "assetManagement": "Asset Management",
+      "assetManagementDesc": "Optimize maintenance processes by monitoring the location and status of equipment and machinery.",
+      "qualityControl": "Quality Control",
+      "qualityControlDesc": "Immediate detection of production errors for quick intervention and maintenance of quality standards.",
+      "workforceTracking": "Workforce Tracking",
+      "workforceTrackingDesc": "Improve work processes by collecting location and performance data of employees.",
+      "dataAnalytics": "Data Analytics",
+      "dataAnalyticsDesc": "Identify improvement opportunities in production processes by analyzing collected data.",
+      "automationIntegration": "Automation Integration",
+      "automationIntegrationDesc": "Create smart production lines by integrating RTLS systems with automation solutions."
+    },
+    "useCases": {
+      "automotive": "Automotive Industry",
+      "automotiveDesc": "Tracking vehicle parts and optimizing assembly processes in automotive production lines.",
+      "electronics": "Electronics Manufacturing",
+      "electronicsDesc": "Tracking and quality control of electronic components and PCBs during production stages.",
+      "foodProcessing": "Food Processing",
+      "foodProcessingDesc": "Tracking raw materials and products during production for food safety and traceability.",
+      "pharmaceutical": "Pharmaceutical Manufacturing",
+      "pharmaceuticalDesc": "Tracking raw materials and finished products in pharmaceutical production to ensure regulatory compliance.",
+      "aerospace": "Aerospace",
+      "aerospaceDesc": "Precise tracking of complex aerospace components during production and assembly processes.",
+      "heavyIndustry": "Heavy Industry",
+      "heavyIndustryDesc": "Tracking material flow and assembly processes in the production of large industrial equipment."
+    },
+    "benefits": {
+      "productivity": "Productivity Increase",
+      "productivityDesc": "You can increase productivity by up to 25% by identifying bottlenecks in production processes through real-time monitoring.",
+      "quality": "Quality Improvement",
+      "qualityDesc": "Reduce scrap rates and increase customer satisfaction by detecting production errors early.",
+      "safety": "Workplace Safety",
+      "safetyDesc": "Significantly reduce workplace accidents by defining hazardous areas and monitoring employees.",
+      "costReduction": "Cost Savings",
+      "costReductionDesc": "Reduce costs by preventing unnecessary equipment purchases and optimizing the use of existing assets."
+    }
+  },
+  "entertainmentSolutions": {
+    "title": "Entertainment Industry Solutions",
+    "subtitle": "RTLS technology to enhance visitor experience and improve operational efficiency",
+    "description": "RTLS technology allows you to provide unique experiences by tracking the locations and movements of visitors in entertainment and event venues. These solutions enhance visitor satisfaction while improving operational efficiency in theme parks, museums, concerts, stadiums, and other entertainment venues.",
+    "features": {
+      "indoorNavigation": "Indoor Navigation",
+      "indoorNavigationDesc": "Navigation solutions offering easy wayfinding in complex venues for visitors.",
+      "visitorAnalytics": "Visitor Analytics",
+      "visitorAnalyticsDesc": "Analyze visitor behaviors and preferences to provide better service.",
+      "crowdManagement": "Crowd Management",
+      "crowdManagementDesc": "Detect crowded areas to manage crowds and improve visitor experience.",
+      "assetTracking": "Equipment Tracking",
+      "assetTrackingDesc": "Monitor locations of valuable equipment to prevent losses and optimize maintenance processes.",
+      "staffManagement": "Staff Management",
+      "staffManagementDesc": "Track staff locations to improve service quality and quick response in emergencies.",
+      "accessControl": "Access Control",
+      "accessControlDesc": "Control access to VIP areas and special sections to enhance security."
+    },
+    "optimize": "Optimize Your Entertainment Facilities with RTLS",
+    "optimizeDesc": "Contact us to improve visitor experience, increase operational efficiency, and reduce costs.",
+    "freeDemo": "Request a Free Demo"
+  },
+  "forkliftTracking": {
+    "title": "Forklift Tracking",
+    "description": "Track forklifts and AGVs to improve operational efficiency and workplace safety",
+    "features": {
+      "realTimeTracking": "Real-Time Tracking",
+      "realTimeTrackingDesc": "Track forklifts and AGVs in real-time and receive alerts for potential collisions",
+      "locationAccuracy": "Location Accuracy",
+      "locationAccuracyDesc": "High-precision tracking with 3-5 cm accuracy",
+      "safetyAlerts": "Safety Alerts",
+      "safetyAlertsDesc": "Automatic collision avoidance systems and emergency notifications"
+    }
+  },
+  "forkliftAccidentPrevention": {
+    "title": "Forklift Accident Prevention",
+    "description": "Maximize safety with automatic collision avoidance systems",
+    "features": {
+      "realTimeDetection": "Real-Time Detection",
+      "realTimeDetectionDesc": "AI-supported camera systems continuously scan the surroundings of vehicles such as forklifts and detect potential collision risks in advance",
+      "automaticResponse": "Automatic Response",
+      "automaticResponseDesc": "Automatic braking or warning mechanisms are activated in case of danger"
+    }
+  },
+  "assetTracking": {
+    "title": "Asset Tracking",
+    "description": "Track your equipment and assets in real time and prevent losses",
+    "features": {
+      "realTimeTracking": "Real-Time Tracking",
+      "realTimeTrackingDesc": "Track equipment and assets in real-time and receive alerts for potential losses",
+      "locationAccuracy": "Location Accuracy",
+      "locationAccuracyDesc": "High-precision tracking with 3-5 cm accuracy",
+      "safetyAlerts": "Safety Alerts",
+      "safetyAlertsDesc": "Automatic collision avoidance systems and emergency notifications"
+    }
+  },
+  "personnelTracking": {
+    "title": "Personnel Tracking",
+    "description": "Monitor the indoor locations of employees to enhance productivity and safety",
+    "features": {
+      "realTimeMonitoring": "Real-Time Monitoring",
+      "realTimeMonitoringDesc": "Monitor the indoor locations of employees in real-time",
+      "locationAccuracy": "Location Accuracy",
+      "locationAccuracyDesc": "High-precision tracking with 3-5 cm accuracy",
+      "safetyAlerts": "Safety Alerts",
+      "safetyAlertsDesc": "Automatic collision avoidance systems and emergency notifications"
+    }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "introduction": {
+      "paragraph1": "Please read the 'Terms and Conditions' of this site carefully before using the turna.io website. By using or accessing this site, you are assumed to accept the terms and conditions specified below. If you do not accept the terms of use, please do not use this website.",
+      "paragraph2": "This agreement imposes rights and obligations on the parties regarding the subject site and the parties declare that they will fulfill the mentioned rights and obligations completely, correctly, in a timely manner, within the conditions requested in this agreement when they accept this agreement."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property Rights",
+      "paragraph1": "All trademarks, logos, images, designs, information and electronic graphics or technical data, computer software and all materials presented in machine-readable form in this site, with the general appearance and design of this site and at the internet address, and all registered or unregistered intellectual property rights related to them belong to the site operator and owner turna.io, and are under the protection of national and international law. Visiting this site or benefiting from the services on this site does not grant any rights regarding the aforementioned intellectual property rights.",
+      "paragraph2": "No material, code and software on the website can be changed, copied, reproduced, republished, presented, distributed, uploaded to another computer or transferred. The entire or part of the website cannot be used on another website without permission. All rights of our site that are explicitly stated here are reserved."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "paragraph1": "Some materials on the site, unless otherwise claimed, have been taken from the internet and are assumed to be in public use. If there is a copyright infringement in such materials, this has been done in a completely unintentional manner and without advertising purposes, and the material will be removed immediately when the copyright infringement is proven."
+    },
+    "responsibilities": {
+      "title": "Responsibilities",
+      "paragraph1": "Our site reserves the right to make changes to the contents and services offered at any time. The user accepts in advance that they will not reverse engineer the use of the site or engage in any other action aimed at finding or obtaining the source code, otherwise they will be responsible for the damages that will occur to 3rd parties, and legal and criminal proceedings will be initiated against them.",
+      "paragraph2": "The user agrees not to produce and share content that is contrary to general morality and decency, contrary to the law, violates the rights of 3rd parties, misleading, aggressive, obscene, pornographic, violates personality rights, violates copyrights, or encourages illegal activities in their activities on the site, in any part of the site or in their communications.",
+      "paragraph3": "Otherwise, they are solely responsible for the damage that will occur, and in this case, site authorities reserve the right to suspend, terminate, and initiate legal proceedings against such accounts. For this reason, it reserves the right to share if there are information requests from judicial authorities regarding activities or user accounts. The relationships of the site's members with each other or with third parties are their own responsibility."
+    },
+    "linking": {
+      "title": "Linking Conditions",
+      "paragraph1": "Our site offers you permission to link to our site or any post on our site with a non-exclusive, limited license, with permission that can be canceled at our initiative. But this site should not be in competition with our site, should not criticize us in a harmful way. Also, the site where the link is published should not have any inappropriate content, should not violate the privacy rights, terms of use or legal rights of others specified by us, or should not have any inappropriate, disturbing, harmful, illegal content or violate the conditions and working principle we specified in any way."
+    },
+    "mobileAccess": {
+      "title": "Connecting from a Mobile Device",
+      "paragraph1": "Our site may offer you certain services that you can access from your mobile device. These services include uploading content from your mobile device to the site, being able to make certain content purchases, being able to respond to messages, or being able to send content, messaging with text messages, and accessing our website from your mobile device. Our site does not currently charge a fee for mobile services. But your operator's normal messaging, data and other charges will still apply."
+    },
+    "security": {
+      "title": "Registration and Security",
+      "paragraph1": "The user is obliged to provide correct, complete and up-to-date registration information. Otherwise, this agreement will be deemed violated and the user account can be closed without informing the user. The user is responsible for password and account security on the site and third-party sites. Otherwise, our site cannot be held responsible for data losses and security breaches or damage to hardware and devices."
+    },
+    "privacy": {
+      "title": "Privacy",
+      "paragraph1": "In addition to these terms of use, our site has published a Privacy and Security Policy that explains the information collected by our site and how this information will be used by our site."
+    },
+    "changes": {
+      "title": "Changes to the Agreement",
+      "paragraph1": "Our site may change the services offered on the site and the terms of this agreement in part or in full at any time. Changes will be effective from the date they are published on the site. It is the user's responsibility to follow the changes. The user is deemed to have accepted these changes by continuing to benefit from the offered services."
+    },
+    "dataProtection": {
+      "title": "turna.io Personal Data Protection Statement and Information Text",
+      "paragraph1": "The protection of your personal data and private information is valuable to us at turna.io. Therefore, we show all the necessary effort and care in processing and preserving the personal data of individuals associated with turna.io in accordance with the Personal Data Protection Law No. 6698 (\"KVKK\"). As the Data Controller, turna.io takes all administrative and technical measures required to protect your data in all transactions related to your personal data, and processes your personal data within the limits and conditions stipulated in the legislation in line with the KVKK. Personal information recorded during visits to our website is processed in accordance with the legislation on the Protection of Personal Data. Please review our Privacy Policy, which you can find on our page about this subject. However, it should be emphasized that no guarantee can be provided regarding data security on other websites where directions (linked) are made on the turna.io website. The data security policy of the relevant page should be carefully examined in this regard.",
+      "section1": {
+        "title": "1. Legal Qualification and Scope",
+        "paragraph1": "Article 10 of the Personal Data Protection Law No. 6698 (\"KVKK\") requires that individuals whose data is processed be informed when their consent is obtained. The title of the article is \"Data Controller's Obligation to Inform\". According to the provisions of the KVKK, turna.io is the \"Data Controller\". In this framework, with the obligation to inform, it has imposed an obligation to inform data subjects about the identity of the data controller, the purposes of personal data processing, the persons to whom personal data is transferred and the purposes of transfer, the legal reasons for collecting personal data, to whom it can be transferred and the methods, and the rights listed in Article 11 of the KVKK such as updating, deletion or anonymization that the personal data owner will direct to the data controller. As the Data Controller, turna.io informs and enlightens data subjects that it processes your personal data within the limits and conditions stipulated in the legislation in accordance with the provisions of Article 10 of the KVKK with the Information Text Regarding the Processing of Personal Data."
+      },
+      "section2": {
+        "title": "2. Identity of the Data Controller",
+        "paragraph1": "In paragraph (ı) of the first paragraph of the 3rd article of the KVKK, the data controller is defined as \"Real or legal persons who determine the purposes and means of processing personal data and are responsible for the establishment and management of the data recording system\". In this framework, the data controller is turna.io, whose internet page you are visiting.",
+        "address": "turna.io Company Address: Ostim OSB Mahallesi Cevat Dündar Caddesi No: 1/1 Internal Door No:. 10 Yenimahalle/ANKARA",
+        "email": "Company Mail Address: bilgi@smarteq.com"
+      },
+      "section3": {
+        "title": "3. Data Processor",
+        "paragraph1": "The real or legal person who processes personal data on behalf of the data controller based on the authority given by the data controller is defined as the \"Data Processor\" in Article 3 of the KVKK."
+      },
+      "section4": {
+        "title": "4. Purposes of Processing Your Personal Data",
+        "paragraph1": "Your personal data is in line with the principles in the KVKK;",
+        "point1": "To make you aware of the products and services offered by turna.io, to make better use of you;",
+        "point2": "Increasing the quality of products/services offered by turna.io, presenting and recommending them according to the needs, likes and usage habits of our customers;",
+        "point3": "To inform you about our services and to enlighten you when necessary,",
+        "point4": "Planning and implementing our human resources policies in the best way; planning and executing our commercial partnerships and strategies correctly; ensuring the legal, commercial and physical security of our Company and business partners, ensuring the corporate functioning of the Company, working to make you benefit from the products and services offered by our Company in the best way,",
+        "point5": "Ensuring data security at the highest level, creating databases, developing the services offered on our Company's website, communicating with those who convey requests and complaints to our Company, eliminating errors on our Company's website and ensuring the compliance of the provisions in the Privacy Policy shared from our website,",
+        "point6": "It is processed within the scope of personal data processing conditions specified in Articles 5 and 6 of the KVK Law for the purposes of determining the Company's strategies."
+      },
+      "section5": {
+        "title": "5. Our Principles Regarding Processing Personal Data",
+        "paragraph1": "As turna.io;",
+        "point1": "Processing in accordance with the law and rules of honesty,",
+        "point2": "Striving to ensure accuracy and currency,",
+        "point3": "Processing for specific, clear and legitimate purposes,",
+        "point4": "Being connected, limited and proportionate to the purpose for which they are processed,",
+        "point5": "We have adopted the principle of being kept for the period stipulated in the relevant legislation or necessary for the purpose for which they are processed."
+      },
+      "section6": {
+        "title": "6. Ways of Processing Personal Data",
+        "paragraph1": "Your data is only kept and processed at turna.io with your consent or in the presence of one of the cases of compliance with the law."
+      },
+      "section7": {
+        "title": "7. To Whom and For What Purpose Personal Data Processed Can Be Transferred",
+        "paragraph1": "Your personal data collected and processed in our Company in accordance with the KVKK will only be for the purpose of doing the job and accompanied by confidentiality agreements; turna.io may transfer personal data to solution partners and companies that are in the position of performance assistants."
+      },
+      "section8": {
+        "title": "8. Method and Legal Reason for Collecting Your Personal Data",
+        "paragraph1": "Your personal data varies depending on the service, product or commercial activity provided by our Company; In accordance with KVKK art. 4, 5 and 6, it can be collected verbally, in writing or electronically by automatic or non-automatic methods, through offices, call center, website, social media channels, mobile applications and similar tools, and can be updated and processed. Your personal data is acquired in any verbal, written or electronic environment, in line with the purposes stated above, for the purpose of providing the products and/or services offered by the Company within the specified legal framework and for the Company to fulfill its contractual and legal obligations completely and correctly in this context. Your personal data collected for this legal reason can also be processed and transferred within the scope of the purposes specified in this Information Text within the scope of personal data processing conditions and purposes specified in Articles 5 and 6 of the KVK Law."
+      },
+      "section9": {
+        "title": "9. How Do We Protect?",
+        "paragraph1": "All technical and administrative measures are taken to protect personal data collected by turna.io and to prevent it from falling into the hands of unauthorized persons and to prevent our customers and potential customers from being victimized. In this framework, it is ensured that the software complies with the standards, that third parties are carefully selected, and that our Privacy Policy is complied with within the company."
+      },
+      "section10": {
+        "title": "10. Rights of the Personal Data Owner and Application",
+        "paragraph1": "As personal data owners, when you submit your requests regarding your rights listed in Article 11 of the KVKK to our Company through the methods regulated below in this Information Text, our Company will finalize the request free of charge within thirty days at the latest, depending on its nature. However, if a fee is stipulated by the Personal Data Protection Board, the fee in the tariff determined by our Company will be charged. In addition, according to the current legislation, applications regarding personal data must be made by the data owner himself, so only the part of your applications related to you will be answered, and an application made about your spouse, relative or friend will not be accepted. In this context, personal data owners, by applying to the relevant person announced on our website by turna.io, about yourself;",
+        "point1": "Learning whether personal data is processed,",
+        "point2": "Requesting information if personal data has been processed,",
+        "point3": "Learning the purpose of processing personal data and whether they are used in accordance with their purpose,",
+        "point4": "Knowing the third parties to whom personal data is transferred at home or abroad,",
+        "point5": "Requesting correction of personal data in case of incomplete or incorrect processing and requesting notification of the transaction made in this context to third parties to whom personal data has been transferred,",
+        "point6": "Despite being processed in accordance with the provisions of the KVK Law and other relevant laws, requesting the deletion or destruction of personal data in case the reasons requiring its processing disappear, and requesting notification of the transaction made in this context to third parties to whom personal data has been transferred,",
+        "point7": "Objecting to the emergence of a result against the person himself by analyzing the processed data exclusively through automated systems,",
+        "point8": "You have the right to request the compensation of the damage in case of damage due to unlawful processing of personal data."
+      },
+      "section11": {
+        "title": "11. Making an Application",
+        "paragraph1": "Pursuant to the first paragraph of Article 13 of the KVK Law, you can submit your request regarding the use of your rights specified in Article 11 of the same law by using the registered electronic mail (KEP) address or the electronic mail address that you have previously notified to our company and which is registered in our system, to the address bilgi@smarteq.com, or in writing in person, by notary public or by registered mail with return receipt. In the application;",
+        "point1": "Your name, surname and signature if the application is written,",
+        "point2": "If you are a citizen of the Republic of Turkey, your T.R. identity number, if you are a foreigner, your nationality, passport number or identity number if any,",
+        "point3": "Your residence or business address for notification,",
+        "point4": "Your electronic mail address, phone and fax number for notification, if any,",
+        "point5": "The subject of your request must be included. Information and documents related to the subject should be added to the application."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy and Security Policy",
+    "introduction": {
+      "paragraph1": "The Protection of Personal Data is of great importance to turna.io. We carefully preserve the information of everyone who has left any personal data to us by contacting us in any way. We have taken all necessary measures within the company to ensure the security of this information. You can process with the feeling that your personal data will be safe with turna.io. We will respect your rights related to your data, which are guaranteed by the Constitution and Laws of the Republic of Turkey. Below, we share with you the Privacy Policy put into effect in our company.",
+      "paragraph2": "You can be sure that we will show all sensitivity to the improvement suggestions, applications, and possible complaints that will come from you. You can contact us with all your doubts about your personal data. As with all our services, we will show the same sensitivity and care in protecting your personal data."
+    },
+    "purpose": {
+      "title": "1. Purpose",
+      "paragraph1": "Due to the sensitivity of the work we have been dealing with as turna.io, personal data collected has been kept confidential and has never been shared with third parties for purposes other than its purpose. The protection of personal data is the basic policy of our company. Even before any legal regulation, our company attached great importance to the confidentiality of personal data and adopted this as a working principle. As turna.io, we undertake to comply with all the responsibilities brought by the Personal Data Protection Law."
+    },
+    "scope": {
+      "title": "2. Scope",
+      "paragraph1": "This Policy prepared by our Company has been prepared in accordance with the Personal Data Protection Law No. 6698 (\"KVKK\").",
+      "paragraph2": "Data obtained from you with your consent or in accordance with other legal compliance conditions specified in the law will be used to increase the quality of the services we offer and to improve our quality policy. Some of the data we have are de-personalized and anonymized. These data are data used for statistical purposes and are not subject to the Law's application and our Policy.",
+      "paragraph3": "turna.io Privacy Policy aims to protect the automatically obtained data of our customers, our prospective customers, our employees, and the customers and employees of companies that work with us in partnership, or other persons, and includes regulations related to them.",
+      "paragraph4": "Our company has the right to change our policy and our Regulation/Directive, provided that it complies with the Law and better protects personal data."
+    },
+    "rules": {
+      "title": "3. Basic Rules for Processing Personal Data",
+      "paragraph1": "Compliance with the law and rules of honesty: turna.io questions the source of the data it collects or comes to it from other companies and attaches importance to its obtaining in accordance with the law and within the framework of honesty rules.",
+      "paragraph2": "Being accurate and up-to-date when necessary: turna.io attaches importance to ensuring that all data within the organization is correct information, does not contain incorrect information, and finally updates it when it is communicated to it if there is a change in personal data.",
+      "paragraph3": "Processing for specific, clear and legitimate purposes: turna.io processes data only to the extent limited by the purposes approved by people during service. It does not process, use or allow the use of data for business purposes.",
+      "paragraph4": "Being connected, limited and proportionate to the purpose for which they are processed: turna.io only uses data limited to the purpose for which they are processed and to the extent required by the service.",
+      "paragraph5": "Being kept for the period stipulated in the relevant legislation or necessary for the purpose for which they are processed: turna.io keeps the data originating from contracts in its structure for the periods of conflict arising from the Law, the requirements of commercial and tax law. On the other hand, when these purposes disappear, it deletes or anonymizes the data. It deletes or destroys them according to the 'Personal Data Deletion Directive'."
+    },
+    "rights": {
+      "title": "4. Rights of the Personal Data Owner Listed in Article 11 of the KVK Law",
+      "paragraph1": "According to KVKK Art.11, you have the following rights. Persons whose personal data are processed, regarding their own data;",
+      "point1": "Learning whether personal data is processed,",
+      "point2": "Requesting information if personal data has been processed,",
+      "point3": "Learning the purpose of processing personal data and whether they are used in accordance with their purpose,",
+      "point4": "Knowing the third parties to whom personal data is transferred at home or abroad,",
+      "point5": "Requesting correction of personal data in case of incomplete or incorrect processing and requesting notification of the transaction made in this context to third parties to whom personal data has been transferred,",
+      "point6": "Within the framework of the conditions stipulated in Article 7 of the KVK Law, requesting the deletion or destruction of personal data even though it has been processed in accordance with the provisions of the KVK Law and other relevant laws, in case the reasons requiring its processing disappear, and requesting notification of the transaction made in this context to third parties to whom personal data has been transferred,",
+      "point7": "Objecting to the emergence of a result against the person himself by analyzing the processed data exclusively through automated systems,",
+      "point8": "Having the right to request the compensation of the damage in case of damage due to unlawful processing of personal data. As turna.io, we respect these rights."
+    },
+    "principle": {
+      "title": "5. Maximum Savings Principle/Frugality Principle",
+      "paragraph1": "According to this principle, which we call the maximum savings principle or the frugality principle, data reaching turna.io is processed into the system only as much as necessary. For this reason, which data we will collect is determined according to the purpose. Unnecessary data is not collected. Other data that come to our company are also transferred to the company's information systems in the same way. Excess information is not recorded in the system, is deleted or anonymized. This data can be used for statistical purposes."
+    },
+    "deletion": {
+      "title": "6. Deletion of Personal Data",
+      "paragraph1": "When the periods required to be kept by law expire, the judicial processes are completed, or other requirements disappear, this data is deleted, destroyed or anonymized by our company by itself or upon the request of the relevant person."
+    },
+    "accuracy": {
+      "title": "7. Accuracy and Data Currency",
+      "paragraph1": "The data contained in turna.io is processed as stated in the declaration of the relevant persons, as a rule. turna.io is not obliged to investigate the accuracy of the data declared by customers or persons who contact turna.io, nor is this done due to legal and working principles. Declared data is considered correct. The principle of accuracy and currency of personal data has also been adopted by turna.io. Our company updates the personal data it has processed from official documents or upon the request of the interested party. It takes necessary measures for this."
+    },
+    "confidentiality": {
+      "title": "8. Confidentiality and Data Security",
+      "paragraph1": "Personal data is confidential and turna.io respects this confidentiality. Personal data can only be accessed by authorized persons within the company. All technical and administrative measures are taken by turna.io to protect the collected personal data and to prevent it from falling into the hands of unauthorized persons and to prevent the data owner from being victimized. In this framework, it is ensured that the software complies with the standards, that third parties are carefully selected, and that the Privacy Policy is complied with within the company. Companies with which we legally share personal data are also required to protect data."
+    },
+    "processingPurposes": {
+      "title": "9. Data Processing Purposes",
+      "paragraph1": "It will be executed in line with the purposes specified in turna.io's Clarification Text on the Processing of Personal Data."
+    },
+    "userInfo": {
+      "title": "10. User Information and Internet",
+      "paragraph1": "Regarding the collection, processing and use of personal data in internet sites and other systems or applications belonging to turna.io, people are informed about the privacy notice and cookies. Personal data will be processed in accordance with the law.",
+      "section1": {
+        "title": "1. Information that identifies you, provided by you:",
+        "paragraph1": "If you send us an email or comment, you may choose to share personal information with us, such as your name or email address. We use this information to improve our service to you or to answer your requests.",
+        "paragraph2": "While it is entirely up to you whether to share this information with us or not, this information may be requested to provide you with a specific activity, to help you understand a benefit to be offered, or to access certain content on our website."
+      },
+      "section2": {
+        "title": "2. Information that does not personally identify you, which we automatically acquire when you visit our site:",
+        "paragraph1": "If during your visit to our site, you are doing nothing, browsing the site, reading pages and getting information, we automatically acquire information about this visit of yours. This information does not personally identify you. In general, we acquire information about your visit such as: your internet domain (for example, if you use a special internet access account like yourwebsite.com), your IP address (IP address is a number that is automatically entered into your computer while browsing the internet), the browser and operating system you use to access our site, the pages you visit, the date and time you reach our website, and if you were redirected to our site from another site, the address of that site."
+      },
+      "section3": {
+        "title": "3. Browser cookies:",
+        "paragraph1": "Every time you visit our site, a small text file called a \"cookie\" is used to save you from entering your information for comments. This file is in your web browser. Cookies help us store your profile information on your computer and remember your login information such as your email address to provide you with a faster web experience. This way, you don't have to re-enter your information every time you write a comment.",
+        "paragraph2": "We can also use cookies for a purpose such as seeing your and other users' activities and thereby developing our site and the services offered to you. If you don't want us to use cookies when you visit our site, you need to change your web browser settings so that your browser doesn't accept cookies."
+      },
+      "section4": {
+        "title": "4. Third-party websites and applications:",
+        "paragraph1": "Our site may link to several sites that it partners with and other sites within the website. Our site does not bear any responsibility for the privacy practices and contents of the sites accessed through these links. The Privacy Policy Principles in this agreement only relate to the use of our site, not third-party websites."
+      },
+      "section5": {
+        "title": "5. Security of your information:",
+        "paragraph1": "We have prepared certain security measurements that we find reasonable and appropriate to keep under control situations such as loss, misuse, and alteration of information. Although we are doing our best to protect your personal information and privacy, we cannot give a guarantee that we can prevent the theft or careless use of any personal information you send us online. We try new technologies at certain time intervals to protect information and, when appropriate, we use these technologies to update our security systems.",
+        "paragraph2": "However, despite the necessary information security measures taken by our site, in case of damage to personal information or its falling into the hands of third parties as a result of attacks on the internet site and/or system, our site will not have any responsibility."
+      },
+      "section6": {
+        "title": "6. Limitations of liability:",
+        "paragraph1": "Our site does not make any claims, give any promises or guarantees about the accuracy, completeness or adequacy of its contents, and does not accept any responsibility for the errors or omissions in the contents on the site."
+      }
+    },
+    "customerData": {
+      "title": "11. Customer, Potential Customer, Business and Solution Partners Data",
+      "section1": {
+        "title": "1. Collection and Processing of Data for Contractual Relationship",
+        "paragraph1": "If a contractual relationship has been established with our customers and potential customers, the collected personal data can be used without obtaining the customer's consent. However, this use takes place in line with the purpose of the contract. Data is used to the extent required for better execution of the contract and service requirements and is updated by contacting customers when necessary."
+      },
+      "section2": {
+        "title": "2. Business and Solution Partners Data",
+        "paragraph1": "turna.io adopts the principle of acting in accordance with the law when sharing data with both business and solution partners. Data is shared with business and solution partners with a data confidentiality commitment and only as much as the service requires, and these parties are required to take measures related to ensuring data security."
+      }
+    },
+    "advertising": {
+      "title": "12. Data Processing for Advertising Purposes",
+      "paragraph1": "In accordance with the Law on the Regulation of E-Commerce and the Regulation on Commercial Communication and Commercial Electronic Messages, electronic messages for advertising purposes can only be sent to persons who have been previously approved. The explicit existence of the consent of the person to whom the advertisement will be sent is essential. turna.io also complies with the details of the \"consent\" determined in accordance with the same legislation. The consent to be obtained should cover all commercial electronic messages sent to the recipients' electronic communication addresses for the purpose of promoting the goods and services of your company, marketing them, promoting the business, or increasing its recognition with contents such as celebration and wishes. This consent can be obtained in written form in physical environment or by any electronic communication means. The important thing is the positive declaration of will that the recipient accepts the sending of commercial electronic messages, his name and surname, and his electronic communication address."
+    },
+    "legalProcessing": {
+      "title": "13. Data Processing Due to Legal Obligation of the Company or Explicitly Stipulated in the Law",
+      "paragraph1": "Personal data can be processed without further consent if the processing of personal data is explicitly stated in the relevant legislation or for the fulfillment of a legal obligation determined by the legislation. The type and scope of data processing must be necessary for the legally permitted data processing activity and must comply with the relevant legal provisions."
+    },
+    "companyProcessing": {
+      "title": "14. Company's Data Processing",
+      "paragraph1": "Personal data can be processed in line with the service and legitimate purposes offered by the company. However, data can never be used for services contrary to the law."
+    },
+    "sensitiveData": {
+      "title": "15. Processing of Special Categories of Personal Data",
+      "paragraph1": "turna.io takes all adequate measures separately determined by the Board in the processing of special categories of personal data. In our company, special categories of personal data are processed according to the \"Policy for the Protection and Processing of Special Categories of Personal Data\"."
+    },
+    "automatedData": {
+      "title": "16. Data Processed by Automated Systems",
+      "paragraph1": "Regarding data processed through automated systems, turna.io acts in accordance with the Law. Information obtained from these data cannot be used against the person without the explicit consent of the persons. However, turna.io can make decisions about people with whom it will conduct transactions using the data in its own system."
+    },
+    "employeeData": {
+      "title": "17. Data Belonging to Our Employees",
+      "section1": {
+        "title": "1. Processing of Data for Employment Relationship",
+        "paragraph1": "The personal data of our employees can be processed without consent to the extent necessary for employment relationships and health insurance. However, turna.io ensures the confidentiality and protection of the data belonging to its employees."
+      },
+      "section2": {
+        "title": "2. Processing Due to Legal Obligations",
+        "paragraph1": "turna.io can process the personal data of its employees without obtaining further consent for the purpose of fulfilling a legal obligation determined by the legislation or if the processing is explicitly stated in the relevant legislation. This matter is limited to obligations arising from the law."
+      },
+      "section3": {
+        "title": "3. Processing for the Benefit of Employees",
+        "paragraph1": "turna.io can process personal data without obtaining consent for transactions that are for the benefit of company employees, such as private health insurance. turna.io can also process data belonging to employees for disputes arising from employment relationships."
+      },
+      "section4": {
+        "title": "4. Processing of Special Categories of Personal Data",
+        "paragraph1": "According to the Law, the race, ethnic origin, political opinion, philosophical belief, religion, sect or other beliefs of individuals, their appearance and dress, membership of associations, foundations or trade unions, health, sexual life, criminal conviction and security measures, and biometric and genetic data are special categories of personal data.",
+        "paragraph2": "turna.io takes all the adequate measures separately determined by the Board in addition to the consent of the relevant person in the processing of special categories of personal data. Special categories of personal data can only be processed without the consent of the person in relation to and limited to the cases permitted in the Law."
+      },
+      "section5": {
+        "title": "5. Data Processed by Automated Systems",
+        "paragraph1": "Employees' data processed in relation to automated systems can be used in internal promotions and performance evaluations within the company. Our employees have the right to object to the outcome against them and they do this by complying with internal procedures. Employees' objections are also evaluated within the company."
+      },
+      "section6": {
+        "title": "6. Telecommunications and Internet",
+        "paragraph1": "Computers, phones, e-mail and other applications allocated to employees within the company are allocated to the employee solely for business purposes. The employee cannot use any of these means allocated by the company for his private purposes and communication. The company can control and supervise all data on these tools. The employee undertakes not to keep any data or information other than work in the computer, phones or other tools allocated to him from the moment he starts working."
+      }
+    },
+    "dataTransfer": {
+      "title": "18. Transfer of Personal Data Domestically and Abroad",
+      "paragraph1": "Personal data can be shared by turna.io with the dominant shareholder and also with business and solution partners for the purpose of providing the service. turna.io will be able to transfer personal data to turna.io's suppliers on a limited basis for the purpose of providing the necessary services to our Company from the supplier externally and enabling these services to be provided to our Company for the commercial activities of our Company. turna.io has the authority to transfer personal data domestically and abroad in accordance with other conditions in the Law and depending on the consent of the person, under the conditions determined by the Board."
+    },
+    "dataSubjectRights": {
+      "title": "19. Rights of the Data Subject",
+      "paragraph1": "turna.io accepts that the relevant person has the right to obtain consent before the data is processed, and after the data is processed, he has the right to determine the fate of his data within the scope of the Law.",
+      "point1": "Learning whether your personal data is processed,",
+      "point2": "Requesting information if personal data has been processed,",
+      "point3": "Learning the purpose of processing personal data and whether they are used in accordance with their purpose,",
+      "point4": "Knowing the third parties to whom personal data is transferred at home or abroad,",
+      "point5": "Requesting correction of personal data in case of incomplete or incorrect processing,",
+      "point6": "Requesting the deletion or destruction of personal data within the framework of the conditions stipulated in the 7th article,",
+      "point7": "Requesting notification of the transactions made according to paragraphs (d) and (e) to third parties to whom personal data has been transferred,",
+      "point8": "Objecting to the emergence of a result against the person himself by analyzing the processed data exclusively through automated systems,",
+      "point9": "Having the right to request the compensation of the damage in case of damage due to unlawful processing of personal data.",
+      "paragraph2": "In contrast, persons have no right to anonymized data within the company. turna.io can share personal data with relevant institutions and organizations for the purpose of a judicial duty or the use of legal powers of a state authority due to business and contractual relationships.",
+      "paragraph3": "Personal data owners will be able to submit their requests regarding the rights specified above to the Company from the official internet address of the Company. Your applications will be answered as soon as possible according to the content of your application or at the latest within 30 days after it reaches our company. In addition, only the part of your applications related to you will be answered, and an application made about your spouse, relative or friend will not be accepted. turna.io can request other relevant information and documents from the applicants."
+    },
+    "confidentialityPrinciple": {
+      "title": "20. Confidentiality Principle",
+      "paragraph1": "The data of both employees and other persons in turna.io are confidential. No one can use, copy, reproduce, transfer to others, or use these data for any other purpose without contractual or legal compliance."
+    },
+    "security": {
+      "title": "21. Transaction Security",
+      "paragraph1": "All technical and administrative measures are taken to protect the personal data collected by turna.io and to prevent it from falling into the hands of unauthorized persons and to prevent our customers and potential customers from being victimized. In this framework, it is ensured that the software complies with the standards, that third parties are carefully selected, and that the Privacy Policy is complied with within the company. Security measures are continuously renewed and developed."
+    },
+    "audit": {
+      "title": "22. Audit",
+      "paragraph1": "turna.io has necessary internal and external audits conducted on the protection of personal data."
+    },
+    "violations": {
+      "title": "23. Reporting Violations",
+      "paragraph1": "When turna.io is notified of any violation related to personal data, it immediately takes action to eliminate the violation. It minimizes the damage of the interested party and compensates for the damage. When personal data is seized by unauthorized persons from outside, it immediately notifies the Personal Data Protection Board.",
+      "paragraph2": "You can make an application according to the procedures specified on our corporate internet address for the notification of violations."
+    },
+    "changes": {
+      "title": "24. Changes in Privacy Policy",
+      "paragraph1": "turna.io can change the provisions of this \"Privacy Policy\" at any time by publishing it on the site or sending electronic mail to users. Privacy Policy provisions will take effect on the date of publication when they change.",
+      "paragraph2": "Every user who visits the turna.io website will be deemed to have accepted the privacy policy provisions contained herein. Please also review the \"Terms and Conditions of Use\" of this site before using the turna.io website."
+    }
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "subtitle": "You can reach out to us with your questions, suggestions, or collaboration requests. We will get back to you as soon as possible.",
+    "form": {
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Enter your first name",
+      "lastName": "Last Name", 
+      "lastNamePlaceholder": "Enter your last name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter your phone number",
+      "company": "Company",
+      "companyPlaceholder": "Enter your company name",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here",
+      "submit": "Submit",
+      "sending": "Sending...",
+      "submitSuccess": "Your message has been sent successfully!",
+      "errors": {
+        "firstName": "First name is required",
+        "lastName": "Last name is required",
+        "emailInvalid": "Enter a valid email address",
+        "emailRequired": "Email is required",
+        "message": "Message must be at least 10 characters",
+        "messageRequired": "Message is required"
+      }
+    },
+    "officeInfo": {
+      "title": "Office Information",
+      "hours": "Monday to Friday 09:00 - 18:00"
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "subtitle": "Access our technical documentation and learn about Bluetooth technology.",
+    "technicalDocs": "Technical Documents",
+    "bluetoothTech": "Bluetooth Technology",
+    "downloadStarted": "Download Started",
+    "doc1Name": "RTLS Technology Overview",
+    "doc2Name": "Indoor Positioning Systems",
+    "doc3Name": "API Documentation",
+    "doc4Name": "System Integration Guide",
+    "bluetooth1Name": "Bluetooth Beacon Technology",
+    "bluetooth2Name": "Bluetooth Applications",
+    "bluetooth3Name": "Asset Tracking with Bluetooth",
+    "needHelp": "Need Help?",
+    "contactSupport": "Contact our support team for more information about our resources.",
+    "contactUs": "Contact Us",
+    "gridView": "Grid View",
+    "listView": "List View"
+  }
+}
