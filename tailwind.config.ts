@@ -8,6 +8,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx,js,jsx}", // <— mutlaka src dizinini tam tarat
 	],
 	prefix: "",
 	theme: {

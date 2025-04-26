@@ -345,6 +345,50 @@
       "costReductionDesc": "Gereksiz ekipman alımlarını önleyerek ve mevcut varlıkların kullanımını optimize ederek maliyetleri düşürün."
     }
   },
+
+  "logisticsSolutions": {
+    "title": "Lojistik ve Depolama Çözümleri",
+    "subtitle": "Lojistik ve depo operasyonlarınızı optimize etmek için gerçek zamanlı konum teknolojisi",
+    "description": "RTLS teknolojisi, depo ve lojistik merkezlerinde ürünlerin, ekipmanların ve personelin gerçek zamanlı takibini sağlayarak operasyonel verimliliği artırır. Sipariş toplama sürelerini kısaltır, envanter doğruluğunu artırır ve operasyonel maliyetleri azaltır.",
+    "features": {
+      "fleetManagement": "Filo Yönetimi",
+      "fleetManagementDesc": "Forklift ve taşıma araçlarının gerçek zamanlı takibi ile operasyonel verimliliği artırın.",
+      "inventoryTracking": "Envanter Takibi",
+      "inventoryTrackingDesc": "Depo içindeki ürün ve malzemelerin konumlarını hassas bir şekilde belirleyerek stok yönetimini kolaylaştırın.",
+      "analytics": "Performans Analitiği",
+      "analyticsDesc": "Depo operasyonlarını analiz ederek süreçleri iyileştirin ve verimliliği artırın.",
+      "locationFinding": "Konum Bulma",
+      "locationFindingDesc": "Ürünlerin tam konumunu hızlıca tespit ederek sipariş toplama sürelerini azaltın.",
+      "pickingOptimization": "Toplama Optimizasyonu",
+      "pickingOptimizationDesc": "Akıllı rota planlaması ile sipariş toplama süreçlerini optimize ederek verimliliği artırın.",
+      "pickAndPack": "Topla ve Paketle Süreçleri",
+      "pickAndPackDesc": "Toplama ve paketleme işlemlerinin otomasyonu ile hata oranlarını azaltın ve hızı artırın."
+    },
+    "useCases": {
+      "warehouses": "Dağıtım Merkezleri",
+      "warehousesDesc": "Büyük dağıtım merkezlerinde sipariş toplama süreçlerini ve envanter takibini optimize edin.",
+      "ecommerce": "E-ticaret Operasyonları",
+      "ecommerceDesc": "E-ticaret lojistik süreçlerinde hızlı ve doğru sipariş hazırlığı ile müşteri memnuniyetini artırın.",
+      "coldChain": "Soğuk Zincir Lojistiği",
+      "coldChainDesc": "Sıcaklık kontrollü ürünlerin gerçek zamanlı izlenmesi.",
+      "ports": "Liman Operasyonları",
+      "portsDesc": "Konteynerlerin takibi ve liman operasyonlarının optimizasyonu.",
+      "3pl": "3PL Hizmetleri",
+      "3plDesc": "Üçüncü parti lojistik müşterileri için ayrı envanter takibi ve raporlama hizmeti sunun.",
+      "crossDocking": "Cross-Docking",
+      "crossDockingDesc": "Cross-docking süreçlerinde ürünlerin hızlı ve hassas transferini sağlayın."
+    },
+    "benefits": {
+      "efficiency": "Operasyonel Verimlilik",
+      "efficiencyDesc": "Sipariş toplama sürelerinde %30’a kadar iyileşme ve genel depo verimliliğinde artış sağlayın.",
+      "accuracy": "Envanter Doğruluğu",
+      "accuracyDesc": "%99.9’a kadar envanter doğruluğu ile stok tutarsızlıklarını ve kayıpları minimize edin.",
+      "costs": "Maliyet Tasarrufu",
+      "costsDesc": "İşgücü ve envanter taşıma maliyetlerinde önemli ölçüde tasarruf sağlayın.",
+      "customerSatisfaction": "Müşteri Memnuniyeti",
+      "customerSatisfactionDesc": "Daha hızlı ve doğru teslimatlarla müşteri memnuniyetini ve sadakatini artırın."
+    }
+  },
   "entertainmentSolutions": {
     "title": "Eğlence Sektörü Çözümleri",
     "subtitle": "Eğlence alanlarında gerçek zamanlı izleme ve güvenliği sağlar",
@@ -816,7 +860,7 @@
     "form": {
       "firstName": "Ad",
       "firstNamePlaceholder": "Adınızı girin",
-      "lastName": "Soyad", 
+      "lastName": "Soyad",
       "lastNamePlaceholder": "Soyadınızı girin",
       "email": "E-posta",
       "emailPlaceholder": "E-posta adresinizi girin",

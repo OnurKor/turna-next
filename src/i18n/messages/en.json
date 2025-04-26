@@ -1,4 +1,3 @@
-
 {
   "navbar": {
     "solutions": "Solutions",
@@ -346,6 +345,51 @@
       "costReductionDesc": "Reduce costs by preventing unnecessary equipment purchases and optimizing the use of existing assets."
     }
   },
+
+  "logisticsSolutions": {
+    "title": "Logistics and Warehousing Solutions",
+    "subtitle": "Real-time location technology to optimize your logistics and warehouse operations",
+    "description": "RTLS technology improves operational efficiency by providing real-time tracking of products, equipment, and personnel within warehouses and logistics centers. It shortens order picking times, increases inventory accuracy, and reduces operational costs.",
+    "features": {
+      "fleetManagement": "Fleet Management",
+      "fleetManagementDesc": "Increase operational efficiency by real-time tracking of forklifts and transport vehicles.",
+      "inventoryTracking": "Inventory Tracking",
+      "inventoryTrackingDesc": "Facilitate stock management by precisely locating products and materials inside warehouses.",
+      "analytics": "Performance Analytics",
+      "analyticsDesc": "Analyze warehouse operations to improve processes and boost efficiency.",
+      "locationFinding": "Location Finding",
+      "locationFindingDesc": "Quickly locate products to minimize order picking times.",
+      "pickingOptimization": "Picking Optimization",
+      "pickingOptimizationDesc": "Optimize order picking processes with smart route planning to increase efficiency.",
+      "pickAndPack": "Pick & Pack Processes",
+      "pickAndPackDesc": "Reduce errors and increase speed through automation of picking and packing operations."
+    },
+    "useCases": {
+      "warehouses": "Distribution Centers",
+      "warehousesDesc": "Optimize order picking and inventory tracking in large distribution centers.",
+      "ecommerce": "E-commerce Operations",
+      "ecommerceDesc": "Enhance customer satisfaction with fast and accurate order fulfillment in e-commerce logistics.",
+      "coldChain": "Cold Chain Logistics",
+      "coldChainDesc": "Real-time monitoring of temperature-sensitive goods.",
+      "ports": "Port Operations",
+      "portsDesc": "Track containers and optimize port operations.",
+      "3pl": "3PL Services",
+      "3plDesc": "Provide separate inventory tracking and reporting for third-party logistics clients.",
+      "crossDocking": "Cross-Docking",
+      "crossDockingDesc": "Enable fast and precise transfer of products during cross-docking processes."
+    },
+    "benefits": {
+      "efficiency": "Operational Efficiency",
+      "efficiencyDesc": "Achieve up to 30% improvement in order picking times and overall warehouse efficiency.",
+      "accuracy": "Inventory Accuracy",
+      "accuracyDesc": "Achieve up to 99.9% inventory accuracy, minimizing stock inconsistencies and losses.",
+      "costs": "Cost Savings",
+      "costsDesc": "Save significantly on labor and inventory carrying costs.",
+      "customerSatisfaction": "Customer Satisfaction",
+      "customerSatisfactionDesc": "Boost customer satisfaction and loyalty with faster and more accurate deliveries."
+    }
+  },
+
   "entertainmentSolutions": {
     "title": "Entertainment Industry Solutions",
     "subtitle": "RTLS technology to enhance visitor experience and improve operational efficiency",
@@ -725,7 +769,7 @@
     "form": {
       "firstName": "First Name",
       "firstNamePlaceholder": "Enter your first name",
-      "lastName": "Last Name", 
+      "lastName": "Last Name",
       "lastNamePlaceholder": "Enter your last name",
       "email": "Email",
       "emailPlaceholder": "Enter your email address",

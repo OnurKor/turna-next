@@ -1,5 +1,3 @@
-
-
 import { MapPin, Zap, Clock, Cog, Layers, Shield } from '@/lib/icons'; 
 import { useTranslations } from 'next-intl';
 

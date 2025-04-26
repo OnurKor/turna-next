@@ -1,6 +1,6 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+'use client';
+
+import { useTranslations } from "next-intl";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   MapPin,
@@ -9,9 +9,11 @@ import {
   Package,
   Users,
 } from '@/lib/icons';
+import Link from "next/link"; 
+import Image from "next/image";
 
 const InternalSolutionsSection = () => {
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   // Internal RTLS solutions data
   const internalSolutions = [
@@ -114,10 +116,11 @@ const InternalSolutionsSection = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {internalSolutions.map((solution) => (
-              <Link to={solution.path} key={solution.id} className="group">
+              <Link href={solution.path} key={solution.id} className="group">
                 <Card className="h-full overflow-hidden border border-gray-200 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                   <div className="h-48 bg-cover bg-center relative">
-                    <img
+                    <Image
+                      fill
                       src={solution.image}
                       alt={solution.imageAlt}
                       className="w-full h-full object-cover"
