@@ -75,7 +75,7 @@ const EmployeeSafety = () => {
       title={t('employeeSafety.title')}
       subtitle={t('employeeSafety.subtitle')}
       description={t('employeeSafety.description')}
-      heroImage="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&q=80&w=800&h=600"
+      heroImage="/assets/images/Lojistik/varlık-takip-d.png"
       features={features}
       useCases={useCases}
       technicalDetails={technicalDetails}

@@ -42,33 +42,33 @@ const HealthcareSolutions = () => {
     {
       title: t('healthcareSolutions.useCases.hospitals'),
       description: t('healthcareSolutions.useCases.hospitalsDesc'),
-      image: "https://images.unsplash.com/photo-1516549655669-df51a1e12b35?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Hastane/hastane-varlık-takip-dikdortgen.png"
     },
-    {
-      title: t('healthcareSolutions.useCases.emergencyDepartments'),
-      description: t('healthcareSolutions.useCases.emergencyDesc'),
-      image: "https://images.unsplash.com/photo-1587351021759-3e566b3db4f1?auto=format&fit=crop&q=80&w=2000"
-    },
+    // {
+    //   title: t('healthcareSolutions.useCases.emergencyDepartments'),
+    //   description: t('healthcareSolutions.useCases.emergencyDesc'),
+    //   image: "/assets/images/Uretim/personel-takip-d.png"
+    // },
     {
       title: t('healthcareSolutions.useCases.nursingHomes'),
       description: t('healthcareSolutions.useCases.nursingDesc'),
-      image: "https://images.unsplash.com/photo-1577368211130-4bbb935201ce?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Hastane/hastane-konum-takip-dikortgen.png"
     },
     {
       title: t('healthcareSolutions.useCases.laboratories'),
       description: t('healthcareSolutions.useCases.labsDesc'),
-      image: "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Uretim/personel-takip-d.png"
     },
-    {
-      title: t('healthcareSolutions.useCases.clinics'),
-      description: t('healthcareSolutions.useCases.clinicsDesc'),
-      image: "https://images.unsplash.com/photo-1579684285171-1fca18fea757?auto=format&fit=crop&q=80&w=2000"
-    },
-    {
-      title: t('healthcareSolutions.useCases.pharmacies'),
-      description: t('healthcareSolutions.useCases.pharmaciesDesc'),
-      image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=2000"
-    }
+    // {
+    //   title: t('healthcareSolutions.useCases.clinics'),
+    //   description: t('healthcareSolutions.useCases.clinicsDesc'),
+    //   image: "/assets/images/Hastane/hastane-varlık-takip-dikdortgen.png"
+    // },
+    // {
+    //   title: t('healthcareSolutions.useCases.pharmacies'),
+    //   description: t('healthcareSolutions.useCases.pharmaciesDesc'),
+    //   image: "/assets/images/Hastane/hastane-konum-takip-dikortgen.png"
+    // }
   ];
 
   const benefits = [
@@ -95,7 +95,7 @@ const HealthcareSolutions = () => {
       title={t('healthcareSolutions.title')}
       subtitle={t('healthcareSolutions.subtitle')}
       description={t('healthcareSolutions.description')}
-      heroImage="https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?auto=format&fit=crop&q=80&w=2000"
+      heroImage="/assets/images/Hastane/hastane-konum-takip-dikortgen.png"
       features={features}
       useCases={useCases}
       benefits={benefits}

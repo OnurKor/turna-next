@@ -43,32 +43,32 @@ const AssetTracking = () => {
     {
       title: t('assetTracking.useCases.logistics'),
       description: t('assetTracking.useCases.logisticsDesc'),
-      image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Lojistik/varlık-takip-d.png'
     },
     {
       title: t('assetTracking.useCases.manufacturing'),
       description: t('assetTracking.useCases.manufacturingDesc'),
-      image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Uretim/varlık-takip-d.png'
     },
     {
       title: t('assetTracking.useCases.healthcare'),
       description: t('assetTracking.useCases.healthcareDesc'),
-      image: 'https://images.unsplash.com/photo-1516549655669-df51a1e12b35?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Hastane/hastane-konum-takip-dikortgen.png'
     },
     {
       title: t('assetTracking.useCases.construction'),
       description: t('assetTracking.useCases.constructionDesc'),
-      image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Hastane/personel-takip-dikdortgen.png'
     },
     {
       title: t('assetTracking.useCases.retail'),
       description: t('assetTracking.useCases.retailDesc'),
-      image: 'https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Eglence/varlık-takip-d.png'
     },
     {
       title: t('assetTracking.useCases.education'),
       description: t('assetTracking.useCases.educationDesc'),
-      image: 'https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Guvenlik/konum-d.png'
     }
   ];
 
@@ -96,7 +96,7 @@ const AssetTracking = () => {
       title={t('assetTracking.title')}
       subtitle={t('assetTracking.subtitle')}
       description={t('assetTracking.description')}
-      heroImage="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2000"
+      heroImage="/assets/images/Hastane/hastane-varlık-takip-dikdortgen.png"
       features={features}
       useCases={useCases}
       benefits={benefits}

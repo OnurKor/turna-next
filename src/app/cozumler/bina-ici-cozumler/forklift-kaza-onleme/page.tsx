@@ -48,12 +48,12 @@ const ForkliftAccidentPrevention = () => {
     {
       title: t('forkliftAccidentPrevention.useCases.warehouses'),
       description: t('forkliftAccidentPrevention.useCases.warehousesDesc'),
-      image: 'https://images.unsplash.com/photo-1621956838481-f8f616950454?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Lojistik/konum-takip-d.png'
     },
     {
       title: t('forkliftAccidentPrevention.useCases.manufacturing'),
       description: t('forkliftAccidentPrevention.useCases.manufacturingDesc'),
-      image: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Uretim/konum-d.png'
     },
     {
       title: t('forkliftAccidentPrevention.useCases.construction'),
@@ -67,7 +67,7 @@ const ForkliftAccidentPrevention = () => {
       title={t('forkliftAccidentPrevention.title')}
       subtitle={t('forkliftAccidentPrevention.subtitle')}
       description={t('forkliftAccidentPrevention.description')}
-      heroImage="https://images.unsplash.com/photo-1533631378152-eefcc353bb43?auto=format&fit=crop&q=80&w=2000"
+      heroImage="/assets/images/Lojistik/Forklift-Kaza-onleme-d.png"
       features={features}
       useCases={useCases}
     />

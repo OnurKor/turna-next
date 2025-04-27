@@ -21,9 +21,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
   return (
     <html lang={locale}>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body suppressHydrationWarning={true} className={`${geistSans.variable} ${geistMono.variable}`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Navbar/>
+          <Navbar />
           <div className="flex-1">{children}</div>
           <Footer />
         </NextIntlClientProvider>

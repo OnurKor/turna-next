@@ -39,35 +39,35 @@ const SecuritySolutions = () => {
   ];
 
   const useCases = [
-    {
-      title: t('securitySolutions.useCases.industrial'),
-      description: t('securitySolutions.useCases.industrialDesc'),
-      image: 'https://images.unsplash.com/photo-1513828826944-a3c11205f95a?auto=format&fit=crop&q=80&w=2000'
-    },
+    // {
+    //   title: t('securitySolutions.useCases.industrial'),
+    //   description: t('securitySolutions.useCases.industrialDesc'),
+    //   image: '/assets/images/Guvenlik/konum-d.png'
+    // },
     {
       title: t('securitySolutions.useCases.healthcare'),
       description: t('securitySolutions.useCases.healthcareDesc'),
-      image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=2000'
+      image: 'public/assets/images/Guvenlik/varlık-takip-d.png'
     },
     {
       title: t('securitySolutions.useCases.education'),
       description: t('securitySolutions.useCases.educationDesc'),
-      image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Guvenlik/konum-d.png'
     },
-    {
-      title: t('securitySolutions.useCases.commercial'),
-      description: t('securitySolutions.useCases.commercialDesc'),
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2000'
-    },
-    {
-      title: t('securitySolutions.useCases.government'),
-      description: t('securitySolutions.useCases.governmentDesc'),
-      image: 'https://images.unsplash.com/photo-1523539333365-83d7c44c6ab8?auto=format&fit=crop&q=80&w=2000'
-    },
+    // {
+    //   title: t('securitySolutions.useCases.commercial'),
+    //   description: t('securitySolutions.useCases.commercialDesc'),
+    //   image: '/assets/images/Guvenlik/personel-takip-d.png'
+    // },
+    // {
+    //   title: t('securitySolutions.useCases.government'),
+    //   description: t('securitySolutions.useCases.governmentDesc'),
+    //   image: 'public/assets/images/Guvenlik/varlık-takip-d.png'
+    // },
     {
       title: t('securitySolutions.useCases.events'),
       description: t('securitySolutions.useCases.eventsDesc'),
-      image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Guvenlik/personel-takip-d.png'
     }
   ];
 
@@ -95,7 +95,7 @@ const SecuritySolutions = () => {
       title={t('securitySolutions.title')}
       subtitle={t('securitySolutions.subtitle')}
       description={t('securitySolutions.description')}
-      heroImage="https://images.unsplash.com/photo-1571310100246-e0676f359b42?auto=format&fit=crop&q=80&w=2000"
+      heroImage="/assets/images/Guvenlik/varlık-takip-d.png"
       features={features}
       useCases={useCases}
       benefits={benefits}

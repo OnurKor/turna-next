@@ -43,32 +43,32 @@ const IndoorNavigation = () => {
     {
       title: t('indoorNavigation.useCaseHospitals'),
       description: t('indoorNavigation.useCaseHospitalsDesc'),
-      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Hastane/hastane-konum-takip-dikortgen.png"
     },
     {
       title: t('indoorNavigation.useCaseShoppingMalls'),
       description: t('indoorNavigation.useCaseShoppingMallsDesc'),
-      image: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Eglence/varlık-takip-d.png"
     },
     {
       title: t('indoorNavigation.useCaseAirports'),
       description: t('indoorNavigation.useCaseAirportsDesc'),
-      image: "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Guvenlik/konum-d.png"
     },
     {
       title: t('indoorNavigation.useCaseFactories'),
       description: t('indoorNavigation.useCaseFactoriesDesc'),
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Uretim/konum-d.png"
     },
     {
       title: t('indoorNavigation.useCaseCampuses'),
       description: t('indoorNavigation.useCaseCampusesDesc'),
-      image: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Guvenlik/konum-d.png"
     },
     {
       title: t('indoorNavigation.useCaseOffices'),
       description: t('indoorNavigation.useCaseOfficesDesc'),
-      image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Guvenlik/personel-takip-d.png"
     }
   ];
   
@@ -85,7 +85,7 @@ const IndoorNavigation = () => {
       title={t('indoorNavigation.title')}
       subtitle={t('indoorNavigation.subtitle')}
       description={t('indoorNavigation.offerDescription')}
-      heroImage="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2000"
+      heroImage="/assets/images/Lojistik/personel-takip-d.png"
       features={features}
       useCases={useCases}
       technicalDetails={technicalDetails}

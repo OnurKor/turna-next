@@ -1,6 +1,7 @@
-import React from "react";
-import { useTranslation } from "react-i18next";
-import { FileText, Bluetooth, Download } from '@/lib/icons';
+"use client";
+
+import { useTranslations } from "next-intl";
+import { FileText, Bluetooth, Download } from "@/lib/icons";
 import { toast } from "@/hooks/use-toast";
 import {
   Accordion,
@@ -9,10 +10,17 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const ResourcesSection = () => {
-  const { t } = useTranslation();
+type ResourceItem = {
+  name: string;
+  size: string;
+  format: string;
+  path: string;
+  external?: boolean;
+};
 
-  // Detailed resources for accordion display
+const ResourcesSection = () => {
+  const t = useTranslations();
+
   const detailedResources = {
     technicalDocs: [
       {
@@ -39,7 +47,7 @@ const ResourcesSection = () => {
         format: "PDF",
         path: "/documents/technical/system-integration.pdf",
       },
-    ],
+    ] as ResourceItem[],
     bluetoothTech: [
       {
         name: t("resources.bluetooth1Name"),
@@ -59,27 +67,27 @@ const ResourcesSection = () => {
         format: "PDF",
         path: "/documents/bluetooth/asset-tracking.pdf",
       },
-    ],
+    ] as ResourceItem[],
   };
 
-  const handleDownload = (resource) => {
-    if (resource.external) {
-      window.open(resource.path, "_blank");
-      return;
-    }
+  const handleDownload = (resource: ResourceItem) => {
+    const link = document.createElement("a");
+    link.href = resource.path;
+    link.download = resource.name; // Dosyayı kaydederken adı
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 
-    // Simulate download in this demo (in a real app, this would be a fetch to the file)
-    setTimeout(() => {
-      toast({
-        title: t("resources.downloadStarted"),
-        description: `${resource.name} (${resource.size})`,
-      });
-    }, 500);
+    toast({
+      title: t("resources.downloadStarted"),
+      description: `${resource.name} (${resource.size})`,
+    });
   };
 
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
+        {/* Başlık */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">
             {t("resources.title")}
@@ -90,14 +98,12 @@ const ResourcesSection = () => {
           </p>
         </div>
 
+        {/* Accordion */}
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-md">
             <Accordion type="single" collapsible className="w-full">
-              {/* Technical Documents Section */}
-              <AccordionItem
-                value="technicalDocs"
-                className="border-b border-gray-200"
-              >
+              {/* Teknik Dokümanlar */}
+              <AccordionItem value="technicalDocs" className="border-b border-gray-200">
                 <AccordionTrigger className="py-4 px-6 hover:no-underline hover:bg-gray-50 transition-colors">
                   <div className="flex items-center text-left">
                     <FileText className="h-5 w-5 text-turna-500 mr-2" />
@@ -134,11 +140,8 @@ const ResourcesSection = () => {
                 </AccordionContent>
               </AccordionItem>
 
-              {/* Bluetooth Technology Section */}
-              <AccordionItem
-                value="bluetoothTech"
-                className="border-b border-gray-200"
-              >
+              {/* Bluetooth Teknolojisi */}
+              <AccordionItem value="bluetoothTech" className="border-b border-gray-200">
                 <AccordionTrigger className="py-4 px-6 hover:no-underline hover:bg-gray-50 transition-colors">
                   <div className="flex items-center text-left">
                     <Bluetooth className="h-5 w-5 text-turna-500 mr-2" />
@@ -178,6 +181,7 @@ const ResourcesSection = () => {
           </div>
         </div>
 
+        {/* Destek Kutusu */}
         <div className="mt-12 bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4 text-gray-800">

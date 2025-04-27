@@ -11,5 +11,6 @@ export { ClipboardCheck, PieChart, Bot, Search, Clipboard } from "lucide-react";
 export { ShoppingBag, Navigation, Compass, Heart, Tv } from "lucide-react";
 export { ShieldAlert, DollarSign, ThumbsUp, Cpu, Timer } from "lucide-react";
 export { Boxes, BarChart3, ChevronLeft, ArrowRight, Eye } from "lucide-react";
-export { Bluetooth, Download, LockKeyhole, ClipboardList } from "lucide-react";
-export { PersonStanding, AlarmCheck } from "lucide-react";
+export { Award, Bluetooth, AlarmCheck, Briefcase } from "lucide-react";
+export { LockKeyhole, ChevronDown, Download } from "lucide-react";
+export { PersonStanding, ClipboardList } from "lucide-react";

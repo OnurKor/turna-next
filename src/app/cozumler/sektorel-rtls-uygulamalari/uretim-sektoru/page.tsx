@@ -39,35 +39,35 @@ const ManufacturingSolutions = () => {
   ];
 
   const useCases = [
-    {
-      title: t('manufacturingSolutions.useCases.automotive'),
-      description: t('manufacturingSolutions.useCases.automotiveDesc'),
-      image: "https://images.unsplash.com/photo-1537041373723-5e99254996d8?auto=format&fit=crop&q=80&w=2000"
-    },
+    // {
+    //   title: t('manufacturingSolutions.useCases.automotive'),
+    //   description: t('manufacturingSolutions.useCases.automotiveDesc'),
+    //   image: "https://images.unsplash.com/photo-1537041373723-5e99254996d8?auto=format&fit=crop&q=80&w=2000"
+    // },
     {
       title: t('manufacturingSolutions.useCases.electronics'),
       description: t('manufacturingSolutions.useCases.electronicsDesc'),
-      image: "https://images.unsplash.com/photo-1597774292748-ffa734f7bf64?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Uretim/varlık-takip-d.png"
     },
     {
       title: t('manufacturingSolutions.useCases.foodProcessing'),
       description: t('manufacturingSolutions.useCases.foodProcessingDesc'),
-      image: "https://images.unsplash.com/photo-1525598912003-663126343e1f?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Eglence/personel-takip-d.png"
     },
-    {
-      title: t('manufacturingSolutions.useCases.pharmaceutical'),
-      description: t('manufacturingSolutions.useCases.pharmaceuticalDesc'),
-      image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=2000"
-    },
-    {
-      title: t('manufacturingSolutions.useCases.aerospace'),
-      description: t('manufacturingSolutions.useCases.aerospaceDesc'),
-      image: "https://images.unsplash.com/photo-1518162766821-14cb695d7e2b?auto=format&fit=crop&q=80&w=2000"
-    },
+    // {
+    //   title: t('manufacturingSolutions.useCases.pharmaceutical'),
+    //   description: t('manufacturingSolutions.useCases.pharmaceuticalDesc'),
+    //   image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=2000"
+    // },
+    // {
+    //   title: t('manufacturingSolutions.useCases.aerospace'),
+    //   description: t('manufacturingSolutions.useCases.aerospaceDesc'),
+    //   image: "https://images.unsplash.com/photo-1518162766821-14cb695d7e2b?auto=format&fit=crop&q=80&w=2000"
+    // },
     {
       title: t('manufacturingSolutions.useCases.heavyIndustry'),
       description: t('manufacturingSolutions.useCases.heavyIndustryDesc'),
-      image: "https://images.unsplash.com/photo-1602521879205-88d9fa8a8e58?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Uretim/konum-d.png"
     }
   ];
 
@@ -95,7 +95,7 @@ const ManufacturingSolutions = () => {
       title={t('manufacturingSolutions.title')}
       subtitle={t('manufacturingSolutions.subtitle')}
       description={t('manufacturingSolutions.description')}
-      heroImage="https://images.unsplash.com/photo-1498084393753-b411b2d26b34?auto=format&fit=crop&q=80&w=2000"
+      heroImage="/assets/images/Uretim/varlık-takip-d.png"
       features={features}
       useCases={useCases}
       benefits={benefits}

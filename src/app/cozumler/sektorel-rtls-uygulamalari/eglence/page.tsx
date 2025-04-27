@@ -39,36 +39,36 @@ const EntertainmentSolutions = () => {
   ];
 
   const useCases = [
-    {
-      title: t('entertainmentSolutions.useCases.themeparks'),
-      description: t('entertainmentSolutions.useCases.themeparksDesc'),
-      image: "https://images.unsplash.com/photo-1576497564495-f16487adba66?auto=format&fit=crop&q=80&w=2000"
-    },
+    // {
+    //   title: t('entertainmentSolutions.useCases.themeparks'),
+    //   description: t('entertainmentSolutions.useCases.themeparksDesc'),
+    //   image: "/assets/images/Eglence/konum-takip-d.png"
+    // },
     {
       title: t('entertainmentSolutions.useCases.museums'),
       description: t('entertainmentSolutions.useCases.museumsDesc'),
-      image: "https://images.unsplash.com/photo-1524354275262-e21a3ff70e6b?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Eglence/varlık-takip-d.png"
     },
     {
       title: t('entertainmentSolutions.useCases.concerts'),
       description: t('entertainmentSolutions.useCases.concertsDesc'),
-      image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Eglence/konum-takip-d.png"
     },
     {
       title: t('entertainmentSolutions.useCases.stadiums'),
       description: t('entertainmentSolutions.useCases.stadiumsDesc'),
-      image: "https://images.unsplash.com/photo-1577223625816-6e79d78ffd63?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Eglence/konum-takip-d.png"
     },
-    {
-      title: t('entertainmentSolutions.useCases.casinos'),
-      description: t('entertainmentSolutions.useCases.casinosDesc'),
-      image: "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&q=80&w=2000"
-    },
-    {
-      title: t('entertainmentSolutions.useCases.festivals'),
-      description: t('entertainmentSolutions.useCases.festivalsDesc'),
-      image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6a3?auto=format&fit=crop&q=80&w=2000"
-    }
+    // {
+    //   title: t('entertainmentSolutions.useCases.casinos'),
+    //   description: t('entertainmentSolutions.useCases.casinosDesc'),
+    //   image: "/assets/images/Eglence/konum-takip-d.png"
+    // },
+    // {
+    //   title: t('entertainmentSolutions.useCases.festivals'),
+    //   description: t('entertainmentSolutions.useCases.festivalsDesc'),
+    //   image: "/assets/images/Eglence/konum-takip-d.png"
+    // }
   ];
 
   const benefits = [
@@ -95,7 +95,7 @@ const EntertainmentSolutions = () => {
       title={t('entertainmentSolutions.title')}
       subtitle={t('entertainmentSolutions.subtitle')}
       description={t('entertainmentSolutions.description')}
-      heroImage="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&q=80&w=2000"
+      heroImage="/assets/images/Eglence/konum-takip-d.png"
       features={features}
       useCases={useCases}
       benefits={benefits}

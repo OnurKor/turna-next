@@ -47,48 +47,40 @@ const SolutionPageLayout: React.FC<SolutionPageProps> = ({
   return (
     <div className="min-h-screen flex flex-col">
 
-      {/* Hero Section */}
-      <section className="pt-28 pb-16 bg-gradient-to-r from-turna-600 via-turna-500 to-turna-400 text-white">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row items-center">
-            <div className="lg:w-1/2 mb-10 lg:mb-0">
-              <h1 className="text-4xl lg:text-5xl font-bold mb-6 animate-fadeIn">
-                {title}
-              </h1>
-              <p className="text-lg lg:text-xl mb-8 opacity-90">{subtitle}</p>
-              <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                <Link href="/iletisim">
-                  <Button
-                    variant="outline"
-                    className="turna-button-primary bg-white text-turna-600 hover:bg-turna-50"
-                  >
-                    {t("common.contactUs")}
-                  </Button>
-                </Link>
-              </div>
-            </div>
-            <div className="lg:w-1/2 flex justify-center relative">
-              <div className="w-full max-w-md relative">
-                <div className="absolute -top-8 -left-8 w-40 h-40 bg-turna-400 rounded-full opacity-20 animate-blob"></div>
-                <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-turna-300 rounded-full opacity-20 animate-blob animation-delay-2000"></div>
-                <div className="relative z-10 bg-white/10 backdrop-blur-sm rounded-xl p-1 shadow-xl h-60">
-                  <Image
-                    fill
-                    src={heroImage}
-                    alt={title}
-                    className="rounded-lg w-full h-auto shadow-lg object-cover aspect-video"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src =
-                        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000";
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+{/* Hero Section */}
+<section className="relative w-full h-[550px] md:h-[700px] bg-gradient-to-r from-turna-600 via-turna-500 to-turna-400 overflow-hidden">
+  <div className="absolute inset-0">
+    <Image
+      src={heroImage}
+      alt={title}
+      fill
+      priority
+      className="object-cover w-full h-full object-center"
+      onError={(e) => {
+        const target = e.target as HTMLImageElement;
+        target.src = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000";
+      }}
+    />
+    <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px]"></div> 
+  </div>
+
+  <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-white">
+    <h1 className="text-3xl md:text-5xl font-bold mb-4">{title}</h1>
+    <p className="text-lg md:text-xl opacity-90">{subtitle}</p>
+    <div className="flex flex-wrap gap-4 justify-center mt-6">
+      <Link href="/iletisim">
+        <Button
+          variant="outline"
+          className="turna-button-primary bg-white text-turna-600 hover:bg-turna-50"
+        >
+          {t("common.contactUs")}
+        </Button>
+      </Link>
+    </div>
+  </div>
+</section>
+
+
 
       {/* Main Content */}
       <section className="py-16 px-4  bg-gray-50">
