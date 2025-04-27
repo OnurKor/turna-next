@@ -15,7 +15,7 @@ const CompanyOverview = () => {
           <div className="md:w-1/2">
             <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                src="/assets/images/AboutUs/kurumsal-kimlik.webp"
                 alt={t("company.aboutTurna")}
                 fill
                 className="object-cover"

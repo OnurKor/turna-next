@@ -62,7 +62,7 @@ const MissionVision = () => {
             {/* Görsel */}
             <div className="relative w-full md:w-1/2 h-[300px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
+                src="/assets/images/AboutUs/kurumsal-kimlik-2.webp"
                 alt={t("company.technology")}
                 fill
                 className="object-cover"

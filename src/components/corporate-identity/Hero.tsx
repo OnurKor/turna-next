@@ -2,11 +2,9 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
 
 const Hero = () => {
   const t = useTranslations();
-  const [imageError, setImageError] = useState(false);
 
   return (
     <div className="relative pt-28 pb-16 md:pt-36 md:pb-24 bg-gradient-to-b from-gray-900 to-gray-800">
@@ -17,17 +15,12 @@ const Hero = () => {
         {/* Görsel */}
         <div className="absolute inset-0">
           <Image
-            src={
-              imageError
-                ? "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop"
-                : "/images/corporate-hero.jpg"
-            }
+            src="/assets/images/AboutUs/kurumsal-kimlik-1.webp"
             alt={t("company.title")}
             fill
             className="object-cover object-center"
             sizes="100vw"
             priority
-            onError={() => setImageError(true)}
           />
         </div>
       </div>
