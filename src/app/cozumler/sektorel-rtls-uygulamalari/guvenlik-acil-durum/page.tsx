@@ -47,7 +47,7 @@ const SecuritySolutions = () => {
     {
       title: t('securitySolutions.useCases.healthcare'),
       description: t('securitySolutions.useCases.healthcareDesc'),
-      image: 'public/assets/images/Guvenlik/varlık-takip-d.png'
+      image: '/assets/images/Guvenlik/varlık-takip-d.png'
     },
     {
       title: t('securitySolutions.useCases.education'),

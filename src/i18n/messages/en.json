@@ -390,72 +390,311 @@
     }
   },
 
-  "entertainmentSolutions": {
-    "title": "Entertainment Industry Solutions",
-    "subtitle": "RTLS technology to enhance visitor experience and improve operational efficiency",
-    "description": "RTLS technology allows you to provide unique experiences by tracking the locations and movements of visitors in entertainment and event venues. These solutions enhance visitor satisfaction while improving operational efficiency in theme parks, museums, concerts, stadiums, and other entertainment venues.",
-    "features": {
-      "indoorNavigation": "Indoor Navigation",
-      "indoorNavigationDesc": "Navigation solutions offering easy wayfinding in complex venues for visitors.",
-      "visitorAnalytics": "Visitor Analytics",
-      "visitorAnalyticsDesc": "Analyze visitor behaviors and preferences to provide better service.",
-      "crowdManagement": "Crowd Management",
-      "crowdManagementDesc": "Detect crowded areas to manage crowds and improve visitor experience.",
-      "assetTracking": "Equipment Tracking",
-      "assetTrackingDesc": "Monitor locations of valuable equipment to prevent losses and optimize maintenance processes.",
-      "staffManagement": "Staff Management",
-      "staffManagementDesc": "Track staff locations to improve service quality and quick response in emergencies.",
-      "accessControl": "Access Control",
-      "accessControlDesc": "Control access to VIP areas and special sections to enhance security."
-    },
-    "optimize": "Optimize Your Entertainment Facilities with RTLS",
-    "optimizeDesc": "Contact us to improve visitor experience, increase operational efficiency, and reduce costs.",
-    "freeDemo": "Request a Free Demo"
-  },
   "forkliftTracking": {
     "title": "Forklift Tracking",
-    "description": "Track forklifts and AGVs to improve operational efficiency and workplace safety",
+    "subtitle": "Real-time forklift tracking solutions to improve your operational efficiency.",
+    "description": "Track forklifts and AGVs in both indoor and outdoor environments with high precision. Apply zone-based speed limits where forklifts automatically slow down when entering specific areas to minimize collision risks.",
     "features": {
+      "preciseLocation": "Precise Location Tracking",
+      "preciseLocationDesc": "Track locations with 1-3 meters accuracy indoors and centimeter-level accuracy outdoors.",
+      "speedControl": "Automatic Speed Control",
+      "speedControlDesc": "Automatic speed limitation and warning systems in hazardous zones.",
+      "collisionPrevention": "Collision Prevention",
+      "collisionPreventionDesc": "Warning systems to detect potential collisions between forklifts in advance.",
       "realTimeTracking": "Real-Time Tracking",
-      "realTimeTrackingDesc": "Track forklifts and AGVs in real-time and receive alerts for potential collisions",
-      "locationAccuracy": "Location Accuracy",
-      "locationAccuracyDesc": "High-precision tracking with 3-5 cm accuracy",
-      "safetyAlerts": "Safety Alerts",
-      "safetyAlertsDesc": "Automatic collision avoidance systems and emergency notifications"
+      "realTimeTrackingDesc": "Monitor the real-time location and movements of your entire forklift fleet from a single dashboard.",
+      "accidentReduction": "Accident Risk Reduction",
+      "accidentReductionDesc": "Prevent workplace accidents by automatically limiting speeds and alerting drivers in dangerous areas.",
+      "efficiencyAnalysis": "Efficiency Analysis",
+      "efficiencyAnalysisDesc": "Optimize resources by analyzing movement history, driving behavior, and operational efficiency reports."
+    },
+    "useCases": {
+      "manufacturing": "Manufacturing Facilities",
+      "manufacturingDesc": "Optimize material handling operations and increase safety within the factory.",
+      "logistics": "Logistics Centers",
+      "logisticsDesc": "Efficient management of forklift fleets and faster operations in warehouses and logistics hubs.",
+      "ports": "Container Handling at Ports",
+      "portsDesc": "Optimize container handling and stacking operations at ports while ensuring operational safety."
     }
   },
   "forkliftAccidentPrevention": {
     "title": "Forklift Accident Prevention",
-    "description": "Maximize safety with automatic collision avoidance systems",
+    "subtitle": "AI-powered camera systems that prevent collisions with smart solutions.",
+    "description": "Solutions integrated with AI-supported camera systems allow forklifts and other moving equipment to instantly detect potential hazards. This enables automatic intervention in dangerous situations, preventing accidents and collisions.",
     "features": {
-      "realTimeDetection": "Real-Time Detection",
-      "realTimeDetectionDesc": "AI-supported camera systems continuously scan the surroundings of vehicles such as forklifts and detect potential collision risks in advance",
-      "automaticResponse": "Automatic Response",
-      "automaticResponseDesc": "Automatic braking or warning mechanisms are activated in case of danger"
+      "smartCamera": "Smart Camera System",
+      "smartCameraDesc": "AI-powered camera technology that eliminates blind spots with a 360° field of view.",
+      "aiAnalysis": "Artificial Intelligence Analysis",
+      "aiAnalysisDesc": "Real-time hazard analysis using AI algorithms to take proactive measures.",
+      "instantIntervention": "Instant Intervention",
+      "instantInterventionDesc": "Alerts drivers and triggers automatic braking systems to prevent accidents in case of danger.",
+      "objectDetection": "Object Detection",
+      "objectDetectionDesc": "AI algorithms detect humans, equipment, and obstacles in real time to anticipate potential collisions.",
+      "preventiveSafety": "Preventive Safety",
+      "preventiveSafetyDesc": "Audible warnings, automatic speed limitation, and emergency braking systems are activated in dangerous situations.",
+      "accidentReduction": "Accident Reduction",
+      "accidentReductionDesc": "Proactive safety measures reduce collision-related workplace accidents by up to 95%."
+    },
+    "useCases": {
+      "warehouses": "Warehouses and Logistics Centers",
+      "warehousesDesc": "Minimize collision risks in warehouses with heavy forklift traffic, creating a safer working environment.",
+      "manufacturing": "Manufacturing Facilities",
+      "manufacturingDesc": "Increase workplace safety and prevent accidents on production lines and material handling areas.",
+      "construction": "Construction and Mining",
+      "constructionDesc": "Ensure safe operation of heavy equipment in tough terrain conditions and prevent accidents."
     }
   },
   "assetTracking": {
     "title": "Asset Tracking",
-    "description": "Track your equipment and assets in real time and prevent losses",
+    "subtitle": "Track your valuable indoor equipment and assets in real time",
+    "description": "The locations of all assets such as vehicles, tools, equipment, and fixed assets are identified and tracked inside the building. Inventory counts, optimal asset utilization, and resource management processes become more efficient thanks to collected location data. Additionally, events such as equipment impacts are instantly detected, with automatic alarm generation and logging support.",
     "features": {
       "realTimeTracking": "Real-Time Tracking",
-      "realTimeTrackingDesc": "Track equipment and assets in real-time and receive alerts for potential losses",
-      "locationAccuracy": "Location Accuracy",
-      "locationAccuracyDesc": "High-precision tracking with 3-5 cm accuracy",
-      "safetyAlerts": "Safety Alerts",
-      "safetyAlertsDesc": "Automatic collision avoidance systems and emergency notifications"
+      "realTimeTrackingDesc": "Monitor the real-time location of all your assets indoors with centimeter-level precision.",
+      "alarmNotifications": "Alarm Notifications",
+      "alarmNotificationsDesc": "Receive automatic alerts for unauthorized area entry, impact detection, and unexpected movements.",
+      "movementHistory": "Movement History",
+      "movementHistoryDesc": "View asset movements on a timeline and access historical location data.",
+      "inventoryManagement": "Inventory Management",
+      "inventoryManagementDesc": "Simplify stock management with automated inventory counts and reporting features.",
+      "quickSearch": "Quick Asset Search",
+      "quickSearchDesc": "Easily locate assets and navigate to them using directional maps.",
+      "dataAnalytics": "Data Analytics",
+      "dataAnalyticsDesc": "Increase resource efficiency through asset usage analysis and optimization recommendations."
+    },
+    "useCases": {
+      "logistics": "Logistics and Warehousing",
+      "logisticsDesc": "Reduce losses and improve operational efficiency by tracking equipment in warehouses and distribution centers.",
+      "manufacturing": "Manufacturing Facilities",
+      "manufacturingDesc": "Optimize production processes by tracking tools and equipment in manufacturing plants.",
+      "healthcare": "Healthcare",
+      "healthcareDesc": "Enhance patient care by tracking medical devices and equipment in hospitals.",
+      "construction": "Construction Industry",
+      "constructionDesc": "Boost project efficiency by tracking equipment and materials on construction sites.",
+      "retail": "Retail",
+      "retailDesc": "Optimize inventory management by tracking products and fixtures in stores.",
+      "education": "Educational Institutions",
+      "educationDesc": "Improve resource management by tracking equipment in schools and universities."
+    },
+    "benefits": {
+      "costReduction": "Cost Reduction",
+      "costReductionDesc": "Reduce operational costs by preventing asset losses and optimizing equipment usage.",
+      "efficiency": "Operational Efficiency",
+      "efficiencyDesc": "Accelerate business processes by reducing asset search times and increasing utilization rates.",
+      "maintenance": "Equipment Maintenance",
+      "maintenanceDesc": "Extend the lifespan of equipment through predictive maintenance planning based on usage data.",
+      "audit": "Audit Ease",
+      "auditDesc": "Simplify and expedite audit processes with automatic inventory reporting."
     }
   },
+
   "personnelTracking": {
     "title": "Personnel Tracking",
-    "description": "Monitor the indoor locations of employees to enhance productivity and safety",
+    "subtitle": "Smart location-based tracking solutions to enhance employee safety and productivity.",
+    "description": "Track employees' real-time location and analyze how much time they spend in different zones. Improve workplace safety with emergency buttons and optional voice alert systems, measure productivity, and enable rapid emergency response.",
+    "features": {
+      "realTimeLocation": "Real-Time Location Tracking",
+      "realTimeLocationDesc": "View employees' real-time indoor locations on a map.",
+      "timeAnalysis": "Time Analysis",
+      "timeAnalysisDesc": "Analyze how much time employees spend in specific zones in detail.",
+      "emergencyNotifications": "Emergency Notifications",
+      "emergencyNotificationsDesc": "Enable instant alerts and emergency intervention via emergency buttons.",
+      "efficiencyReports": "Efficiency Reports",
+      "efficiencyReportsDesc": "Automated reporting systems to measure employee productivity.",
+      "preciseLocation": "Precise Location Tracking",
+      "preciseLocationDesc": "Indoor tracking accuracy within 1-3 meters using wearable technology.",
+      "emergencyResponse": "Emergency Response",
+      "emergencyResponseDesc": "Trigger emergency notifications with a single button and locate the nearest available staff."
+    },
+    "useCases": {
+      "manufacturing": "Manufacturing Facilities",
+      "manufacturingDesc": "Track employee time at workstations to optimize production efficiency.",
+      "hospitals": "Hospitals",
+      "hospitalsDesc": "Measure the time healthcare staff dedicate to patient care and identify the nearest medical personnel during emergencies.",
+      "warehouses": "Warehouses and Logistics Centers",
+      "warehousesDesc": "Monitor warehouse workers' movements to optimize workflows and reduce order picking times."
+    },
+    "techDetails": {
+      "1": "Wearable tracking devices (bracelet, badge, or helmet integration)",
+      "2": "Indoor location accuracy: 1-3 meters",
+      "3": "12+ hours battery life",
+      "4": "IP67 water and dust resistance",
+      "5": "Two-way communication and emergency button",
+      "6": "Real-time alert and notification system",
+      "7": "Analytics and reporting based on employee movement",
+      "8": "Cloud-based data storage and management"
+    }
+  },
+  "healthcareSolutions": {
+    "title": "Healthcare Solutions",
+    "subtitle": "Real-time location technology to enhance patient care quality and operational efficiency.",
+    "description": "RTLS technology enables real-time tracking of patients, staff, and medical equipment in healthcare facilities, improving patient care quality, enhancing operational efficiency, and reducing costs. These solutions shorten response times in emergencies, increase equipment utilization rates, and ensure patient safety.",
+    "features": {
+      "assetTracking": "Medical Equipment Tracking",
+      "assetTrackingDesc": "Enhance asset availability by tracking the real-time location of valuable medical equipment.",
+      "patientMonitoring": "Patient Monitoring",
+      "patientMonitoringDesc": "Ensure patient safety by monitoring their movements and locations within the hospital.",
+      "workflowOptimization": "Workflow Optimization",
+      "workflowOptimizationDesc": "Improve patient care quality by analyzing and optimizing medical workflows.",
+      "staffManagement": "Staff Management",
+      "staffManagementDesc": "Optimize resource planning by tracking the location and working hours of healthcare staff.",
+      "waitTimeReduction": "Wait Time Reduction",
+      "waitTimeReductionDesc": "Analyze patient flow to reduce wait times and enhance patient satisfaction.",
+      "dementiaCare": "Dementia Patient Safety",
+      "dementiaDesc": "Ensure the safety of dementia patients through location tracking and safe zone definition."
+    },
+    "useCases": {
+      "hospitals": "Hospitals",
+      "hospitalsDesc": "Enhance service quality by effectively managing staff, patients, and equipment in large hospitals.",
+      "emergencyDepartments": "Emergency Departments",
+      "emergencyDesc": "Optimize patient flow and equipment availability in emergency rooms.",
+      "nursingHomes": "Nursing Homes",
+      "nursingDesc": "Ensure the safety of elderly and dementia patients through location tracking and alarm systems.",
+      "laboratories": "Laboratories",
+      "labsDesc": "Track laboratory samples and results to reduce error rates.",
+      "clinics": "Clinics",
+      "clinicsDesc": "Optimize patient flow and reduce wait times in outpatient clinics.",
+      "pharmacies": "Pharmacies",
+      "pharmaciesDesc": "Manage inventory and traceability of medications and medical supplies."
+    },
+    "benefits": {
+      "patientCare": "Enhanced Patient Care",
+      "patientCareDesc": "Improve patient care quality through faster staff response times.",
+      "assetUtilization": "Equipment Utilization",
+      "assetUtilizationDesc": "Achieve up to 25% increase in equipment usage and save on new equipment purchases.",
+      "staffEfficiency": "Staff Efficiency",
+      "staffEfficiencyDesc": "Increase staff efficiency and reduce burnout by optimizing workload.",
+      "patientSafety": "Patient Safety",
+      "patientSafetyDesc": "Reduce risk and liability by ensuring the safety of patients requiring special care."
+    }
+  },
+  "entertainmentSolutions": {
+    "title": "Entertainment Solutions",
+    "subtitle": "RTLS technology to enrich visitor experiences and improve operational efficiency.",
+    "description": "RTLS technology allows you to deliver unique experiences by tracking visitors' locations and movements in entertainment and event venues. These solutions improve visitor satisfaction and enhance operational efficiency in theme parks, museums, concerts, stadiums, and other entertainment venues.",
+    "features": {
+      "indoorNavigation": "Indoor Navigation",
+      "navigationDesc": "Interactive maps and navigation that help visitors easily find their way within the facility.",
+      "crowdManagement": "Crowd Management",
+      "crowdDesc": "Identify crowded areas and optimize visitor flow for a better experience.",
+      "ticketing": "Smart Ticketing",
+      "ticketingDesc": "Reduce queue times with contactless ticketing and location-based access control.",
+      "experience": "Interactive Experiences",
+      "experienceDesc": "Create personalized, location-based interactive experiences for visitors.",
+      "analytics": "Visitor Analytics",
+      "analyticsDesc": "Analyze visitor behaviors to optimize venue layout and event planning.",
+      "loyalty": "Loyalty Programs",
+      "loyaltyDesc": "Enhance visitor loyalty with location-based special offers and rewards."
+    },
+    "useCases": {
+      "themeparks": "Theme Parks",
+      "themeparksDesc": "Enhance visitor experience with navigation, queue management, and interactive experiences.",
+      "museums": "Museums and Galleries",
+      "museumsDesc": "Interactive guidance with location-based information about artworks and exhibitions.",
+      "concerts": "Concerts and Events",
+      "concertsDesc": "Manage crowds, simplify navigation, and plan for emergencies at large events.",
+      "stadiums": "Stadiums and Sports Venues",
+      "stadiumsDesc": "Provide easy navigation, ticketing, and crowd management solutions in stadiums.",
+      "casinos": "Casinos and Hotels",
+      "casinosDesc": "Offer personalized experiences and analyze guest behaviors.",
+      "festivals": "Festivals and Fairs",
+      "festivalsDesc": "Help visitors locate events, track friends, and enhance their festival experience."
+    },
+    "benefits": {
+      "experience": "Enhanced Visitor Experience",
+      "experienceDesc": "Increase visitor satisfaction with easy navigation and personalized content.",
+      "revenue": "Revenue Growth",
+      "revenueDesc": "Boost per-visitor spending with location-based offers and longer visit durations.",
+      "operations": "Operational Efficiency",
+      "operationsDesc": "Reduce operational costs by optimizing personnel and resource planning.",
+      "safety": "Safety and Security",
+      "safetyDesc": "Enhance safety with rapid emergency response and better crowd management."
+    }
+  },
+  "securitySolutions": {
+    "title": "Security and Emergency Management",
+    "subtitle": "Enhance facility security and enable rapid emergency response with RTLS technology.",
+    "description": "RTLS technology provides critical real-time location data for security and emergency management. These solutions enhance the safety of personnel and assets, enable access control, and provide rapid and effective response during emergencies.",
     "features": {
       "realTimeMonitoring": "Real-Time Monitoring",
-      "realTimeMonitoringDesc": "Monitor the indoor locations of employees in real-time",
-      "locationAccuracy": "Location Accuracy",
-      "locationAccuracyDesc": "High-precision tracking with 3-5 cm accuracy",
-      "safetyAlerts": "Safety Alerts",
-      "safetyAlertsDesc": "Automatic collision avoidance systems and emergency notifications"
+      "monitoringDesc": "Monitor the real-time locations of personnel, visitors, and assets on a map.",
+      "alertSystem": "Advanced Alert System",
+      "alertDesc": "Instant notifications for unauthorized access, emergencies, and abnormal movements.",
+      "accessControl": "Access Control",
+      "accessDesc": "Restrict access to sensitive areas and manage authorizations.",
+      "personnelSafety": "Personnel Safety",
+      "safetyDesc": "Ensure the safety of personnel working in hazardous areas and enable emergency response.",
+      "responseTime": "Rapid Response Time",
+      "responseDesc": "Enable security personnel to respond faster during emergencies.",
+      "emergencyManagement": "Emergency Management",
+      "emergencyDesc": "Provide real-time data for evacuation planning and coordination during emergencies."
+    },
+    "useCases": {
+      "industrial": "Industrial Facilities",
+      "industrialDesc": "Ensure personnel safety and asset protection in factories and production plants.",
+      "healthcare": "Healthcare Institutions",
+      "healthcareDesc": "Access control and patient safety in hospitals.",
+      "education": "Educational Institutions",
+      "educationDesc": "Campus security and emergency management in schools and universities.",
+      "commercial": "Commercial Buildings",
+      "commercialDesc": "Security and emergency evacuation planning in office complexes and shopping malls.",
+      "government": "Government Institutions",
+      "governmentDesc": "Access control and security enhancements in public buildings.",
+      "events": "Large Events",
+      "eventsDesc": "Crowd management and emergency planning during concerts, festivals, and sporting events."
+    },
+    "benefits": {
+      "prevention": "Proactive Prevention",
+      "preventionDesc": "Detect potential threats early and reduce security incidents by up to 60%.",
+      "response": "Fast Response",
+      "responseDesc": "Shorten response times during emergencies by up to 70% for effective intervention.",
+      "compliance": "Compliance and Reporting",
+      "complianceDesc": "Ensure compliance with security regulations and provide detailed incident reporting.",
+      "insurance": "Insurance Cost Reduction",
+      "insuranceDesc": "Potentially lower insurance premiums with enhanced security measures."
+    }
+  },
+  "retailShopping": {
+    "title": "Retail and Shopping Solutions",
+    "subtitle": "Enhance shopping experiences and boost sales with location-based technologies.",
+    "description": "RTLS technology enables you to provide unique shopping experiences by tracking customer movements within the store. These solutions help optimize store layouts, improve staff efficiency, and increase sales performance by analyzing customer behavior.",
+    "features": {
+      "indoorNavigation": "Indoor Navigation",
+      "navigationDesc": "Interactive maps to help customers easily find products within the store.",
+      "smartShopping": "Smart Shopping Experience",
+      "smartShoppingDesc": "Personalized shopping experiences with location-based product suggestions and special offers.",
+      "analytics": "Customer Behavior Analytics",
+      "analyticsDesc": "Optimize store layout using heatmaps and customer journey analysis.",
+      "conversion": "Conversion Optimization",
+      "conversionDesc": "Increase sales conversion rates by analyzing in-store visitor behavior.",
+      "staffing": "Staff Optimization",
+      "staffingDesc": "Plan staffing and optimize resources based on store traffic data.",
+      "loyalty": "Loyalty Programs",
+      "loyaltyDesc": "Boost customer loyalty with location-based rewards and personalized offers."
+    },
+    "useCases": {
+      "department": "Department Stores",
+      "departmentDesc": "Customer navigation and department-based traffic analysis in multi-story stores.",
+      "supermarket": "Supermarkets",
+      "supermarketDesc": "Shopping list navigation and shelf optimization in supermarkets.",
+      "mall": "Shopping Malls",
+      "mallDesc": "In-mall store navigation, campaign notifications, and visitor analytics.",
+      "luxury": "Luxury Retail",
+      "luxuryDesc": "Personalized VIP experiences and special services in luxury stores.",
+      "electronics": "Electronics Stores",
+      "electronicsDesc": "Guide customers to product demos and call for technical support staff in electronics stores.",
+      "popup": "Pop-up Stores",
+      "popupDesc": "Location-based promotions and event notifications in temporary pop-up stores."
+    },
+    "benefits": {
+      "revenue": "Sales Increase",
+      "revenueDesc": "Boost sales by 15-30% with location-based marketing and personalized offers.",
+      "experience": "Customer Experience",
+      "experienceDesc": "Improve customer satisfaction through seamless navigation and personalized shopping experiences.",
+      "operations": "Operational Efficiency",
+      "operationsDesc": "Reduce operational costs by optimizing staff planning and store layouts.",
+      "inventory": "Inventory Management",
+      "inventoryDesc": "Enhance inventory management and reduce losses through better product placement and stock tracking."
     }
   },
   "terms": {

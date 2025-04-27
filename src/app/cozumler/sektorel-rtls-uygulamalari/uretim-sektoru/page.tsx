@@ -42,7 +42,7 @@ const ManufacturingSolutions = () => {
     // {
     //   title: t('manufacturingSolutions.useCases.automotive'),
     //   description: t('manufacturingSolutions.useCases.automotiveDesc'),
-    //   image: "https://images.unsplash.com/photo-1537041373723-5e99254996d8?auto=format&fit=crop&q=80&w=2000"
+    //   image: "/assets/images/Uretim/varlık-takip-d.png"
     // },
     {
       title: t('manufacturingSolutions.useCases.electronics'),
@@ -57,12 +57,12 @@ const ManufacturingSolutions = () => {
     // {
     //   title: t('manufacturingSolutions.useCases.pharmaceutical'),
     //   description: t('manufacturingSolutions.useCases.pharmaceuticalDesc'),
-    //   image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=2000"
+    //   image: "/assets/images/Uretim/varlık-takip-d.png"
     // },
     // {
     //   title: t('manufacturingSolutions.useCases.aerospace'),
     //   description: t('manufacturingSolutions.useCases.aerospaceDesc'),
-    //   image: "https://images.unsplash.com/photo-1518162766821-14cb695d7e2b?auto=format&fit=crop&q=80&w=2000"
+    //   image: "/assets/images/Uretim/varlık-takip-d.png"
     // },
     {
       title: t('manufacturingSolutions.useCases.heavyIndustry'),

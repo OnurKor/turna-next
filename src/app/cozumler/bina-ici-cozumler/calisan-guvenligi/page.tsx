@@ -42,23 +42,23 @@ const EmployeeSafety = () => {
     {
       title: t('employeeSafety.useCasesTypes.mining'),
       description: t('employeeSafety.useCasesTypes.miningDesc'),
-      image: "https://images.unsplash.com/photo-1595824828155-75229c158563?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Lojistik/varlık-takip-d.png"
     },
     {
       title: t('employeeSafety.useCasesTypes.construction'),
       description: t('employeeSafety.useCasesTypes.constructionDesc'),
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Hastane/personel-takip-dikdortgen.png"
     },
     {
       title: t('employeeSafety.useCasesTypes.chemicalIndustry'),
       description: t('employeeSafety.useCasesTypes.chemicalIndustryDesc'),
-      image: "https://images.unsplash.com/photo-1626315869532-78ec0f0aab26?auto=format&fit=crop&q=80&w=2000"
+      image: "/assets/images/Uretim/personel-takip-d.png"
     },
-    {
-      title: t('employeeSafety.useCasesTypes.oilAndGas'),
-      description: t('employeeSafety.useCasesTypes.oilAndGasDesc'),
-      image: "https://images.unsplash.com/photo-1580800273261-aea4176649a7?auto=format&fit=crop&q=80&w=2000"
-    }
+    // {
+    //   title: t('employeeSafety.useCasesTypes.oilAndGas'),
+    //   description: t('employeeSafety.useCasesTypes.oilAndGasDesc'),
+    //   image: "/assets/images/Lojistik/varlık-takip-d.png"
+    // }
   ];
   
   const technicalDetails = [

@@ -54,11 +54,11 @@ const PersonnelTracking = () => {
       description: t('personnelTracking.useCases.warehousesDesc'),
       image: '/assets/images/Lojistik/personel-takip-d.png'
     },
-    {
-      title: t('personnelTracking.useCases.offices'),
-      description: t('personnelTracking.useCases.officesDesc'),
-      image: '/assets/images/Guvenlik/personel-takip-d.png'
-    }
+    // {
+    //   title: t('personnelTracking.useCases.offices'),
+    //   description: t('personnelTracking.useCases.officesDesc'),
+    //   image: '/assets/images/Guvenlik/personel-takip-d.png'
+    // }
   ];
 
   const technicalDetails = [

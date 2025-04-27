@@ -389,43 +389,6 @@
       "customerSatisfactionDesc": "Daha hızlı ve doğru teslimatlarla müşteri memnuniyetini ve sadakatini artırın."
     }
   },
-  "entertainmentSolutions": {
-    "title": "Eğlence Sektörü Çözümleri",
-    "subtitle": "Eğlence alanlarında gerçek zamanlı izleme ve güvenliği sağlar",
-    "description": "Eğlence alanlarında gerçek zamanlı izleme ve güvenliği sağlamak için özel RTLS çözümleri sunar.",
-    "features": {
-      "realTimeMonitoring": "Gerçek Zamanlı İzleme",
-      "realTimeMonitoringDesc": "Eğlence alanlarında çalışanların konumlarını ve durumlarını anlık olarak izleme",
-      "dangerAlerts": "Tehlike Bildirimleri",
-      "dangerAlertsDesc": "Eğlence alanlarında tehlikeli alanlara giriş veya acil durumlar için otomatik uyarılar",
-      "teamManagement": "Ekip Yönetimi",
-      "teamManagementDesc": "Ekiplerin dağılımını ve görevlerini etkili şekilde koordine etme",
-      "wearableTech": "Giyilebilir Teknoloji",
-      "wearableTechDesc": "Çalışanlar için konfor ve işlevsellik sunan gelişmiş güvenlik ekipmanları",
-      "preventiveSecurity": "Önleyici Güvenlik",
-      "preventiveSecurityDesc": "Kaza risklerini önceden tespit ederek önleyici tedbirler alma",
-      "realTimeAlarm": "Gerçek Zamanlı Alarm",
-      "realTimeAlarmDesc": "Acil durumlarda anında bildirim ve müdahale koordinasyonu"
-    },
-    "useCasesTypes": {
-      "mining": "Madencilik",
-      "miningDesc": "Yeraltı madenciliğinde çalışan güvenliği ve acil durum müdahalesi",
-      "construction": "İnşaat Sektörü",
-      "constructionDesc": "Yüksek riskli inşaat alanlarında güvenlik yönetimi ve kaza önleme",
-      "chemicalIndustry": "Kimya Endüstrisi",
-      "chemicalIndustryDesc": "Tehlikeli kimyasallarla çalışılan ortamlarda güvenlik protokolleri",
-      "oilAndGas": "Petrol ve Doğalgaz",
-      "oilAndGasDesc": "Sondaj ve rafineri operasyonlarında yüksek riskli alanların yönetimi"
-    },
-    "techFeatures": {
-      "1": "Darbe ve düşme algılama sensörleri",
-      "2": "Çift yönlü ses iletişimi",
-      "3": "SOS düğmesi ve panik alarmı",
-      "4": "12+ saat batarya ömrü",
-      "5": "IP67 su ve toza dayanıklılık",
-      "6": "3-5 metre hassasiyetle konum belirleme"
-    }
-  },
   "forkliftTracking": {
     "title": "Forklift Takip",
     "subtitle": "İşletmenizin operasyonel verimliliğini artırmak için gerçek zamanlı forklift takip çözümleri.",
@@ -545,7 +508,191 @@
       "manufacturing": "Üretim Tesisleri",
       "manufacturingDesc": "Fabrika ortamında çalışanların iş istasyonlarında geçirdikleri süreleri takip edin, üretim verimliliğini artırın.",
       "hospitals": "Hastaneler",
-      "hospitalsDesc": "Sağlık personelinin hasta bakımına ayırdığı süreleri ölçün, acil durumlarda en yakın sağlık personelini belirleyin."
+      "hospitalsDesc": "Sağlık personelinin hasta bakımına ayırdığı süreleri ölçün, acil durumlarda en yakın sağlık personelini belirleyin.",
+      "warehouses": "Depolar ve Lojistik Merkezleri",
+      "warehousesDesc": "Depo çalışanlarının hareketlerini izleyerek iş akışlarını optimize edin, sipariş toplama sürelerini azaltın."
+    },
+    "techDetails": {
+      "1": "Giyilebilir takip cihazları (bileklik, yaka kartı veya kask entegrasyonu)",
+      "2": "Bina içi konum belirleme hassasiyeti: 1-3 metre",
+      "3": "12+ saat batarya ömrü",
+      "4": "IP67 su ve toza dayanıklılık",
+      "5": "İki yönlü iletişim ve acil durum butonu",
+      "6": "Gerçek zamanlı uyarı ve bildirim sistemi",
+      "7": "Çalışan hareketleri üzerinden analitik raporlama",
+      "8": "Bulut tabanlı veri depolama ve yönetim"
+    }
+  },
+  "healthcareSolutions": {
+    "title": "Sağlık Sektörü Çözümleri",
+    "subtitle": "Hasta bakım kalitesini ve operasyonel verimliliği artırmak için gerçek zamanlı konum teknolojisi.",
+    "description": "RTLS teknolojisi, sağlık kuruluşlarında hastaların, personelin ve tıbbi ekipmanların gerçek zamanlı takibini sağlayarak hasta bakım kalitesini artırır, operasyonel verimliliği iyileştirir ve maliyetleri düşürür. Bu çözümler, acil durumlarda müdahale sürelerini kısaltır, ekipman kullanım oranlarını artırır ve hasta güvenliğini sağlar.",
+    "features": {
+      "assetTracking": "Tıbbi Cihaz Takibi",
+      "assetTrackingDesc": "Değerli tıbbi ekipmanların gerçek zamanlı konumlarını takip ederek bulunabilirliği artırma.",
+      "patientMonitoring": "Hasta Takibi",
+      "patientMonitoringDesc": "Hastaların hastane içindeki konumlarını ve hareketlerini izleyerek güvenliklerini sağlama.",
+      "workflowOptimization": "İş Akışı Optimizasyonu",
+      "workflowOptimizationDesc": "Tıbbi süreçlerin analizi ve optimizasyonu ile hasta bakım kalitesini artırma.",
+      "staffManagement": "Personel Yönetimi",
+      "staffManagementDesc": "Sağlık personelinin konumunu ve çalışma sürelerini takip ederek kaynak planlamasını iyileştirme.",
+      "waitTimeReduction": "Bekleme Süresi Azaltma",
+      "waitTimeReductionDesc": "Hasta akışı analizi ile bekleme sürelerini azaltma ve hasta memnuniyetini artırma.",
+      "dementiaCare": "Demans Hastaları Güvenliği",
+      "dementiaDesc": "Demans hastalarının güvenliğini sağlamak için konum takibi ve güvenli alan belirlemesi."
+    },
+    "useCases": {
+      "hospitals": "Hastaneler",
+      "hospitalsDesc": "Büyük hastanelerde personel, hasta ve ekipmanların etkin yönetimi ile hizmet kalitesini artırma.",
+      "emergencyDepartments": "Acil Servisler",
+      "emergencyDesc": "Acil servislerde hasta akışının ve ekipman bulunabilirliğinin optimizasyonu.",
+      "nursingHomes": "Bakım Evleri",
+      "nursingDesc": "Yaşlı ve demans hastalarının güvenliğini sağlamak için konum takibi ve alarm sistemleri.",
+      "laboratories": "Laboratuvarlar",
+      "labsDesc": "Laboratuvar numunelerinin ve sonuçlarının takibi ile hata oranlarını azaltma.",
+      "clinics": "Klinikler",
+      "clinicsDesc": "Ayakta tedavi kliniklerinde hasta akışını optimize ederek bekleme sürelerini azaltma.",
+      "pharmacies": "Eczaneler",
+      "pharmaciesDesc": "İlaç ve tıbbi malzemelerin stok yönetimi ve izlenebilirliğini sağlama."
+    },
+    "benefits": {
+      "patientCare": "Gelişmiş Hasta Bakımı",
+      "patientCareDesc": "Personelin hastalara daha hızlı müdahale etmesi ile hasta bakım kalitesinde artış.",
+      "assetUtilization": "Ekipman Kullanımı",
+      "assetUtilizationDesc": "Tıbbi cihazların kullanım oranlarında %25'e varan artış ve yeni ekipman alımlarında tasarruf.",
+      "staffEfficiency": "Personel Verimliliği",
+      "staffEfficiencyDesc": "Sağlık personelinin iş yükünün optimize edilmesi ile verimlilik artışı ve tükenmişliğin azalması.",
+      "patientSafety": "Hasta Güvenliği",
+      "patientSafetyDesc": "Özel bakım gerektiren hastaların güvenliğini sağlayarak risk ve sorumlulukların azaltılması."
+    }
+  },
+  "entertainmentSolutions": {
+    "title": "Eğlence Sektörü Çözümleri",
+    "subtitle": "Ziyaretçi deneyimini zenginleştirmek ve operasyonel verimliliği artırmak için RTLS teknolojisi.",
+    "description": "RTLS teknolojisi, eğlence ve etkinlik mekanlarında ziyaretçilerin konumlarını ve hareketlerini takip ederek benzersiz deneyimler sunmanızı sağlar. Bu çözümler, tema parkları, müzeler, konserler, stadyumlar ve diğer eğlence mekanlarında ziyaretçi memnuniyetini artırırken operasyonel verimliliği de iyileştirir.",
+    "features": {
+      "indoorNavigation": "İç Mekan Navigasyonu",
+      "navigationDesc": "Ziyaretçilere tesiste kolay yön bulma imkanı sağlayan etkileşimli haritalar ve navigasyon.",
+      "crowdManagement": "Kalabalık Yönetimi",
+      "crowdDesc": "Yoğun alanların tespiti ve ziyaretçi akışının optimizasyonu ile daha iyi bir deneyim sağlama.",
+      "ticketing": "Akıllı Biletleme",
+      "ticketingDesc": "Temassız biletleme ve konum tabanlı erişim kontrolü ile sıra bekleme sürelerini azaltma.",
+      "experience": "Etkileşimli Deneyimler",
+      "experienceDesc": "Konum bazlı içerik sunumu ile ziyaretçilere özel, etkileşimli deneyimler oluşturma.",
+      "analytics": "Ziyaretçi Analitiği",
+      "analyticsDesc": "Ziyaretçi davranışlarının analizi ile tesis düzeni ve etkinlik planlamasını iyileştirme.",
+      "loyalty": "Sadakat Programları",
+      "loyaltyDesc": "Konum bazlı özel teklifler ve ödüller ile ziyaretçi sadakatini artırma."
+    },
+    "useCases": {
+      "themeparks": "Tema Parkları",
+      "themeparksDesc": "Ziyaretçi deneyimini zenginleştiren navigasyon, sıra yönetimi ve etkileşimli deneyimler.",
+      "museums": "Müzeler ve Galeriler",
+      "museumsDesc": "Sanat eserleri ve sergiler hakkında konum bazlı bilgi sunan etkileşimli rehberlik.",
+      "concerts": "Konser ve Etkinlikler",
+      "concertsDesc": "Büyük etkinliklerde kalabalık yönetimi, kolay navigasyon ve acil durum planlaması.",
+      "stadiums": "Stadyumlar ve Spor Tesisleri",
+      "stadiumsDesc": "Stadyumlarda kolay yön bulma, biletleme ve kalabalık yönetimi çözümleri.",
+      "casinos": "Kumarhaneler ve Oteller",
+      "casinosDesc": "Misafirlere özel deneyimler sunma ve müşteri davranışlarını analiz etme imkanı.",
+      "festivals": "Festivaller ve Fuarlar",
+      "festivalsDesc": "Geniş alanlarda etkinlikleri bulma, arkadaşları takip etme ve deneyimi zenginleştirme."
+    },
+    "benefits": {
+      "experience": "Gelişmiş Ziyaretçi Deneyimi",
+      "experienceDesc": "Kolay navigasyon ve kişiselleştirilmiş içerikler ile ziyaretçi memnuniyetinde artış.",
+      "revenue": "Gelir Artışı",
+      "revenueDesc": "Konum bazlı teklifler ve daha uzun ziyaret süreleri ile kişi başı harcamalarda artış.",
+      "operations": "Operasyonel Verimlilik",
+      "operationsDesc": "Personel ve kaynak planlamasının optimizasyonu ile operasyonel maliyetlerde düşüş.",
+      "safety": "Güvenlik ve Emniyet",
+      "safetyDesc": "Acil durumlarda hızlı müdahale ve kalabalık yönetimi ile güvenlikte artış."
+    }
+  },
+  "securitySolutions": {
+    "title": "Güvenlik ve Acil Durum Yönetimi",
+    "subtitle": "Tesislerinizin güvenliğini artırmak ve acil durumlara hızlı müdahale için RTLS teknolojisi.",
+    "description": "RTLS teknolojisi, güvenlik ve acil durum yönetimi için kritik öneme sahip gerçek zamanlı konum verileri sağlar. Bu çözümler, personel ve varlıkların güvenliğini artırır, erişim kontrolü sağlar ve acil durumlarda hızlı ve etkili müdahale imkanı sunar.",
+    "features": {
+      "realTimeMonitoring": "Gerçek Zamanlı İzleme",
+      "monitoringDesc": "Personel, ziyaretçi ve varlıkların anlık konumlarını harita üzerinde izleme.",
+      "alertSystem": "Gelişmiş Alarm Sistemi",
+      "alertDesc": "İzinsiz giriş, acil durum ve anormal hareketler için anında bildirimler.",
+      "accessControl": "Erişim Kontrolü",
+      "accessDesc": "Hassas bölgelere erişimi kısıtlama ve yetkilendirme yönetimi.",
+      "personnelSafety": "Personel Güvenliği",
+      "safetyDesc": "Tehlikeli alanlarda çalışan personelin güvenliğini sağlama ve acil durum müdahalesi.",
+      "responseTime": "Hızlı Müdahale Süresi",
+      "responseDesc": "Güvenlik personelinin acil durumlara daha hızlı müdahale etmesini sağlama.",
+      "emergencyManagement": "Acil Durum Yönetimi",
+      "emergencyDesc": "Acil durumlarda tahliye planlama ve koordinasyon için gerçek zamanlı veri."
+    },
+    "useCases": {
+      "industrial": "Endüstriyel Tesisler",
+      "industrialDesc": "Fabrika ve üretim tesislerinde personel güvenliği ve varlık koruması.",
+      "healthcare": "Sağlık Kuruluşları",
+      "healthcareDesc": "Hastanelerde hassas bölgelere erişim kontrolü ve hasta güvenliği.",
+      "education": "Eğitim Kurumları",
+      "educationDesc": "Okul ve üniversite kampüslerinde güvenlik ve acil durum yönetimi.",
+      "commercial": "Ticari Binalar",
+      "commercialDesc": "Ofis kompleksleri ve alışveriş merkezlerinde güvenlik ve acil durum tahliyesi.",
+      "government": "Devlet Kurumları",
+      "governmentDesc": "Kamu binalarında erişim kontrolü ve güvenlik iyileştirmeleri.",
+      "events": "Büyük Etkinlikler",
+      "eventsDesc": "Konser, festival ve spor etkinliklerinde kalabalık yönetimi ve acil durum planlaması."
+    },
+    "benefits": {
+      "prevention": "Proaktif Önleme",
+      "preventionDesc": "Potansiyel tehditleri önceden tespit ederek güvenlik olaylarını %60'a varan oranda azaltma.",
+      "response": "Hızlı Müdahale",
+      "responseDesc": "Acil durumlarda müdahale süresini %70'e varan oranda kısaltarak etkili müdahale.",
+      "compliance": "Uyum ve Raporlama",
+      "complianceDesc": "Güvenlik düzenlemelerine uyum sağlama ve detaylı olay raporlama kabiliyeti.",
+      "insurance": "Sigorta Maliyetleri",
+      "insuranceDesc": "Gelişmiş güvenlik önlemleri ile sigorta primlerinde potansiyel indirimler."
+    }
+  },
+  "retailShopping": {
+    "title": "Perakende ve Alışveriş Çözümleri",
+    "subtitle": "Alışveriş deneyimini iyileştirmek ve satışları artırmak için konum tabanlı teknolojiler.",
+    "description": "RTLS teknolojisi, perakende sektöründe müşterilerin mağaza içindeki hareketlerini izleyerek benzersiz alışveriş deneyimleri sunmanızı sağlar. Bu çözümler, müşteri davranışlarını analiz ederek mağaza düzeninin optimizasyonunu, personel verimliliğini ve satış performansını artırmanıza yardımcı olur.",
+    "features": {
+      "indoorNavigation": "İç Mekan Navigasyonu",
+      "navigationDesc": "Müşterilere mağaza içinde ürünleri kolayca bulma imkanı sağlayan interaktif haritalar.",
+      "smartShopping": "Akıllı Alışveriş Deneyimi",
+      "smartShoppingDesc": "Konum bazlı ürün önerileri ve özel teklifler ile kişiselleştirilmiş alışveriş deneyimi.",
+      "analytics": "Müşteri Davranış Analizi",
+      "analyticsDesc": "Sıcaklık haritaları ve müşteri yolculuğu analizi ile mağaza düzenini optimize etme.",
+      "conversion": "Dönüşüm Optimizasyonu",
+      "conversionDesc": "Mağaza içi ziyaretçi davranışlarını analiz ederek satış dönüşüm oranlarını artırma.",
+      "staffing": "Personel Optimizasyonu",
+      "staffingDesc": "Mağaza trafiği verilerine dayalı olarak personel planlaması ve kaynak optimizasyonu.",
+      "loyalty": "Sadakat Programları",
+      "loyaltyDesc": "Konum bazlı ödüller ve kişiselleştirilmiş teklifler ile müşteri sadakatini artırma."
+    },
+    "useCases": {
+      "department": "Büyük Mağazalar",
+      "departmentDesc": "Çok katlı mağazalarda müşteri navigasyonu ve bölüm bazlı trafik analizi.",
+      "supermarket": "Süpermarketler",
+      "supermarketDesc": "Süpermarketlerde alışveriş listesi navigasyonu ve raf optimizasyonu.",
+      "mall": "Alışveriş Merkezleri",
+      "mallDesc": "AVM içi mağaza navigasyonu, kampanya bildirimleri ve ziyaretçi analizi.",
+      "luxury": "Lüks Perakende",
+      "luxuryDesc": "Lüks mağazalarda kişiselleştirilmiş VIP müşteri deneyimi ve özel hizmetler.",
+      "electronics": "Elektronik Mağazaları",
+      "electronicsDesc": "Elektronik mağazalarında ürün demolarına yönlendirme ve teknik destek personeli çağırma.",
+      "popup": "Pop-up Mağazalar",
+      "popupDesc": "Geçici pop-up mağazalarda konum bazlı promosyonlar ve etkinlik bildirimleri."
+    },
+    "benefits": {
+      "revenue": "Satış Artışı",
+      "revenueDesc": "Konum bazlı pazarlama ve kişiselleştirilmiş teklifler ile satışlarda %15-30 artış.",
+      "experience": "Müşteri Deneyimi",
+      "experienceDesc": "Sorunsuz navigasyon ve kişiselleştirilmiş alışveriş deneyimi ile müşteri memnuniyetinde artış.",
+      "operations": "Operasyonel Verimlilik",
+      "operationsDesc": "Personel planlaması ve mağaza düzeni optimizasyonu ile operasyonel maliyetlerde azalma.",
+      "inventory": "Envanter Yönetimi",
+      "inventoryDesc": "Ürün yerleşimi ve stok takibi ile daha etkili envanter yönetimi ve kayıplarda azalma."
     }
   },
   "terms": {

@@ -58,7 +58,7 @@ const ForkliftAccidentPrevention = () => {
     {
       title: t('forkliftAccidentPrevention.useCases.construction'),
       description: t('forkliftAccidentPrevention.useCases.constructionDesc'),
-      image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80&w=2000'
+      image: '/assets/images/Hastane/personel-takip-dikdortgen.png'
     }
   ];
 

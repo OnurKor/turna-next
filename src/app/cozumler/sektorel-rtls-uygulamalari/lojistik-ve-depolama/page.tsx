@@ -54,7 +54,7 @@ const LogisticsSolutions = () => {
     // {
     //   title: t('logisticsSolutions.useCases.ecommerce'),
     //   description: t('logisticsSolutions.useCases.ecommerceDesc'),
-    //   image: "https://images.unsplash.com/photo-1614633833026-0820552978b8?auto=format&fit=crop&q=80&w=2000"
+    //   image: "assets/images/Lojistik/konum-takip-d.png"
     // },
     {
       title: t("logisticsSolutions.useCases.coldChain"),
@@ -69,12 +69,12 @@ const LogisticsSolutions = () => {
     // {
     //   title: t('logisticsSolutions.useCases.3pl'),
     //   description: t('logisticsSolutions.useCases.3plDesc'),
-    //   image: "https://images.unsplash.com/photo-1561361398-a8cb13b0b32a?auto=format&fit=crop&q=80&w=2000"
+    //   image: "assets/images/Lojistik/konum-takip-d.png"
     // },
     // {
     //   title: t('logisticsSolutions.useCases.crossDocking'),
     //   description: t('logisticsSolutions.useCases.crossDockingDesc'),
-    //   image: "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&q=80&w=2000"
+    //   image: "assets/images/Lojistik/konum-takip-d.png"
     // }
   ];
 
