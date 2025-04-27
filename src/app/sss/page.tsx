@@ -15,13 +15,9 @@ type FaqItem = {
 
 const FAQ = () => {
   const t = useTranslations();
-  const [currentLanguage, setCurrentLanguage] = useState<string>("tr");
   const [allFaqs, setAllFaqs] = useState<FaqItem[]>([]);
 
   useEffect(() => {
-    const lang = typeof window !== "undefined" ? localStorage.getItem("turnaLanguage") || "tr" : "tr";
-    setCurrentLanguage(lang);
-
     const faqs: FaqItem[] = [
       {
         question: t("faq.questions.rtlsSystem"),
@@ -83,7 +79,11 @@ const FAQ = () => {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <Accordion type="single" collapsible className="bg-white rounded-lg shadow-lg transition-all duration-300 ease-in-out overflow-hidden">
+            <Accordion
+              type="single"
+              collapsible
+              className="bg-white rounded-lg shadow-lg transition-all duration-300 ease-in-out overflow-hidden"
+            >
               {allFaqs.map((faq, index) => (
                 <AccordionItem
                   key={index}

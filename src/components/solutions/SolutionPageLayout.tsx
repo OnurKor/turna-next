@@ -1,5 +1,4 @@
-"use client";
-import React, { use } from "react";
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -46,41 +45,40 @@ const SolutionPageLayout: React.FC<SolutionPageProps> = ({
 
   return (
     <div className="min-h-screen flex flex-col">
+      {/* Hero Section */}
+      <section className="relative w-full h-[550px] md:h-[700px] bg-gradient-to-r from-turna-600 via-turna-500 to-turna-400 overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="w-full h-full flex flex-col md:grid md:grid-cols-3">
+            {/* Sol: Yazılar */}
+            <div className="flex  mt-10 sm:mt-0  flex-col  justify-center items-center md:items-start text-center md:text-left px-6 py-8 text-white ">
+              <h1 className="text-3xl md:text-5xl font-bold mb-4">{title}</h1>
+              <p className="text-lg md:text-xl opacity-90">{subtitle}</p>
+              <div className="flex flex-wrap gap-4 justify-center md:justify-start mt-6">
+                <Link href="/iletisim">
+                  <Button
+                    variant="outline"
+                    className="turna-button-primary bg-white text-turna-600 hover:bg-turna-50"
+                  >
+                    {t("common.contactUs")}
+                  </Button>
+                </Link>
+              </div>
+            </div>
 
-{/* Hero Section */}
-<section className="relative w-full h-[550px] md:h-[700px] bg-gradient-to-r from-turna-600 via-turna-500 to-turna-400 overflow-hidden">
-  <div className="absolute inset-0">
-    <Image
-      src={heroImage}
-      alt={title}
-      fill
-      priority
-      className="object-cover w-full h-full object-center"
-      onError={(e) => {
-        const target = e.target as HTMLImageElement;
-        target.src = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000";
-      }}
-    />
-    <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px]"></div> 
-  </div>
-
-  <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center items-center text-center text-white">
-    <h1 className="text-3xl md:text-5xl font-bold mb-4">{title}</h1>
-    <p className="text-lg md:text-xl opacity-90">{subtitle}</p>
-    <div className="flex flex-wrap gap-4 justify-center mt-6">
-      <Link href="/iletisim">
-        <Button
-          variant="outline"
-          className="turna-button-primary bg-white text-turna-600 hover:bg-turna-50"
-        >
-          {t("common.contactUs")}
-        </Button>
-      </Link>
-    </div>
-  </div>
-</section>
-
-
+            {/* Sağ: Görsel */}
+            <div className="relative flex-1 w-full h-full  col-span-2 ">
+              <Image
+                src={heroImage}
+                alt={title}
+                fill
+                priority
+                className="object-contain p-4"
+                sizes="(max-width: 768px) 100vw, 66vw"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Main Content */}
       <section className="py-16 px-4  bg-gray-50">
@@ -146,11 +144,6 @@ const SolutionPageLayout: React.FC<SolutionPageProps> = ({
                             src={useCase.image}
                             alt={useCase.title}
                             className="object-cover"
-                            onError={(e) => {
-                              const target = e.target as HTMLImageElement;
-                              target.src =
-                                "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=2000";
-                            }}
                           />
                         </div>
                       )}
@@ -228,7 +221,7 @@ const SolutionPageLayout: React.FC<SolutionPageProps> = ({
               </div>
               <div>
                 <p className="text-gray-700 italic mb-4 text-lg">
-                  "{t("common.testimonialQuote")}"
+                &quot;{t("common.testimonialQuote")}&quot;
                 </p>
                 <div>
                   <p className="font-bold text-gray-800">
@@ -282,7 +275,6 @@ const SolutionPageLayout: React.FC<SolutionPageProps> = ({
           </div>
         </div>
       </section> */}
-
     </div>
   );
 };

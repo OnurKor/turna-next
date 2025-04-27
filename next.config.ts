@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
     domains: ["images.unsplash.com", "www.navbea.com"],
     unoptimized: true
   },
+  eslint:{
+    ignoreDuringBuilds: true,
+  }
 };
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");

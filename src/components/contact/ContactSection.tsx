@@ -10,6 +10,15 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 
+interface ContactFormValues {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  company: string;
+  message: string;
+}
+
 const ContactSection = () => {
   const t = useTranslations();
   const { toast } = useToast();
@@ -28,7 +37,10 @@ const ContactSection = () => {
       .required(t("contactUs.form.errors.messageRequired")),
   });
 
-  const handleSubmit = (values: any, { resetForm }: any) => {
+  const handleSubmit = (
+    values: ContactFormValues,
+    { resetForm }: { resetForm: () => void }
+  ) => {
     setIsSubmitting(true);
 
     // Simulated API call
@@ -78,53 +90,117 @@ const ContactSection = () => {
                   {/* İsimler */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <label htmlFor="firstName" className="text-sm font-medium leading-none">
+                      <label
+                        htmlFor="firstName"
+                        className="text-sm font-medium leading-none"
+                      >
                         {t("contactUs.form.firstName")}
                       </label>
-                      <Field as={Input} id="firstName" name="firstName" placeholder={t("contactUs.form.firstNamePlaceholder")} />
-                      <ErrorMessage name="firstName" component="p" className="text-sm font-medium text-destructive" />
+                      <Field
+                        as={Input}
+                        id="firstName"
+                        name="firstName"
+                        placeholder={t("contactUs.form.firstNamePlaceholder")}
+                      />
+                      <ErrorMessage
+                        name="firstName"
+                        component="p"
+                        className="text-sm font-medium text-destructive"
+                      />
                     </div>
 
                     <div className="space-y-2">
-                      <label htmlFor="lastName" className="text-sm font-medium leading-none">
+                      <label
+                        htmlFor="lastName"
+                        className="text-sm font-medium leading-none"
+                      >
                         {t("contactUs.form.lastName")}
                       </label>
-                      <Field as={Input} id="lastName" name="lastName" placeholder={t("contactUs.form.lastNamePlaceholder")} />
-                      <ErrorMessage name="lastName" component="p" className="text-sm font-medium text-destructive" />
+                      <Field
+                        as={Input}
+                        id="lastName"
+                        name="lastName"
+                        placeholder={t("contactUs.form.lastNamePlaceholder")}
+                      />
+                      <ErrorMessage
+                        name="lastName"
+                        component="p"
+                        className="text-sm font-medium text-destructive"
+                      />
                     </div>
                   </div>
 
                   {/* Email ve Telefon */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
-                      <label htmlFor="email" className="text-sm font-medium leading-none">
+                      <label
+                        htmlFor="email"
+                        className="text-sm font-medium leading-none"
+                      >
                         {t("contactUs.form.email")}
                       </label>
-                      <Field as={Input} id="email" type="email" name="email" placeholder={t("contactUs.form.emailPlaceholder")} />
-                      <ErrorMessage name="email" component="p" className="text-sm font-medium text-destructive" />
+                      <Field
+                        as={Input}
+                        id="email"
+                        type="email"
+                        name="email"
+                        placeholder={t("contactUs.form.emailPlaceholder")}
+                      />
+                      <ErrorMessage
+                        name="email"
+                        component="p"
+                        className="text-sm font-medium text-destructive"
+                      />
                     </div>
 
                     <div className="space-y-2">
-                      <label htmlFor="phone" className="text-sm font-medium leading-none">
+                      <label
+                        htmlFor="phone"
+                        className="text-sm font-medium leading-none"
+                      >
                         {t("contactUs.form.phone")}
                       </label>
-                      <Field as={Input} id="phone" name="phone" placeholder={t("contactUs.form.phonePlaceholder")} />
-                      <ErrorMessage name="phone" component="p" className="text-sm font-medium text-destructive" />
+                      <Field
+                        as={Input}
+                        id="phone"
+                        name="phone"
+                        placeholder={t("contactUs.form.phonePlaceholder")}
+                      />
+                      <ErrorMessage
+                        name="phone"
+                        component="p"
+                        className="text-sm font-medium text-destructive"
+                      />
                     </div>
                   </div>
 
                   {/* Şirket */}
                   <div className="space-y-2">
-                    <label htmlFor="company" className="text-sm font-medium leading-none">
+                    <label
+                      htmlFor="company"
+                      className="text-sm font-medium leading-none"
+                    >
                       {t("contactUs.form.company")}
                     </label>
-                    <Field as={Input} id="company" name="company" placeholder={t("contactUs.form.companyPlaceholder")} />
-                    <ErrorMessage name="company" component="p" className="text-sm font-medium text-destructive" />
+                    <Field
+                      as={Input}
+                      id="company"
+                      name="company"
+                      placeholder={t("contactUs.form.companyPlaceholder")}
+                    />
+                    <ErrorMessage
+                      name="company"
+                      component="p"
+                      className="text-sm font-medium text-destructive"
+                    />
                   </div>
 
                   {/* Mesaj */}
                   <div className="space-y-2">
-                    <label htmlFor="message" className="text-sm font-medium leading-none">
+                    <label
+                      htmlFor="message"
+                      className="text-sm font-medium leading-none"
+                    >
                       {t("contactUs.form.message")}
                     </label>
                     <Field
@@ -134,7 +210,11 @@ const ContactSection = () => {
                       placeholder={t("contactUs.form.messagePlaceholder")}
                       className="min-h-[120px]"
                     />
-                    <ErrorMessage name="message" component="p" className="text-sm font-medium text-destructive" />
+                    <ErrorMessage
+                      name="message"
+                      component="p"
+                      className="text-sm font-medium text-destructive"
+                    />
                   </div>
 
                   {/* Gönder Butonu */}
@@ -143,7 +223,9 @@ const ContactSection = () => {
                     className="w-full md:w-auto bg-turna-500 hover:bg-turna-600"
                     disabled={isSubmitting || formikSubmitting}
                   >
-                    {isSubmitting ? t("contactUs.form.sending") : t("contactUs.form.submit")}
+                    {isSubmitting
+                      ? t("contactUs.form.sending")
+                      : t("contactUs.form.submit")}
                   </Button>
                 </FormikForm>
               )}
@@ -152,12 +234,15 @@ const ContactSection = () => {
 
           {/* İletişim Bilgileri */}
           <div className="bg-gray-50 p-6 rounded-lg">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">{t("contactUs.officeInfo.title")}</h3>
+            <h3 className="text-xl font-bold mb-4 text-gray-800">
+              {t("contactUs.officeInfo.title")}
+            </h3>
             <ul className="space-y-4">
               <li className="flex">
                 <MapPin className="h-5 w-5 text-turna-500 mr-3 flex-shrink-0 mt-1" />
                 <p className="text-gray-600">
-                  Ostim OSB Mahallesi Cevat Dündar Caddesi No: 1/1 İç Kapı No: 10 Yenimahalle/ANKARA
+                  Ostim OSB Mahallesi Cevat Dündar Caddesi No: 1/1 İç Kapı No:
+                  10 Yenimahalle/ANKARA
                 </p>
               </li>
               <li className="flex">
@@ -170,7 +255,9 @@ const ContactSection = () => {
               </li>
               <li className="flex">
                 <Clock className="h-5 w-5 text-turna-500 mr-3 flex-shrink-0" />
-                <p className="text-gray-600">{t("contactUs.officeInfo.hours")}</p>
+                <p className="text-gray-600">
+                  {t("contactUs.officeInfo.hours")}
+                </p>
               </li>
             </ul>
           </div>

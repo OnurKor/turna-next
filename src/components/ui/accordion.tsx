@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import type { ComponentPropsWithoutRef, ForwardedRef } from "react";
+import type { ComponentPropsWithoutRef } from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
 import { ChevronDown } from "@/lib/icons";
 import { cn } from "@/lib/utils";
