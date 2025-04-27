@@ -134,9 +134,10 @@ const Navbar = () => {
             <Image
               src={Logo}
               alt="turna.io logo"
-              className="object-cover"
-              width={180}
+              className="object-contain"
+              width={300}
               height={60}
+              priority
             />
           </Link>
 
