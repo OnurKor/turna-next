@@ -1,7 +1,4 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { Shield, LockKeyhole } from '@/lib/icons';
-import { useEffect } from "react";
 import { useTranslations } from "next-intl";
 
 const PrivacyPolicy = () => {
@@ -10,7 +7,6 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
       <div className="flex-grow container mx-auto px-4 py-16 mt-16">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
@@ -245,7 +241,6 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

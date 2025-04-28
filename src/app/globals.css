@@ -52,12 +52,12 @@
     --foreground-dark: #ededed;
   }
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     :root {
       --background: var(--background-dark);
       --foreground: var(--foreground-dark);
     }
-  }
+  } */
 
   html,
   body {
