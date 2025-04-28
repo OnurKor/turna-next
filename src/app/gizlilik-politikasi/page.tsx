@@ -7,9 +7,6 @@ import { useTranslations } from "next-intl";
 const PrivacyPolicy = () => {
   const  t  = useTranslations();
   
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
