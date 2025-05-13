@@ -34,7 +34,7 @@ const t = useTranslations("footer")
               </p>
               <p className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-turna-500 flex-shrink-0" />
-                <span className="text-md">turna.bilisim.io@gmail.com</span>
+                <span className="text-md">bilgi@turna.io</span>
               </p>
             </div>
           </div>

@@ -251,7 +251,7 @@ const ContactSection = () => {
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 text-turna-500 mr-3 flex-shrink-0" />
-                <p className="text-gray-600">turna.bilisim.io@gmail.com</p>
+                <p className="text-gray-600">bilgi@turna.io</p>
               </li>
               <li className="flex">
                 <Clock className="h-5 w-5 text-turna-500 mr-3 flex-shrink-0" />

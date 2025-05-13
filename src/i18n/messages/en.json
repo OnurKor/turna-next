@@ -203,7 +203,7 @@
       "title": "Office Information",
       "address": "Teknopark Istanbul, Sanayi Mah. Teknopark Bulvari, 34906 Pendik/Istanbul",
       "phone": "+90 (216) 000 00 00",
-      "email": "turna.bilisim.io@gmail.com",
+      "email": "bilgi@turna.io",
       "hours": "Mon-Fri: 9:00 AM - 6:00 PM"
     },
     "demoRequest": {
@@ -227,7 +227,7 @@
     "copyright": "© 2024 Turna.io. All rights reserved.",
     "address": "Address: Teknopark Istanbul, Sanayi Mah. Teknopark Bulvari, 34906 Pendik/Istanbul",
     "phone": "Phone: +90 (216) 000 00 00",
-    "email": "Email: turna.bilisim.io@gmail.com"
+    "email": "Email: bilgi@turna.io"
   },
   "indoorNavigation": {
     "title": "Real-Time Indoor Navigation",
